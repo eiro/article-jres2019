@@ -128,33 +128,43 @@ Sauver la planète (ou plutôt l'écosystème actuel, la branche sur laquelle
 est assise tout le vivant en général et l'humanité en particulier) devient pour
 beaucoup, chacun à sa manière, un engagement quotidien.
 
-Mais alors que devenir locavore, végétarien, recycler, installer des toilettes
-sèches, faire un usage modéré des transports (en privilégiant les transports en
-commun) ne nécessitent que l'assimilation de quelques règles simples, de la bonne
-volonté et (selon l'environnement immédiat) un peu d'organisation, demander à un
-utilisateur de réduire sa consommation numérique exige de lui une compréhension
-des dépenses énergétiques de systèmes complexes et hétérogènes. Les bonnes
-pratiques sont affaire de circonstances et nous sommes nous-même dépassés par
-le nombre de paramètres qui auront une incidence sur l'acquisition d'un réflexe
-ecolo ^[mon expérience des débats sur l'écologie numérique m'a fait prendre
-conscience que de nombreuses questions apparemment simples trouvent des réponses
-complexes qui ne permettent pas de dégager des "éco-gestes" puisque selon le
-contexte, un même geste pourra avoir des inpacts différents]
+Pour devenir locavore et végétarien, recycler, installer des toilettes sèches,
+privilégier les transports en communs, il n'y aura que quelques règles simples
+à assimiler: le reste est affaire de volonté et d'organisation. Le geste écolo
+numérique est quand à lui plus compliqué à acquérir: il exige de l'utilisateur
+de comprendre dans les grandes lignes les interactions de systèmes complexes
+et hétérogènes et pour identifier celles qui seront énergivores.  Même pour
+un technicien, ce travail est parfois difficile.
+
+Un exemple: à quel moment faut-t'il préférer un client de messagerie au webmail?
+si la réponse est évidente sur son poste de travail, elle est contrainte par de
+nombreuses questions techniques lors d'utilisation occasionnelle d'autres terminaux:
+le protocole utilisé (ne pas perdre du courriel avec POP3),
+de la capacité du client IMAP à ne pas synchroniser toute la boite,
+du nombre d'usages qui va être fait de cette messagerie sur le terminal ...
+
+Si le problème n'est pas systématique, la profusion des usages nous forcent
+souvent à produire des réponses dont la complexité démotive les utilisateurs.
+Il nous incombe de trouver les réponses les plus simples possibles
+et construire une offre logicielle capable d'aiguiller nos utilisateurs vers les
+comportements les moins énergivores.
 
 Si à titre professionnel ou personnel, nous sommes impliqués dans
 le développement, l'architecture, le support ou l'exploitation d'un
 service numérique, nous sommes à la fois les fournisseurs et les consommateurs
-de ce rêve et de ses implications. Nous avons rendu les fondements de notre
+du rêve numérique et de ses implications. Nous avons rendu les fondements de notre
 société et une grande majorité de nos concitoyens toujours plus dépendants
-d'applications qui sont parfois bien plus que du confort (enjeux
-démocratiques, sécurité, médical, ...) et qui affaiblit toute envie de renoncement
-pour des problèmes qui nous nous échappent par leur complexité et leurs proportions.
-Tout cela semble d'autant plus lointains et peu perceptibles que les acteurs
-économiques actuels pèsent de toutes leurs armes communicationnelles pour
-minimiser le lien entre nos addictions et l'agonie de la biosphère ou la décapitation
-de montagnes américaines desquelles sont extraites à grand frais écologique
-du charbon pour les datacenters
-(voir les images des montagnes décapitées pour alimenter le datacenter de Apple
+d'applications. Nous avons permis des usages qui vont parfois bien au delà
+du simple confort (enjeux démocratiques, sécurité, médical, ...) et renoncer à
+ces acquis sera d'autant plus difficile que les enjeux nous échappent
+par leur complexité et leurs proportions. Tout cela semble d'autant plus lointain
+et imperceptible que les acteurs économiques actuels pèsent de toutes leur
+force de communication pour minimiser le lien entre nos addictions
+et l'agonie de la biosphère. Les éditeurs et constructeurs se gardent bien de vous
+dire que les datacenters qui fourniront les services disponibles sur votre nouveau
+terminal participent par exemple à la décapitation de montagnes américaines
+desquelles on extrait du charbon (voir les images des montagnes décapitées pour
+alimenter le datacenter d'Apple
 dans le documentaire
 [internet : la pollution cachée](https://www.editionsmontparnasse.fr/p1735/Internet-La-pollution-cachee-DVD)).
 
