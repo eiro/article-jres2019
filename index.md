@@ -89,10 +89,9 @@ perdu de son sang froid, il se mettra probablement lui-même hors tension,
 première intelligence artificielle à commettre un suicide.
 
 Car tout porteur de solution qu'il puisse être, HAL fait avant tout partie du problème:
-le numérique participe de plus en plus activement aux problèmes environementaux que nous
-ne pourrons résoudre qu'en acceptant de que nous allons devoir sacrifier une partie
-de nos certitude pour sauvegarder une partie de notre qualité de vie: c'est un troque
-dans lequel nous serons perdants quoi qu'il arrive.
+le numérique participe de plus en plus activement à l'impact que nous avons sur
+et qu'il nous faut limiter au prix d'un troque désagréable: une partie de nos certitudes
+contre le la possibilité de sauvegarder une partie de notre qualité de vie.
 
 Dans l'étude
 "[unsustainable use of online video](https://theshiftproject.org/en/article/unsustainable-use-online-video/)",
