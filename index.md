@@ -95,14 +95,15 @@ contre le la possibilité de sauvegarder une partie de notre qualité de vie.
 
 Dans l'étude
 "[unsustainable use of online video](https://theshiftproject.org/en/article/unsustainable-use-online-video/)",
-on peut lire entre autre que le numérique représente 4% de nos rejets de
-gaz à effets de serre (déjà plus que l'aviation civile) avec un volume qui croit de 9% par an. Dans
+on peut lire que le numérique représente 4% de nos rejets de
+gaz à effets de serre (déjà plus que l'aviation civile) avec un aux de croissance de 9% par an. Dans
 [la version 2019 de "toward the digital sobriety"](https://theshiftproject.org/wp-content/uploads/2019/03/Lean-ICT-Report_The-Shift-Project_2019.pdf),
 un graphique montre que même en appliquant le plan de sobriété proposé par le
 [shift project](https://theshiftproject.org/wp-content/uploads/2019/03/Lean-ICT-Report_The-Shift-Project_2019.pdf),
 nous ne ferons que ralentir la croissance du phénomène (même en étant
-optimistes, nous pollurons plus en 2025 qu'aujourd'hui).
+optimistes, nous polluerons plus en 2025 qu'aujourd'hui).
 
+![projection de consommation d'énergie (hors énergie grise) liée au numérique jusqu'en 2025 produit par le shift project](images/digital-energy-consumption.png)
 
 
 ![digital energy consumption](images/digital-energy-consumption.png)
