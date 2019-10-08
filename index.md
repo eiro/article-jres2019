@@ -169,22 +169,25 @@ dans le documentaire
 [internet : la pollution cachée](https://www.editionsmontparnasse.fr/p1735/Internet-La-pollution-cachee-DVD)).
 
 Nous avons été les chevilles ouvrières de possibles auxquels il va falloir renoncer
-pour trouver le courage et la détermination de prôner une sobriété numérique à
-contre-courant de la doxa actuelle. Et ce dans un environnement professionnel ou
-le somptuaire est la norme et la demande. Mais aujourd'hui nous sèmerons peut-être
-les germes d'une éthique et des pratiques qui, combinées aux efforts que tout être humain
-voudra bien consentir, permettront peut-être d'avoir d'ici cinquante ans les
-ressources énergétiques qui nous permettent de tenir jusqu'à une transition
-énergétique crédible en ayant épargné à l'atmosphère terrestre les quelques
-tonnes de CO₂ de trop. ZZZZZ si trop tard ....
-Aussi : les pratiques et outils que nous développerons
-maintenant pourraient être les bases d'une informatique résiliente si
-l'humanité devait durablement plonger dans l'austérité. Produire de nouveaux
-usages numériques ne suffit pas: contribuer à leur adoption est probablement
-le gros du travail. Je pense à mes enfants et je me dis que quelque soit
-l'issue de cette bataille, il m'est impossible de baisser les bras ou de me
-taire. Aussi je remercie le comité de programme de JRES de m'offrir cette
-tribune.
+et trouver le courage de prôner une sobriété numérique à contre-courant de
+la doxa actuelle. Nous allons devoir convaincre dans un dans un environnement
+professionnel ou le somptuaire est la norme et la demande. L'idée est intimidante
+et décourageante au premier regard mais nous pouvons semer les germes d'une éthique
+et des pratiques qui, si elles sont suffisamment adoptées, permettront peut-être
+d'avoir d'ici cinquante ans les ressources énergétiques qui nous permettent
+de tenir jusqu'à une transition énergétique crédible en ayant épargné à
+l'atmosphère terrestre les quelques tonnes de CO₂ de trop.
+
+Et si malheureusement nous loupions cette opportunité et que l'humanité
+devait durablement plonger dans des conditions de survie, nous aurons
+au moins permis à une partie de la population de comprendre et utiliser
+une informatique de résilience. Il faut rappeler que produire de nouveaux
+outils numériques ne suffit pas : contribuer à leur adoption sera probablement
+le gros du travail.
+
+Pensons à nos enfants et disons-nous soit l'issue de cette bataille,
+la plus triste des défaites serait de se dire que nous n'avons rien fait.
+Nous ne pouvons ni nous taire, ni baisser les bras.
 
 # Les mécaniques de la pollution
 
