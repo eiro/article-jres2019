@@ -89,10 +89,8 @@ perdu de son sang froid, il se mettra probablement lui-même hors tension,
 première intelligence artificielle à commettre un suicide.
 
 Car tout porteur de solution qu'il puisse être, HAL fait avant tout partie du problème:
-le numérique participe de plus en plus activement à l'impact que nous avons sur
-et qu'il nous faut limiter au prix d'un troque désagréable: une partie de nos certitudes
-contre le la possibilité de sauvegarder une partie de notre qualité de vie.
-
+en consommant de l'énergie, il participe à la transformation de combustibles fossiles
+(dont nous allons manquer) en CO₂ (qui rend notre atmosphère impropre à notre survie).
 Dans l'étude
 "[unsustainable use of online video](https://theshiftproject.org/en/article/unsustainable-use-online-video/)",
 on peut lire que le numérique représente 4% de nos rejets de
@@ -100,29 +98,26 @@ gaz à effets de serre (déjà plus que l'aviation civile) avec un aux de croiss
 [la version 2019 de "toward the digital sobriety"](https://theshiftproject.org/wp-content/uploads/2019/03/Lean-ICT-Report_The-Shift-Project_2019.pdf),
 un graphique montre que même en appliquant le plan de sobriété proposé par le
 [shift project](https://theshiftproject.org/wp-content/uploads/2019/03/Lean-ICT-Report_The-Shift-Project_2019.pdf),
-nous ne ferons que ralentir la croissance du phénomène (même en étant
-optimistes, nous polluerons plus en 2025 qu'aujourd'hui).
+nous ne ferons que ralentir la croissance du phénomène (le numérique polluera plus en 2025 qu'aujourd'hui).
 
 ![projection de consommation d'énergie (hors énergie grise) liée au numérique jusqu'en 2025 produit par le shift project](images/digital-energy-consumption.png)
 
-
-![digital energy consumption](images/digital-energy-consumption.png)
-
-Dans un contexte ou la
-[collapsologie](https://fr.wikipedia.org/wiki/Collapsologie collapsologie)
-et le
-[survivalisme](https://fr.wikipedia.org/wiki/Survivalisme survivalisme)
-font de plus en plus d'adeptes, trouvent un marché
-([Doomsday Prep for the Super-Rich](https://www.newyorker.com/magazine/2017/01/30/doomsday-prep-for-the-super-rich))
-et trouvent des intellectuels pour suggérer que nous devrions
-nous préparer à l'effondrement (lire "d'un effondrement à l'autre"(https://www.franceculture.fr/emissions/la-transition/dun-effondrement-lautre)
-est une chronique de France Culture qui revient sur la vague de réaction crée par la publication
-de "[What if we stop pretending](https://www.newyorker.com/culture/cultural-comment/what-if-we-stopped-pretending)"
-de [Jonathan Franzen](https://fr.wikipedia.org/wiki/Jonathan_Franzen)),
-que les vagues de chaleur pourraient faire 150.000 morts par ans à la fin du siècle
+La menace est pourtant là: les vagues de chaleur pourraient faire 150.000 morts par ans à la fin du siècle
 ([Increasing risk over time of weather-related hazards to the European population : a data-driven prognostic study](https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(17)30082-7/fulltext?elsca1=tlpr))
+et l'échec d'une transition énergétique provoquerait l'effondrement de notre civilisation.
+C'est l'hypothèse de départ de la [collapsologie](https://fr.wikipedia.org/wiki/Collapsologie collapsologie)
+et le scénario auquel se préparent les [survivalistes](https://fr.wikipedia.org/wiki/Survivalisme survivalisme).
+Les plus pessimistes se préparent selon leurs moyens
+([Doomsday Prep for the Super-Rich](https://www.newyorker.com/magazine/2017/01/30/doomsday-prep-for-the-super-rich))
+et appellent les pouvoirs publics à se préparer aux conséquences du changement
+climatique plutôt que de croire encore en une stabilisation de la situation
+(lire "d'un effondrement à l'autre"(https://www.franceculture.fr/emissions/la-transition/dun-effondrement-lautre),
+une chronique de France Culture qui revient sur les nombreuses réactions suscitées par la publication
+de "[What if we stop pretending](https://www.newyorker.com/culture/cultural-comment/what-if-we-stopped-pretending)"
+de [Jonathan Franzen](https://fr.wikipedia.org/wiki/Jonathan_Franzen)).
 
-il est à envisager qu'un pendant numérique du [Flygskam](https://fr.wikipedia.org/wiki/Honte_de_prendre_l%27avion)
+Dans un tel contexte, il est à envisager qu'un pendant numérique
+du [Flygskam](https://fr.wikipedia.org/wiki/Honte_de_prendre_l%27avion)
 apparaîtra : nos activités numériques les plus courantes paraîtront aussi
 obscènes que l'est aujourd'hui l'idée qu'une personne bien portante se serve
 d'un véhicule tout-terrain pour parcourir les 150 mètres qui le séparent de la
