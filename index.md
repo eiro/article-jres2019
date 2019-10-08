@@ -19,7 +19,7 @@ author: Marc Chantreux <marc.chantreux@renater.fr>
 [ecoinfo]: https://ecoinfo.cnrs.fr/ le GDS CNRS Ecoinfo
 [fromhere]: http://from.here.org here
 
-# Prologue: L'article dont vous êtes le héros
+# Prologue : L'article dont vous êtes le héros
 
 Depuis nos DSI et autres organismes impliqués dans la production de biens et
 services numériques, nous fournissons aux usagers des outils qui ont permis
@@ -101,11 +101,11 @@ nous préparer à l'effondrement (lire "d'un effondrement à l'autre"(https://ww
 est une chronique de France Culture qui revient sur la vague de réaction crée par la publication
 de "[What if we stop pretending](https://www.newyorker.com/culture/cultural-comment/what-if-we-stopped-pretending)"
 de [Jonathan Franzen](https://fr.wikipedia.org/wiki/Jonathan_Franzen)),
-que les vagues de chaleur pourraient faire 150 morts par ans à la fin du siècle
-([Increasing risk over time of weather-related hazards to the European population: a data-driven prognostic study](https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(17)30082-7/fulltext?elsca1=tlpr))
+que les vagues de chaleur pourraient faire 150.000 morts par ans à la fin du siècle
+([Increasing risk over time of weather-related hazards to the European population : a data-driven prognostic study](https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(17)30082-7/fulltext?elsca1=tlpr))
 
 il est à envisager qu'un pendant numérique du [Flygskam](https://fr.wikipedia.org/wiki/Honte_de_prendre_l%27avion)
-apparaîtra: nos activités numériques les plus courantes paraîtront aussi
+apparaîtra : nos activités numériques les plus courantes paraîtront aussi
 obscènes que l'est aujourd'hui l'idée qu'une personne bien portante se serve
 d'un véhicule tout-terrain pour parcourir les 150 mètres qui le séparent de la
 boulangerie (alors que nous ne sommes qu'à quelques décennies à peine du
@@ -143,7 +143,7 @@ de montagnes américaines desquelles sont extraites à grand frais écologique
 du charbon pour les datacenters
 (voir les images des montagnes décapitées pour alimenter le datacenter de Apple
 dans le documentaire
-[internet: la pollution cachée](https://www.editionsmontparnasse.fr/p1735/Internet-La-pollution-cachee-DVD)).
+[internet : la pollution cachée](https://www.editionsmontparnasse.fr/p1735/Internet-La-pollution-cachee-DVD)).
 
 Nous avons été les chevilles ouvrières de possibles auxquels il va falloir renoncer
 pour trouver le courage et la détermination de prôner une sobriété numérique à
@@ -153,7 +153,8 @@ les germes d'une éthique et des pratiques qui, combinées aux efforts que tout 
 voudra bien consentir, permettront peut-être d'avoir d'ici cinquante ans les
 ressources énergétiques qui nous permettent de tenir jusqu'à une transition
 énergétique crédible en ayant épargné à l'atmosphère terrestre les quelques
-tonnes de CO² de trop. Aussi: les pratiques et outils que nous développerons
+tonnes de CO₂ de trop. ZZZZZ si trop tard ....
+Aussi : les pratiques et outils que nous développerons
 maintenant pourraient être les bases d'une informatique résiliente si
 l'humanité devait durablement plonger dans l'austérité. Produire de nouveaux
 usages numériques ne suffit pas: contribuer à leur adoption est probablement
@@ -208,7 +209,7 @@ sa densité et sa spécialisation ne sont d'aucune utilité pour se forger une i
 raisonnable. D'un autre coté, les organismes qui compilent ces données scientifiques
 produisent des résultats parfois différents même si les conclusions sont
 généralement similaires. Aussi ai-je choisi de conserver en priorité les analyses et
-conclusions d'organismes qui:
+conclusions d'organismes qui :
 
 * ont l'oreille de nos politiques et particulièrement
   * le [shift project](https://theshiftproject.org/en/home/). Le président,
@@ -228,7 +229,7 @@ conclusions d'organismes qui:
 
 * l'impact des activités de l'homme s'accroit à mesure que nous sommes de plus
   en plus nombreux à consommer toujours plus
-  ([The Trajectory of the Anthropocene: the Great Acceleration](https://openresearch-repository.anu.edu.au/bitstream/1885/66463/8/01_Steffen_GREAT%20ACCELERATION_2015.pdf))
+  ([The Trajectory of the Anthropocene : the Great Acceleration](https://openresearch-repository.anu.edu.au/bitstream/1885/66463/8/01_Steffen_GREAT%20ACCELERATION_2015.pdf))
 
   ![](images/ga-trends-se-page.png)
 
@@ -236,7 +237,7 @@ conclusions d'organismes qui:
   le numérique utilise des terres et métaux rares entrant dans la composition
   des composants) et les combustibles fossiles (*sine qua none* pour la quantité
   et la disponibilité d'énergie nécessaire à notre consommation) se
-  raréfient (cf "[l’épuisement des métaux et minéraux : faut-il s’inquiéter ?](https://www.ademe.fr/sites/default/files/assets/documents/epuisement-metaux-mineraux-201706-fiche-technique.pdf)"
+  raréfient (cf "[l’épuisement des métaux et minéraux : faut-il s’inquiéter ?](https://www.ademe.fr/sites/default/files/assets/documents/epuisement-metaux-mineraux-201706-fiche-technique.pdf)"
   , particulièrement la section 9)
   (cf. [le pic pétrolier](https://fr.wikipedia.org/wiki/Pic_p%C3%A9trolier)
   dont est extrait le graphique qui suit).
@@ -248,7 +249,7 @@ conclusions d'organismes qui:
   * des tensions politiques (allant jusqu'aux conflits armés) apparaissent
     autour des points d'extraction
     (["Smartphone pour tous, quel prix pour la planète ?"](https://www.franceculture.fr/emissions/cultures-monde/culturesmonde-du-jeudi-28-fevrier-2019)).
-    ("La guerre des métaux rares : La face cachée de la transition énergétique et numérique" de Guillaume Pitron)
+    ("La guerre des métaux rares : La face cachée de la transition énergétique et numérique" de Guillaume Pitron)
 
 * malgré de nombreux effets d'annonce, les outils technologiques de la
   transition énergétique ne sont toujours pas un acquis. Les alternatives
@@ -288,20 +289,20 @@ fondé sur la somme de nos efforts individuels.
 
 Outre le fait que le recyclage et le stockage des déchets
 ont leurs pollutions propres, j'aimerais insister sur une notion qui n'apparaît
-qu'en filigrane dans les points précédents: l'[énergie grise](https://fr.wikipedia.org/wiki/%C3%89nergie_grise).
+qu'en filigrane dans les points précédents : l'[énergie grise](https://fr.wikipedia.org/wiki/%C3%89nergie_grise).
 
 La production de matériels technologiques (et numériques en particulier), pollue
-de nombreuses manières:
+de nombreuses manières :
 * la production elle-même.
 * la production des outils nécessaires à sa conception, sa réalisation, son
   conditionnement, son expédition (avec les mêmes conséquences).
 
 Autour de 50% (45% d'après
-[On Global Electricity Usage of Communication Technology: Trends to 2030](https://www.mdpi.com/2078-1547/6/1/117))
+[On Global Electricity Usage of Communication Technology : Trends to 2030](https://www.mdpi.com/2078-1547/6/1/117))
 de la pollution d'un produit sera effective avant sa mise
 sous tension pour une durée d'exploitation de 2 ans en moyenne.
 
-Pour être clair: si nous pouvions remplacer tous nos ordinateurs par des
+Pour être clair : si nous pouvions remplacer tous nos ordinateurs par des
 unités basse consommation, nous réduirions peut-être la facture énergétique
 due à la consommation des services numériques mais produirions d'autres pollutions
 indirect. La recommandation en la matière est de conserver chaque appareil en
@@ -309,7 +310,7 @@ service le plus longtemps possible.
 
 # Culture numérique et pollution
 
-La pollution numérique est une pollution technologique comme une autre:
+La pollution numérique est une pollution technologique comme une autre :
 les mêmes demandes mobilisent les mêmes mécaniques, on y trouve des acteurs
 identiques défendant des conclusions similaires. Nous pouvons nous appuyer
 sur les expériences et réflexions existantes dans les associations
@@ -321,17 +322,17 @@ les discours commerciaux les plus cyniques et/ou inconscients.
 
 Dénoncée depuis de nombreuses années et mobilisant des concepts simples, la
 pollution liée au transport est bien comprise maintenant. Je vais donc faire
-une analogie avec la voiture:
+une analogie avec la voiture :
 
 Chaque kilomètre parcourus en voiture n'a qu'une pollution négligeable à
 l'échelle planétaire mais il s'additionne à des millions d'autres qui auront
-une conséquence: l'individu doit se mettre à penser globalement avec une
-idée en tête: chaque kilomètre compte. Réduire la pollution en achetant une
+une conséquence : l'individu doit se mettre à penser globalement avec une
+idée en tête : chaque kilomètre compte. Réduire la pollution en achetant une
 nouvelle voiture, c'est oublier l'énergie grise. Les ingénieurs peuvent
 trouver des carburants plus verts, les infrastructures peuvent se doter de
 routes plus directes mais le moyen le plus efficace pour éviter
 la pollution est de renoncer à effectuer trajet ou de choisir des modes de
-locomotion alternatifs:
+locomotion alternatifs :
 
 * les transports en commun, tout d'abord, permettent de mutualiser
   la pollution
@@ -343,13 +344,13 @@ facilitateurs n'apparaissent que lorsque l'adoption est déjà importante.
 
 L'adoption des bonnes pratiques est lente et sans liens réels
 avec les gains écologiques. On renonce en choisissant d'abord ce qui nous coute
-le moins: l'alimentation carnée, les vacances au bout du monde,
+le moins : l'alimentation carnée, les vacances au bout du monde,
 le renouvellement annuel de la garde-robe sont des sujets
 plus ou moins sensibles en fonction des personnes. Mais tout le monde a
 compris la nécessité du geste ou de l'attitude écologique.
 
 Si nous transposons l'analogie de la voiture à notre problème (le numérique),
-de nombreuses similitudes apparaissent: les données sont produites puis des
+de nombreuses similitudes apparaissent : les données sont produites puis des
 instances de données circulent pour être acheminées sur le terminal sur lequel
 il produira son service.
 
@@ -378,7 +379,7 @@ Aussi, les fournisseurs d'accès proposaient des relais pour les services et des
 pour les données (c'est toujours le cas pour la messagerie électronique
 par exemple).
 
-Enfin: texte était la règle (pas seulement pour les courriels et les newsgroups:
+Enfin : texte était la règle (pas seulement pour les courriels et les newsgroups :
 de nombreux fichiers textes étaient directement copiés sur les serveurs http
 sans autre mise en forme). Même si il ne s'agit que de quelques octets par page,
 on peut facilement imaginer que le nombre de pages téléchargées chaque secondes
@@ -390,7 +391,7 @@ site (sachant que je suis plutôt économe sur la structure des pages html).
 |208359|105307  | 50.5411 |
 
 le texte source pèse moitié moins que les pages. Ajoutons à cela les css,
-le javascript, les images: une page web pèse en 2.3kb moyenne
+le javascript, les images : une page web pèse en 2.3kb moyenne
 (presque autant que les 2,4kb du jeu Doom)
 (cf [the state of web](https://www.httparchive.org/reports/state-of-the-web?start=latest)).
 
