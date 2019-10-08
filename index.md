@@ -191,18 +191,15 @@ Nous ne pouvons ni nous taire, ni baisser les bras.
 
 # Les mécaniques de la pollution
 
-Voici en résumé les postulats de départ de ma réflexion sur la nécessité et
-l'urgence d'une réponse aux problèmes de la pollution numérique. Si vous ne
-découvrez pas le sujet, vous ne pourrez lire ici que des truismes. Je vous
-propose de faire l'économie de la lecture de cette section. Si vous doutez des
-assertions qui suivent, rappelez-vous que l'erreur est toujours possible et, à
-vrai dire préférable en l'occurrence. Les experts rappellent régulièrement
-qu'une grande partie de leurs données sont des estimations et des projections
-mais le manque de preuve ne doit pas faire oublier les intimes convictions
-d'experts qui consacrent leurs vies à l'analyse du phénomène depuis les années
-70. On peut discuter de la pertinence des chiffres et des protocoles: s'en
-tenir aux tendances et aux ordres de grandeurs suffit désormais à se faire une
-image claire du problème.
+Les experts rappellent régulièrement qu'une grande partie de leurs données sont
+des estimations et des projections mais le manque de preuve ne doit pas faire
+oublier les intimes convictions d'experts qui consacrent leurs vies à l'analyse
+du phénomène depuis les années 70. On peut discuter de la pertinence des chiffres
+et des protocoles : s'en tenir aux tendances et aux ordres de grandeurs suffit
+désormais à se faire une image claire du problème.
+
+Cette image a forgé mes convictions sur la nécessité et l'urgence d'une réponse
+aux problèmes de la pollution numérique.
 
 ## Rien n'est nouveau
 
