@@ -65,28 +65,34 @@ La technologie a rempli nos vies de gadgets qui semblent confirmer nos intuition
 (comme les espions électroniques que nous plaçons dans
 nos maisons pour pouvoir parler à la télévision, demander l'heure ou la météo).
 
-Les plus technophiles s'abreuvent de flux d'informations qui nous annonce un futur
-proche peuplé d'hommes volants ([flyboard](https://fr.wikipedia.org/wiki/Flyboard)), de
-voitures autonomes, d'objets connectés qui interagiront pour augmenter notre réalité
-avec des composants graphiques inspirés des meilleurs jeux video, d'une réinvention de la
-démocratie et de l'économie de marchés grace à la blockchain, d'intelligences
-artificielles qui nous remplaceront avantageusement ou nous assisteront dans
-toutes nos tâches intellectuelles, diagnostiquant plus surement que les
-médecins, anticipant la pensée du développeur pour écrire le code à sa place
-([I tested all intelligent
-IDEs](https://livablesoftware.com/smart-intelligent-ide-programming/)),
-découvrant des stratégies en jouant à des jeux que nous pratiquons depuis des
-siècles ([AlphaGo, Locked Strategies, and Eco-Cognitive
-Openness](https://www.mdpi.com/2409-9287/4/1/8/htm)).  Le futur semble pouvoir
-nous confirmer notre foi en une technologie à laquelle de plus en plus
-d'humains ont accès.
+Les plus technophiles s'abreuvent de flux d'informations qui nous annoncent un futur
+proche peuplé
+* d'hommes volants ([flyboard](https://fr.wikipedia.org/wiki/Flyboard))
+* de voitures autonomes
+* d'objets connectés qui interagiront pour augmenter notre réalité avec
+  des composants graphiques inspirés des meilleurs jeux video
+* d'une réinvention de la démocratie et de l'économie de marchés grâce à la blockchain
+* d'intelligences artificielles qui nous remplaceront avantageusement ou nous
+  assisteront dans toutes nos tâches intellectuelles, diagnostiquant plus surement que les
+  médecins, anticipant la pensée du développeur pour écrire le code à sa place
+  ([I tested all intelligent IDEs](https://livablesoftware.com/smart-intelligent-ide-programming/))
+  et découvrant des stratégies en jouant à des jeux que nous pratiquons depuis des siècles
+  ([AlphaGo, Locked Strategies, and Eco-Cognitive Openness](https://www.mdpi.com/2409-9287/4/1/8/htm))
+* de tous ces avancées qui confirment notre foi dans une technologie qui servira l'élévation
+  de l'humanité.
 
-Il n'y a plus qu'à demander à [HAL](https://fr.wikipedia.org/wiki/HAL_9000)  ce qu'il propose pour
-résoudre le problème du changement climatique et les autres problèmes
-environnementaux poussent notre jeunesse à descendre dans la rue afin de
-quémander un futur.  Ces problèmes nous imposent de réfléchir à un autre avenir
-dans lequel nous ne pourrons simplement pas maintenir notre qualité de vie si
-nous ne renonçons pas à notre mode de vie ...
+Il n'y a plus qu'à demander à [HAL](https://fr.wikipedia.org/wiki/HAL_9000) des
+idées pour redonner foi en l'avenir à tous ces jeunes qui descendent dans la
+rue afin de quémander un futur, anxieuse de voir le tableau se noircir à chaque
+nouvelle annonce sur les effets du réchauffement climatique. Si il n'a rien
+perdu de son sang froid, il se mettra probablement lui-même hors tension,
+première intelligence artificielle à commettre un suicide.
+
+Car tout porteur de solution qu'il puisse être, HAL fait avant tout partie du problème:
+le numérique participe de plus en plus activement aux problèmes environementaux que nous
+ne pourrons résoudre qu'en acceptant de que nous allons devoir sacrifier une partie
+de nos certitude pour sauvegarder une partie de notre qualité de vie: c'est un troque
+dans lequel nous serons perdants quoi qu'il arrive.
 
 Dans l'étude
 "[unsustainable use of online video](https://theshiftproject.org/en/article/unsustainable-use-online-video/)",
