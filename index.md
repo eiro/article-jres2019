@@ -30,24 +30,36 @@ cognitives et sociales, d'étendre leurs cerveaux en les dotant d'une mémoire
 qui nous semble illimitée. La satisfaction de l'usager est une source de
 fierté en plus d'assurer une position sociale et financière. Érigée en diktat
 et au détriment de toute autre considération (rationalité des systèmes
-d'information, coût énergétiques entre autres...), cette seule satisfaction
-nous a poussé à utiliser chaque bénéfices que nous procurait la [loi de
-Moore](https://fr.wikipedia.org/wiki/Loi_de_Moore) en nouvelle source de
-jouissance numérique. Ce phénomène (le [Paradoxe de
-Jevons](https://fr.wikipedia.org/wiki/Paradoxe_de_Jevons)) n'est en rien
-spécifique au numérique: il est une conséquence directe de la loi du marché.
+d'information, coût énergétiques entre autres...) cette seule satisfaction
+nous a poussés à utiliser chaque nouveau gain de performance que nous
+procurait la réalisation de la
+[loi de Moore](https://fr.wikipedia.org/wiki/Loi_de_Moore)
+en nouvelle source de jouissance numérique.
 
-Nous avons certes contribué à un bond formidable de l'humanité et ne faisons en
-cela que vérifier la certitude dont notre culture toute entière nous a poussé à
-ne jamais remettre en question: notre espèce jouit d'une évolution permanente de
-la technologie qui semble venir successivement à bout de toutes les contraintes
-matérielles. Dès notre enfance, la fiction nous proposait une extension d'une réalité
-extraordinaire dans laquelle les premiers pas de l'homme sur la lune ne sont que les prémices
-d'une conquête de l'espace dans laquelle l'énergie et l'accès aux matières premières
-semblent infinies, où nous entretenons des conversations avec des ordinateurs
-d'une intelligence comparable à la notre et où,s'il advenait que la terre
-soit à ce point transformée par l'homme qu'elle devienne inhabitable, nous
-pourrions terraformer une autre planète.
+Un marché de l'informatique basse consommation existe de longue date mais il
+n'a intéressé à ma connaissance que les seuls technophiles :
+des logiciels de plus puissants et attractifs ont poussé les consommateurs à
+l'achat d'ordinateurs de plus en plus puissants, forcant ces derniers à
+renouveller régulièrement leur materiel en choisissant les processeurs de
+dernière génération. Alors que la clairevoyance de Moore aurait pu permettre de
+réduire le
+[coût global de possession](https://fr.wikipedia.org/wiki/Co%C3%BBt_du_cycle_de_vie),
+c'est en fait l'inverse qui c'est produit. Ce phénomène (le [Paradoxe de
+Jevons](https://fr.wikipedia.org/wiki/Paradoxe_de_Jevons)) n'est en rien
+spécifique au numérique.
+
+Nous avons certes contribué à un bond formidable de l'humanité. Nous ne faisons en
+cela que vérifier la certitude que notre culture toute entière nous a poussés à
+ne jamais remettre en question : notre espèce jouit d'une évolution permanente d'une
+technologie qui vient à bout de toutes les contraintes matérielles.
+Dès notre enfance, la fiction nous proposait une extension d'une réalité
+extraordinaire : les premiers pas de l'homme sur la lune ne seraient que les prémices
+d'une conquête spaciale dans laquelle
+* l'énergie et l'accès aux matières premières semblaient infinies
+* nous entretenions des conversations avec des ordinateurs d'une intelligence
+  comparable à la nôtre et où ,s'il advenait que la terre soit à ce point
+  transformée par l'homme qu'elle devienne inhabitable, nous pourrions
+  terraformer une autre planète.
 
 La technologie a rempli nos vies de gadgets qui semblent confirmer nos intuitions
 (comme les espions électroniques que nous plaçons dans
