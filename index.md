@@ -229,22 +229,24 @@ par des modèles de plus en plus fiables.
 
 ## les sources
 
-Même si la littérature scientifique constitue la source la plus légitime d'information,
-sa densité et sa spécialisation ne sont d'aucune utilité pour se forger une idée dans un temps
-raisonnable. D'un autre coté, les organismes qui compilent ces données scientifiques
-produisent des résultats parfois différents même si les conclusions sont
-généralement similaires. Aussi ai-je choisi de conserver en priorité les analyses et
-conclusions d'organismes qui :
+La littérature scientifique constitue la source la plus légitime
+d'information mais sa densité et sa spécialisation ne permettent pas de
+se faire une idée des problèmes dans un temps raisonnable.
+D'un autre coté, les organismes qui compilent ces données
+scientifiques compilent des sources différentes avec des degrés divers
+de mise à jour. Le tableau et les conclusions sont généralement similaires.
+Aussi ai-je choisi de conserver en priorité les analyses et conclusions
+d'organismes qui :
 
-* ont l'oreille de nos politiques et particulièrement
-  * le [shift project](https://theshiftproject.org/en/home/). Le président,
+* ont l'oreille de nos politiques et particulièrement :
+  * le [shift project](https://theshiftproject.org/en/home/) : le président,
     [Jean-Marc Jancovici](https://fr.wikipedia.org/wiki/Jean-Marc_Jancovici)
-    est membre du cabinet d'expert [Carbone4](http://www.carbone4.com/)
-    et a été entendu entre autre dans le cadre de la
+    est membre du cabinet d'experts [Carbone4](http://www.carbone4.com/)
+    et a été entendu entre autres dans le cadre de la
     [commission d'enquête sur le coût réel de l'électricité afin d'en déterminer l'imputation aux différents agents économiques](http://www.senat.fr/commission/enquete/cout_electricite/).
-    [video de l'audition](https://www.youtube.com/watch?v=MULmZYhvXik) est
+    [la video de l'audition](https://www.youtube.com/watch?v=MULmZYhvXik) est
     disponible sur sa chaine youtube.
-  * l'ADEME, [Agence de l'Environnement et de la Maîtrise de l'Énergie](https://www.ademe.fr/)
+  * l'ADEME :[Agence de l'Environnement et de la Maîtrise de l'Énergie](https://www.ademe.fr/)
 * sont issus de la communauté ESR française dont
   * la chaine youtube [le réveilleur](https://www.lereveilleur.com) dont l'auteur a préparé [sa thèse](https://tel.archives-ouvertes.fr/tel-01668439)
     à l'[ETIS](https://www-etis.ensea.fr/).
