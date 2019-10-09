@@ -272,7 +272,7 @@ Voici en résumé ce qu'il faut en retenir pour le sujet de cet article :
   en plus nombreux à consommer toujours plus
   ([The Trajectory of the Anthropocene : the Great Acceleration](https://openresearch-repository.anu.edu.au/bitstream/1885/66463/8/01_Steffen_GREAT%20ACCELERATION_2015.pdf))
 
-  ![](images/ga-trends-se-page.png)
+  ![12 indicateurs de l'activité humaine de 1950 à nos jours](images/ga-trends-se-page.png)
 
 * les matières premières (en plus du métal, plastique et autres,
   le numérique utilise des terres et métaux rares nécessaires à la fabrications
