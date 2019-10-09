@@ -261,26 +261,26 @@ l'écosystème terrestre. S'ouvre alors une nouvelle "époque géologique".
 L'Holocène a commencé il y a 11 700 ans, lors de la fin de la dernière glaciation
 et nous sommes en train d'y mettre fin: l'activité humaine a modifié assez
 significativement l'écosystème pour que les géologues parlent maintenant
-d'[Anthropocène](https://fr.wikipedia.org/wiki/Anthropoc%C3%A8ne) (age de l'homme).
-Parmis les conséquence, on trouve notamment
+d'[Anthropocène](https://fr.wikipedia.org/wiki/Anthropoc%C3%A8ne) (âge de l'homme).
+Parmi les conséquences, on trouve notamment
 [une extinction de masse](https://fr.wikipedia.org/wiki/Extinction_de_l%27Holoc%C3%A8ne),
 la sixième que la terre aie connue.
 
 Voici en résumé ce qu'il faut en retenir pour le sujet de cet article :
 
-* l'impact des activités de l'homme s'accroit à mesure que nous sommes de plus
+* l'impact des activités de l'homme s'accroît à mesure que nous sommes de plus
   en plus nombreux à consommer toujours plus
   ([The Trajectory of the Anthropocene : the Great Acceleration](https://openresearch-repository.anu.edu.au/bitstream/1885/66463/8/01_Steffen_GREAT%20ACCELERATION_2015.pdf))
 
   ![](images/ga-trends-se-page.png)
 
 * les matières premières (en plus du métal, plastique et autres,
-  le numérique utilise des terres et métaux rares entrant dans la composition
+  le numérique utilise des terres et métaux rares nécessaires à la fabrications
   des composants) et les combustibles fossiles (*sine qua none* pour la quantité
   et la disponibilité d'énergie nécessaire à notre consommation) se
-  raréfient (cf "[l’épuisement des métaux et minéraux : faut-il s’inquiéter ?](https://www.ademe.fr/sites/default/files/assets/documents/epuisement-metaux-mineraux-201706-fiche-technique.pdf)"
+  raréfient (*cf.* "[l’épuisement des métaux et minéraux : faut-il s’inquiéter ?](https://www.ademe.fr/sites/default/files/assets/documents/epuisement-metaux-mineraux-201706-fiche-technique.pdf)"
   , particulièrement la section 9)
-  (cf. [le pic pétrolier](https://fr.wikipedia.org/wiki/Pic_p%C3%A9trolier)
+  (*cf.* [le pic pétrolier](https://fr.wikipedia.org/wiki/Pic_p%C3%A9trolier)
   dont est extrait le graphique qui suit).
 
   ![](images/oil.png)
@@ -406,7 +406,7 @@ rond point aurait du suffit nous avions un réseau plus décentralisé et des us
 plus tolérants à des temps d'accès moindre).
 pour répondre à des demandes qui, somme toute, ne sont
 que des transferts de fichiers (c'est au moins vrai qui, à elles seules, consomment
-80% de la bande passante, 13% pour le seul Netflix) (cf.
+80% de la bande passante, 13% pour le seul Netflix) (*cf.*
 "[unsustainable use of online video](https://theshiftproject.org/en/article/unsustainable-use-online-video/)").
 
 On pourrait soutenir que ces plateformes se sont créées pour répondre à un besoin
@@ -434,7 +434,7 @@ site (sachant que je suis plutôt économe sur la structure des pages html).
 le texte source pèse moitié moins que les pages. Ajoutons à cela les css,
 le javascript, les images : une page web pèse en 2.3kb moyenne
 (presque autant que les 2,4kb du jeu Doom)
-(cf [the state of web](https://www.httparchive.org/reports/state-of-the-web?start=latest)).
+(*cf.* [the state of web](https://www.httparchive.org/reports/state-of-the-web?start=latest)).
 
 Les interfaces graphiques qui permettaient de jouir de ces services correspondaient
 aux standards ergonomiques de l'époque mais il incombait à l'utilisateur d'acquérir
