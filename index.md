@@ -293,34 +293,30 @@ Voici en résumé ce qu'il faut en retenir pour le sujet de cet article :
     (*cf.* "La guerre des métaux rares : La face cachée de la transition énergétique et numérique" de Guillaume Pitron)
 
 * avec le recul, les solutions pour la mise en œuvre d'énergie renouvelables posent encore
-  de nombreux problèmes (entre autres: la production des équipements est polluante). De plus,
+  de nombreux problèmes (entre autres : la production des équipements est polluante). De plus,
   les rendements sont encore très faibles comparativement aux combustibles fossiles.
   Comme l'illustre le graphique suivant, nous n'avons pas de vraie solution pour effectuer
-  notre transition énergétique (je n'ai pas inclus la fission nucléaire dans ma réflexion par manque d'informations fiables sur l'avancement
-  des projets).
+  notre transition énergétique (je n'ai pas inclus la fission nucléaire dans ma réflexion par manque d'informations
+  fiables sur l'avancement des projets).
   
   ![responsabilités du fossile dans la production électrique](images/electricite.png)
 
   ([source](https://fr.wikipedia.org/wiki/Production_d%27%C3%A9lectricit%C3%A9))
 
-* nous sommes donc en face de deux crises environnementales
-  * les transformations trop rapides que nous faisons subir à l'écosystème le
-    déséquilibre, les conséquences sur le vivant dans son ensemble sont tragiques
-    pour la plupart des terriens, humains ou non
-    [6ème extinction de masse](https://fr.wikipedia.org/wiki/Extinction_de_l%27Holoc%C3%A8ne)).
-  * les réserves des ressources sur lesquelles reposent nos quotidiens sont en cours
-    d'épuisement. On peut conjécturer que la pénurie des plus critiques
-    (comme celles liées à la production d'énergie) provoqueront la fin du mode de vie industriel.
-* mettre en œuvre un nouveau modèle pour le circuit de l'énergie est nécessaire
-  dans les prochaines années.
-* nos sociétés sont fondées sur la seule rentabilité économique
-  immédiate. Ce fonctionnement sanctionnera toutes les structures économiques
-  (étatiques ou non) qui tenteront de trouver d'autres modèles.
-* que ce soit par inertie intellectuelle ou par cynisme, les structures qui tirent
-  les plus gros profits du système actuel (au nombre desquels le GAFAM, les entreprises
-  du numérique) mettront en place (avec des moyens titanesques comparativement aux
-  protecteurs de l'environnement) une communication autour de discours lénifiants
-  pour protéger leur modèle économique actuel.
+Nous sommes donc en face de deux crises environnementales :
+
+* les transformations trop rapides que nous faisons subir à l'écosystème le
+  déséquilibrent. Les conséquences sur le vivant dans son ensemble sont tragiques
+  pour la plupart des terriens, humains ou non
+  ([sixième extinction de masse](https://fr.wikipedia.org/wiki/Extinction_de_l%27Holoc%C3%A8ne)).
+* les réserves des ressources sur lesquelles reposent nos quotidiens sont en cours
+  d'épuisement. On peut conjécturer que la pénurie des plus critiques
+  (comme celles liées à la production d'énergie) provoqueront la fin du mode de vie industriel.
+
+Mettre en œuvre un nouveau modèle pour le circuit de l'énergie est nécessaire
+dans les prochaines années. Nos sociétés sont fondées sur la seule rentabilité économique
+immédiate. Ce fonctionnement sanctionnera toutes les structures économiques
+(étatiques ou non) qui tenteront de trouver d'autres modèles.
 
 Nous aurons beau aller manifester pour que les états prennent «leurs» responsabilités
 et les décisions qui s'imposent pour «sauver la planète», le changement de politique
