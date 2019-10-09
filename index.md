@@ -285,23 +285,22 @@ Voici en résumé ce qu'il faut en retenir pour le sujet de cet article :
 
   ![production de pétrole en milliards de barils, mesurée et projetée dans](images/oil.png)
 
-  ![](images/oil.png)
-
-  En conséquence
-  * leur extraction est de plus en plus énergivores et polluantes
+  En conséquence :
+  * leur extraction est de plus en plus énergivore et polluante
   * des tensions politiques (allant jusqu'aux conflits armés) apparaissent
-    autour des points d'extraction
-    (["Smartphone pour tous, quel prix pour la planète ?"](https://www.franceculture.fr/emissions/cultures-monde/culturesmonde-du-jeudi-28-fevrier-2019)).
-    ("La guerre des métaux rares : La face cachée de la transition énergétique et numérique" de Guillaume Pitron)
+    autour des points d'extraction.
+    (*cf.* ["Smartphone pour tous, quel prix pour la planète ?"](https://www.franceculture.fr/emissions/cultures-monde/culturesmonde-du-jeudi-28-fevrier-2019)).
+    (*cf.* "La guerre des métaux rares : La face cachée de la transition énergétique et numérique" de Guillaume Pitron)
 
-* malgré de nombreux effets d'annonce, les outils technologiques de la
-  transition énergétique ne sont toujours pas un acquis. Les alternatives
-  se montrent incapable de fournir de l'énergie avec
-  la quantité et la disponibilité suffisante.
+* avec le recul, les solutions pour la mise en œuvre d'énergie renouvelables posent encore
+  de nombreux problèmes (entre autres: la production des équipements est polluante). De plus,
+  les rendements sont encore très faibles comparativement aux combustibles fossiles.
+  Comme l'illustre le graphique suivant, nous n'avons pas de vraie solution pour effectuer
+  notre transition énergétique (je n'ai pas inclus la fission nucléaire dans ma réflexion par manque d'informations fiables sur l'avancement
+  des projets).
   
-  De plus, certaines se nourrissent de matières premières qui posent les problèmes évoqués ci-dessus.
-  (je n'ai pas inclus la fission nucléaire dans ma réflexion par manque d'informations fiables sur l'avancement
-  des projets) ![presponsabilités du fossile dans la production électrique](images/electricite.png)
+  ![responsabilités du fossile dans la production électrique](images/electricite.png)
+
   ([source](https://fr.wikipedia.org/wiki/Production_d%27%C3%A9lectricit%C3%A9))
 
 * nous sommes donc en face de deux crises environnementales
