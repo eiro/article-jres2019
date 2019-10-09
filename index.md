@@ -310,7 +310,7 @@ Nous sommes donc en face de deux crises environnementales :
   pour la plupart des terriens, humains ou non
   ([sixième extinction de masse](https://fr.wikipedia.org/wiki/Extinction_de_l%27Holoc%C3%A8ne)).
 * les réserves des ressources sur lesquelles reposent nos quotidiens sont en cours
-  d'épuisement. On peut conjécturer que la pénurie des plus critiques
+  d'épuisement. On peut conjecturer que la pénurie des plus critiques
   (comme celles liées à la production d'énergie) provoqueront la fin du mode de vie industriel.
 
 Mettre en œuvre un nouveau modèle pour le circuit de l'énergie est nécessaire
@@ -343,7 +343,7 @@ sous tension pour une durée d'exploitation de 2 ans en moyenne.
 Pour être clair : si nous pouvions remplacer tous nos ordinateurs par des
 unités basse consommation, nous réduirions peut-être la facture énergétique
 due à la consommation des services numériques mais produirions d'autres pollutions
-indirect. La recommandation en la matière est de conserver chaque appareil en
+indirectes. La recommandation en la matière est de conserver chaque appareil en
 service le plus longtemps possible.
 
 # Culture numérique et pollution
@@ -351,51 +351,57 @@ service le plus longtemps possible.
 La pollution numérique est une pollution technologique comme une autre :
 les mêmes demandes mobilisent les mêmes mécaniques, on y trouve des acteurs
 identiques défendant des conclusions similaires. Nous pouvons nous appuyer
-sur les expériences et réflexions existantes dans les associations
-
-(et sur nos perceptions d'autres
-pollutions) pour conclure qu'attendre des solutions purement technologiques à
-des problèmes purement technologiques ne nous servira qu'a valider benoitement
-les discours commerciaux les plus cyniques et/ou inconscients.
+sur les expériences et réflexions existantes sur les autres pollutions
+pour la comprendre.  Dés lors attendre des solutions purement
+technologiques à des problèmes purement technologiques ne
+nous servira qu'a valider benoîtement les discours commerciaux les plus
+cyniques et/ou inconscients.
 
 Dénoncée depuis de nombreuses années et mobilisant des concepts simples, la
 pollution liée au transport est bien comprise maintenant. Je vais donc faire
 une analogie avec la voiture :
 
-Chaque kilomètre parcourus en voiture n'a qu'une pollution négligeable à
+Chaque kilomètre parcouru en voiture n'a qu'une pollution négligeable à
 l'échelle planétaire mais il s'additionne à des millions d'autres qui auront
-une conséquence : l'individu doit se mettre à penser globalement avec une
-idée en tête : chaque kilomètre compte. Réduire la pollution en achetant une
+une conséquence : une pollution massive. L'individu doit donc se mettre à penser
+globalement avec une idée en tête : chaque kilomètre compte.
+Réduire la pollution en achetant une
 nouvelle voiture, c'est oublier l'énergie grise. Les ingénieurs peuvent
 trouver des carburants plus verts, les infrastructures peuvent se doter de
 routes plus directes mais le moyen le plus efficace pour éviter
 la pollution est de renoncer à effectuer trajet ou de choisir des modes de
 locomotion alternatifs :
 
-* les transports en commun, tout d'abord, permettent de mutualiser
+* les transports en commun, tout d'abord, qui permettent de mutualiser
   la pollution
 * les transports utilisant notre propre énergie mécanique (vélo, ...)
 
 Ces deux modes de locomotions ont des contraintes, leur adoption doit être
-encouragée par des aménagements et des structures adaptées. Hors ces
+encouragée par des aménagements et des structures adaptées. Or, ces
 facilitateurs n'apparaissent que lorsque l'adoption est déjà importante.
 
 L'adoption des bonnes pratiques est lente et sans liens réels
-avec les gains écologiques. On renonce en choisissant d'abord ce qui nous coute
-le moins : l'alimentation carnée, les vacances au bout du monde,
+avec les gains écologiques. On renonce en choisissant d'abord ce qui nous coûte
+le moins. L'alimentation carnée, les vacances au bout du monde,
 le renouvellement annuel de la garde-robe sont des sujets
-plus ou moins sensibles en fonction des personnes. Mais tout le monde a
+plus ou moins sensibles en fonction des personnes mais tout le monde a
 compris la nécessité du geste ou de l'attitude écologique.
 
 Si nous transposons l'analogie de la voiture à notre problème (le numérique),
-de nombreuses similitudes apparaissent : les données sont produites puis des
-instances de données circulent pour être acheminées sur le terminal sur lequel
-il produira son service.
+de nombreuses similitudes apparaissent : les données sont produites puis
+circulent jusqu'au terminal qui produit un service.
+
+Pour réduire les coûts, nous avons choisi la délocalisation. Cette stratégie est
+pertinente économiquement mais elle nous coupe de la capacité de mesurer et maitriser
+les couts environnementaux induits par les pratiques des prestataires et le transport
+des données. De leur coté, les prestataires vont mettre en place des infrastructures
+conséquente rendues nécessaire le cumul des trafics et les exigences de disponibilité
+exigés par les clients.
 
 Pour éviter de voir grossir nos installations pour le stockage et le traitement
 (et leurs coûts de fonctionnement, de maintenance, de support),
 nous (individus comme entreprises), délocalisons ces services dans des
-plateformes. Le coût énergétique réel nous échappe alors mais ce faisant, nous
+plateformes. Le coût énergétique réel nous échappe alors mais, ce faisant, nous
 faisons faire à nos données des allers-retours incessants qui transitent par des
 installations tiers. Pour permettre d'assurer un trafic cumulé de tous leurs utilisateurs,
 des infrastructures conséquentes sont mises en place (des échangeurs là ou un
