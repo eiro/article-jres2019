@@ -281,7 +281,9 @@ Voici en résumé ce qu'il faut en retenir pour le sujet de cet article :
   raréfient (*cf.* "[l’épuisement des métaux et minéraux : faut-il s’inquiéter ?](https://www.ademe.fr/sites/default/files/assets/documents/epuisement-metaux-mineraux-201706-fiche-technique.pdf)"
   , particulièrement la section 9)
   (*cf.* [le pic pétrolier](https://fr.wikipedia.org/wiki/Pic_p%C3%A9trolier)
-  dont est extrait le graphique qui suit).
+  dont est extrait le graphique qui suit). On estime que le pic d'extraction du pétrole a eu lieu en 2008.
+
+  ![production de pétrole en milliards de barils, mesurée et projetée dans](images/oil.png)
 
   ![](images/oil.png)
 
