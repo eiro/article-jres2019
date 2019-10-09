@@ -398,7 +398,7 @@ des données. De leur coté, les prestataires vont mettre en place des infrastru
 conséquente rendues nécessaire le cumul des trafics et les exigences de disponibilité
 exigés par les clients. Le transport représente 16% de la pollution
 
-![répartition de la consommation énergétique du numérique](images/consumption-distribution.png])
+![répartition de la consommation énergétique du numérique](images/consumption-distribution.png)
 
 On peut relativiser ces 16%: les seules vidéos en ligne représentent à elles
 seules 80% de la bande passante (13% pour le seul Netflix) (*cf.*
