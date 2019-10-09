@@ -256,6 +256,18 @@ d'organismes qui :
 
 ## Bienvenue dans l'anthropocène
 
+Régulièrement, un évenement majeur provoque un changement significatif de
+l'écosystème terrestre. S'ouvre alors une nouvelle "époque géologique".
+L'Holocène a commencé il y a 11 700 ans, lors de la fin de la dernière glaciation
+et nous sommes en train d'y mettre fin: l'activité humaine a modifié assez
+significativement l'écosystème pour que les géologues parlent maintenant
+d'[Anthropocène](https://fr.wikipedia.org/wiki/Anthropoc%C3%A8ne) (age de l'homme).
+Parmis les conséquence, on trouve notamment
+[une extinction de masse](https://fr.wikipedia.org/wiki/Extinction_de_l%27Holoc%C3%A8ne),
+la sixième que la terre aie connue.
+
+Voici en résumé ce qu'il faut en retenir pour le sujet de cet article :
+
 * l'impact des activités de l'homme s'accroit à mesure que nous sommes de plus
   en plus nombreux à consommer toujours plus
   ([The Trajectory of the Anthropocene : the Great Acceleration](https://openresearch-repository.anu.edu.au/bitstream/1885/66463/8/01_Steffen_GREAT%20ACCELERATION_2015.pdf))
