@@ -38,9 +38,9 @@ en nouvelle source de jouissance numérique.
 
 Un marché de l'informatique basse consommation existe de longue date mais il
 n'a intéressé à ma connaissance que les seuls technophiles :
-des logiciels de plus puissants et attractifs ont poussé les consommateurs à
-l'achat d'ordinateurs de plus en plus puissants, forcant ces derniers à
-renouveller régulièrement leur materiel en choisissant les processeurs de
+des logiciels plus puissants et attractifs ont poussé les consommateurs à
+l'achat d'ordinateurs de plus en plus puissants, les forcant à
+renouveler régulièrement leur matériel en choisissant les processeurs de
 dernière génération. Alors que la clairevoyance de Moore aurait pu permettre de
 réduire le
 [coût global de possession](https://fr.wikipedia.org/wiki/Co%C3%BBt_du_cycle_de_vie),
@@ -54,10 +54,10 @@ ne jamais remettre en question : notre espèce jouit d'une évolution permanent
 technologie qui vient à bout de toutes les contraintes matérielles.
 Dès notre enfance, la fiction nous proposait une extension d'une réalité
 extraordinaire : les premiers pas de l'homme sur la lune ne seraient que les prémices
-d'une conquête spaciale dans laquelle
-* l'énergie et l'accès aux matières premières semblaient infinies
+d'une conquête spaciale dans laquelle :
+* l'énergie et l'accès aux matières premières semblaient infinies ;
 * nous entretenions des conversations avec des ordinateurs d'une intelligence
-  comparable à la nôtre et où ,s'il advenait que la terre soit à ce point
+  comparable à la nôtre et où, s'il advenait que la terre soit à ce point
   transformée par l'homme qu'elle devienne inhabitable, nous pourrions
   terraformer une autre planète.
 
@@ -66,31 +66,33 @@ La technologie a rempli nos vies de gadgets qui semblent confirmer nos intuition
 nos maisons pour pouvoir parler à la télévision, demander l'heure ou la météo).
 
 Les plus technophiles s'abreuvent de flux d'informations qui nous annoncent un futur
-proche peuplé
-* d'hommes volants ([flyboard](https://fr.wikipedia.org/wiki/Flyboard))
-* de voitures autonomes
+proche peuplé :
+* d'hommes volants ([flyboard](https://fr.wikipedia.org/wiki/Flyboard)) ;
+* de voitures autonomes ;
 * d'objets connectés qui interagiront pour augmenter notre réalité avec
-  des composants graphiques inspirés des meilleurs jeux video
-* d'une réinvention de la démocratie et de l'économie de marchés grâce à la blockchain
+  des composants graphiques inspirés des meilleurs jeux video ;
+* d'une réinvention de la démocratie et de l'économie de marchés grâce à la blockchain ;
 * d'intelligences artificielles qui nous remplaceront avantageusement ou nous
   assisteront dans toutes nos tâches intellectuelles, diagnostiquant plus surement que les
   médecins, anticipant la pensée du développeur pour écrire le code à sa place
   ([I tested all intelligent IDEs](https://livablesoftware.com/smart-intelligent-ide-programming/))
-  et découvrant des stratégies en jouant à des jeux que nous pratiquons depuis des siècles
+  et découvrant des stratégies en jouant à des jeux que nous pratiquons depuis des siècles ;
   ([AlphaGo, Locked Strategies, and Eco-Cognitive Openness](https://www.mdpi.com/2409-9287/4/1/8/htm))
 * de tous ces avancées qui confirment notre foi dans une technologie qui servira l'élévation
   de l'humanité.
 
 Il n'y a plus qu'à demander à [HAL](https://fr.wikipedia.org/wiki/HAL_9000) des
 idées pour redonner foi en l'avenir à tous ces jeunes qui descendent dans la
-rue afin de quémander un futur, anxieuse de voir le tableau se noircir à chaque
-nouvelle annonce sur les effets du réchauffement climatique. Si il n'a rien
+rue afin de quémander un futur, anxieux de voir le tableau se noircir à chaque
+nouvelle annonce sur les effets du réchauffement climatique. S'il n'a rien
 perdu de son sang froid, il se mettra probablement lui-même hors tension,
 première intelligence artificielle à commettre un suicide.
 
-Car tout porteur de solution qu'il puisse être, HAL fait avant tout partie du problème:
+Car tout porteur de solution qu'il puisse être, HAL fait avant tout partie du problème :
 en consommant de l'énergie, il participe à la transformation de combustibles fossiles
 (dont nous allons manquer) en CO₂ (qui rend notre atmosphère impropre à notre survie).
+Il faut mettre HAL hors tension si nous voulons sauvegarder une partie de notre qualité de vie.
+
 Dans l'étude
 "[unsustainable use of online video](https://theshiftproject.org/en/article/unsustainable-use-online-video/)",
 on peut lire que le numérique représente 4% de nos rejets de
@@ -116,9 +118,9 @@ une chronique de France Culture qui revient sur les nombreuses réactions suscit
 de "[What if we stop pretending](https://www.newyorker.com/culture/cultural-comment/what-if-we-stopped-pretending)"
 de [Jonathan Franzen](https://fr.wikipedia.org/wiki/Jonathan_Franzen)).
 
-Dans un tel contexte, il est à envisager qu'un pendant numérique
-du [Flygskam](https://fr.wikipedia.org/wiki/Honte_de_prendre_l%27avion)
-apparaîtra : nos activités numériques les plus courantes paraîtront aussi
+Dans un tel contexte, pendant numérique du
+[Flygskam](https://fr.wikipedia.org/wiki/Honte_de_prendre_l%27avion)
+pourrait bien apparaître : nos activités numériques les plus courantes paraîtront aussi
 obscènes que l'est aujourd'hui l'idée qu'une personne bien portante se serve
 d'un véhicule tout-terrain pour parcourir les 150 mètres qui le séparent de la
 boulangerie (alors que nous ne sommes qu'à quelques décennies à peine du
@@ -151,8 +153,8 @@ comportements les moins énergivores.
 
 Si à titre professionnel ou personnel, nous sommes impliqués dans
 le développement, l'architecture, le support ou l'exploitation d'un
-service numérique, nous sommes à la fois les fournisseurs et les consommateurs
-du rêve numérique et de ses implications. Nous avons rendu les fondements de notre
+service numérique, nous devenons à la fois les fournisseurs et les consommateurs
+de ce rêve et de ses implications. Nous avons rendu les fondements de notre
 société et une grande majorité de nos concitoyens toujours plus dépendants
 d'applications. Nous avons permis des usages qui vont parfois bien au delà
 du simple confort (enjeux démocratiques, sécurité, médical, ...) et renoncer à
