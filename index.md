@@ -396,21 +396,15 @@ pertinente économiquement mais elle nous coupe de la capacité de mesurer et ma
 les couts environnementaux induits par les pratiques des prestataires et le transport
 des données. De leur coté, les prestataires vont mettre en place des infrastructures
 conséquente rendues nécessaire le cumul des trafics et les exigences de disponibilité
-exigés par les clients.
+exigés par les clients. Le transport représente 16% de la pollution
 
-Pour éviter de voir grossir nos installations pour le stockage et le traitement
-(et leurs coûts de fonctionnement, de maintenance, de support),
-nous (individus comme entreprises), délocalisons ces services dans des
-plateformes. Le coût énergétique réel nous échappe alors mais, ce faisant, nous
-faisons faire à nos données des allers-retours incessants qui transitent par des
-installations tiers. Pour permettre d'assurer un trafic cumulé de tous leurs utilisateurs,
-des infrastructures conséquentes sont mises en place (des échangeurs là ou un
-rond point aurait du suffit nous avions un réseau plus décentralisé et des usagers
-plus tolérants à des temps d'accès moindre).
-pour répondre à des demandes qui, somme toute, ne sont
-que des transferts de fichiers (c'est au moins vrai qui, à elles seules, consomment
-80% de la bande passante, 13% pour le seul Netflix) (*cf.*
-"[unsustainable use of online video](https://theshiftproject.org/en/article/unsustainable-use-online-video/)").
+![répartition de la consommation énergétique du numérique](images/consumption-distribution.png])
+
+On peut relativiser ces 16%: les seules vidéos en ligne représentent à elles
+seules 80% de la bande passante (13% pour le seul Netflix) (*cf.*
+"[unsustainable use of online
+video](https://theshiftproject.org/en/article/unsustainable-use-online-video/)"),
+cette bande passante représente 16% 
 
 On pourrait soutenir que ces plateformes se sont créées pour répondre à un besoin
 mais c'est au mieux une vérité partielle (partiale) qui fait oublier que toutes les
