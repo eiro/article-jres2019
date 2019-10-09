@@ -404,7 +404,6 @@ On peut relativiser ces 16%: les seules vidéos en ligne représentent à elles
 seules 80% de la bande passante (13% pour le seul Netflix) (*cf.*
 "[unsustainable use of online
 video](https://theshiftproject.org/en/article/unsustainable-use-online-video/)"),
-cette bande passante représente 16% 
 
 On pourrait soutenir que ces plateformes se sont créées pour répondre à un besoin
 mais c'est au mieux une vérité partielle (partiale) qui fait oublier que toutes les
