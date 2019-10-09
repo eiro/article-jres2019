@@ -203,27 +203,29 @@ aux problèmes de la pollution numérique.
 
 ## Rien n'est nouveau
 
-Se serait une erreur de penser que les catastrophes qui nous était déjà
-annoncées dans les années 80 et déjà moquées ou ignorées à l'époque ^[le
-Guignol de l'info Johnny Halliday jetait des glaçons dans les rivières pour
-sauver la banquise en 1994] seraient une évidence de l'alarmisme d'une
-communauté scientifique en manque d'attention. Les faits énoncés plus loin ne
-font que démontrer la qualité des prédictions et des modèles. Les effets incidents
-constatés sont systématiquement ajoutés à ces modèles qui ne font que confirmer
-(ou accélérer) des conclusions des conclusions qui n'ont globalement pas varié.
-Ce que nous percevons déjà comme des désagréments sont les premiers signes de
-catastrophes qui ont sont annoncés par des modèles de plus en plus fiables.
+Ce serait une erreur de penser que les catastrophes qui nous étaient déja
+annoncées dans les années 80 et déjà moquées ou ignorées à l'époque ^[dans
+"les arènes de l'info", le guignol de Johnny Halliday jetait des glaçons dans
+les rivières pour sauver la banquise en 1994] seraient du à l'alarmisme d'une
+communauté scientifique en manque d'attention.
 
 Le [rapport Meadows](https://en.wikipedia.org/wiki/The_Limits_to_Growth), rendu
 au cercle de Rome en 1972 est une bonne illustration d'un modèle ([world3])
 qui a été toujours débattu sur un plan théorique, dont la précision a été
-régulièrement améliorée régulièrement mais dont les conclusions et les échelles de temps
+régulièrement améliorée, mais dont les conclusions et les échelles de temps
 n'ont pas vraiment varié. Toujours pas de preuve formelle, certes ... mais
 puisque la réalité conforte les prédictions du modèle depuis déjà 5 décenies,
 il est tout à fait probable qu'il soit encore correct pour la décénie qui vient
 (lire "[Is Global Collapse Imminent?](https://sustainable.unimelb.edu.au/__data/assets/pdf_file/0005/2763500/MSSI-ResearchPaper-4_Turner_2014.pdf)")
 
-![](images/world3.jpg)
+![prévisions de world3 et données réelles observées conforme aux prévisions](images/world3.jpg)
+
+Les faits énoncés plus loin ne font que démontrer la qualité des prédictions et
+des modèles. Les effets incidents constatés sont systématiquement ajoutés à ces
+modèles qui ne font que confirmer (ou accélérer) des conclusions des
+conclusions qui n'ont globalement pas varié.  Ce que nous percevons déjà comme
+des désagréments sont les premiers signes de catastrophes qui ont sont annoncés
+par des modèles de plus en plus fiables.
 
 ## les sources
 
