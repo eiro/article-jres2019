@@ -67,6 +67,7 @@ nos maisons pour pouvoir parler à la télévision, demander l'heure ou la mét�
 
 Les plus technophiles s'abreuvent de flux d'informations qui nous annoncent un futur
 proche peuplé :
+
 * d'hommes volants ([flyboard](https://fr.wikipedia.org/wiki/Flyboard)) ;
 * de voitures autonomes ;
 * d'objets connectés qui interagiront pour augmenter notre réalité avec
@@ -392,13 +393,13 @@ de nombreuses similitudes apparaissent : les données sont produites puis
 circulent jusqu'au terminal qui produit un service.
 
 Pour réduire les coûts, nous avons choisi la délocalisation. Cette stratégie est
-pertinente économiquement mais elle nous coupe de la capacité de mesurer et maitriser
-les couts environnementaux induits par les pratiques des prestataires et le transport
-des données. De leur coté, les prestataires vont mettre en place des infrastructures
-conséquente rendues nécessaire le cumul des trafics et les exigences de disponibilité
-exigés par les clients. Le transport représente 16% de la pollution
+pertinente économiquement mais elle nous coupe de la capacité de mesurer et maîtriser
+les coûts environnementaux induits par les pratiques des prestataires et le transport
+des données. De leur côté, les prestataires vont mettre en place des infrastructures
+conséquente rendues nécessaire par le cumul des trafics et les exigences de disponibilité
+des clients. Le transport représente 16% de la consommation.
 
-![répartition de la consommation énergétique du numérique](images/consumption-distribution.png)
+![répartition de la consommation énergétique du numérique](images/consumption-distribution-page.png)
 
 On peut relativiser ces 16%: les seules vidéos en ligne représentent à elles
 seules 80% de la bande passante (13% pour le seul Netflix) (*cf.*
@@ -406,65 +407,73 @@ seules 80% de la bande passante (13% pour le seul Netflix) (*cf.*
 video](https://theshiftproject.org/en/article/unsustainable-use-online-video/)").
 
 On pourrait soutenir que ces plateformes se sont créées pour répondre à un besoin
-mais c'est au mieux une vérité partielle (partiale) qui fait oublier que toutes les
+mais c'est au mieux une vérité partielle (partiale). Ce serait oublier que toutes les
 fonctionnalités importantes rendues par les services actuels étaient déjà fournies par
-des services neutres qui transportaient l'information sans l'altérer et y
-adjoindre des informations de mise en forme ni établir de nouvelles connexions pour
-des raisons commerciales.
+des services neutres qui transportaient l'information
+
+* sans l'altérer
+* sans adjoindre des informations de mise en forme
+* sans établir de nouvelles connexions pour des raisons commerciales
 
 Aussi, les fournisseurs d'accès proposaient des relais pour les services et des miroirs
 pour les données (c'est toujours le cas pour la messagerie électronique
 par exemple).
 
 Enfin : texte était la règle (pas seulement pour les courriels et les newsgroups :
-de nombreux fichiers textes étaient directement copiés sur les serveurs http
-sans autre mise en forme). Même si il ne s'agit que de quelques octets par page,
-on peut facilement imaginer que le nombre de pages téléchargées chaque secondes
+de nombreux fichiers textes étaient directement copiés sur les serveurs HTTP
+sans autre mise en forme). Même s'il ne s'agit que de quelques octets par page,
+on peut facilement imaginer que le nombre de pages téléchargées chaque seconde
 donne à ces octets une importance. Une rapide estimation sur mon propre
-site (sachant que je suis plutôt économe sur la structure des pages html).
+site (sachant que je suis plutôt économe sur la structure des pages HTML).
 
-|html  |markdown|%        |
-|------|--------|---------|
-|208359|105307  | 50.5411 |
 
-le texte source pèse moitié moins que les pages. Ajoutons à cela les css,
-le javascript, les images : une page web pèse en 2.3kb moyenne
-(presque autant que les 2,4kb du jeu Doom)
+|html (octets)  |markdown (octets) |%        |
+|---------------|------------------|---------|
+|208359         |105307            | 50.54   |
+
+
+
+
+Le texte source pèse moitié moins que les pages. Ajoutons à cela les css,
+le javascript, les images : une page web pèse en moyenne 2.3ko
+(presque autant que les 2,4ko du jeu Doom)
 (*cf.* [the state of web](https://www.httparchive.org/reports/state-of-the-web?start=latest)).
 
 Les interfaces graphiques qui permettaient de jouir de ces services correspondaient
 aux standards ergonomiques de l'époque mais il incombait à l'utilisateur d'acquérir
-les connaissances suffisantes pour
+les connaissances suffisantes pour :
 
-* identifier ces services
-* choisir et paramétrer un client
-* identifier les messages d'erreur
+* identifier ces services ;
+* choisir et paramétrer un client ;
+* identifier les messages d'erreur ;
+
+![3 façons différentes de visualiser le forum fr.sci.physique: slrn, "google groupes" et Thunderbird qui ressemble à s'y méprendre à son ancêtre (Netscape Communicator)](images/3-generations-de-fora-page.png)
 
 Cette configuration ne correspondait pas aux attentes du public qui ne comprenait pas
 les bénéfices fonctionnels qu'ils pouvaient tirer de la liberté de choix d'un client
 final et qui refusait un temps d'apprentissage. De plus,
 elle ne disposait d'aucun modèle économique rentable (pour les opérateurs,
 elle engendrait au contraire le maintien d'infrastructures et un support rendu
-difficile par la grande diversité des outils disponible). Aussi, l'explosion commerciale
-du réseau a créé une vraie pénurie d'informaticiens qualifiés et les entreprises vont
-embaucher massivement des personnels formés sur le tas dans le monde de
-l'informatique personnelle ou lors de formations éclaires
+difficile par la grande diversité des outils disponibles). De plus,
+l'explosion commerciale du réseau a créé une vraie pénurie d'informaticiens
+qualifiés et les entreprises ont embaucher massivement des personnels formés
+sur le tas dans le monde de l'informatique personnelle ou lors de formations éclaires
 ([Eternal September](https://fr.wikipedia.org/wiki/Septembre_%C3%A9ternel)).
-Le niveau moyen de ces personnes propulsés "experts" par les services
-commerciaux déchainés motivés par les perspectives de bénéfices élevés était faible et
-le manque de recul était la norme. A partir de cette époque au moins ^[les
+Le niveau moyen de ces personnes était faible et le manque de recul était la norme.
+Elles malgré tout propulsées "experts" par des services commerciaux.
+À partir de cette époque au moins ^[les
 orientations technologiques prises par le management était déjà critiqué dans
 les années 80 par des ingénieurs devenus illustres depuis, tel que Rob Pike]
 tout discours de mise en perspective des impacts réels des choix des directions
-informatiques (ou des services commerciaux) se soldaient par une exclusion des
-discutions (la seule perception de l'usager étant le rendu qu'il obtenait
+informatiques (ou des services commerciaux) se soldait par une exclusion des
+discussions (la seule perception de l'usager étant le rendu qu'il obtenait
 depuis son terminal).
 
-Dans un contexte ou la concurrence était féroce, l'absence de modèle commercial
+Dans un contexte où la concurrence était féroce, l'absence de modèle commercial
 a induit une absence de financement pour la promotion, la formation des utilisateurs
 et l'évolution d'un réseau participatif et neutre. Aussi l'évolution de réseaux
 distribués et le peer to peer (architectures pourtant intéressante dans une
-perspective de bande passante) sont devenu confidentiels et parfois calomniés.
+perspective de bande passante) sont devenus confidentiels et parfois calomniés.
 
 En outre, la décentralisation et le peer to peer posent le problème de la
 monétisation des contenus sous copyright. Même si des propositions ont été
@@ -473,16 +482,16 @@ industries culturelles ont toujours refusé de perdre la main sur leurs
 plateformes.
 
 Certes, il y avait une demande de l'usager pour simplifier l'accès au réseau
-mais ce sont bien des impératifs purement commerciaux qui ont conditionnés
+mais ce sont bien des impératifs purement commerciaux qui ont conditionné
 notre réponse et la culture qui en a découlé. La situation évolue et l'affaire
-([PRISM](https://fr.wikipedia.org/wiki/PRISM_(programme_de_surveillance)), même
+[PRISM](https://fr.wikipedia.org/wiki/PRISM_programme_de_surveillance), même
 si elle n'est pas liée à l'écologie, a fait prendre conscience à une frange de
 la population du besoin de se rapproprier Internet. En France, la popularité
 relative de l'expérimentation
-"[Dégooglisons Internet](https://degooglisons-internet.org/fr/)"
-et l'apparition des [chatons](http://chatons.org/) et le succès international du
-[FairPhone](https://www.fairphone.com/fr/) sont des signes de la volonté qu'on les
-utilisateurs de pouvoir prendre conscience des enjeux et de s'emparer de solutions
+"[Dégooglisons Internet](https://degooglisons-internet.org/fr/)",
+l'apparition des [chatons](http://chatons.org/) et le succès international du
+[FairPhone](https://www.fairphone.com/fr/) sont des signes de la volonté des utilisateurs
+de pouvoir prendre conscience des enjeux et de s'emparer de solutions
 responsables lorsqu'elles existent.
 
 # Des solutions
@@ -495,13 +504,13 @@ préchauffer l'eau des villes, ...) mais le problème de l'énergie grise nous
 commande de ne renouveler les parcs qu'avec parcimonie. Il nous
 faut assurer la longévité des équipements existant tout en réduisant sa nocivité.
 
-[ICI en cours de rédaction]
+Nous avons deux marges de manœuvres que sont les logiciels et les usages.
 
 # Je ne veux pas de votre aide ...
 
 Nous n'héritons pas de la terre de nos parents, nous l'empruntons à nos
-enfants, disait Antoine de Saint-Exupery. Peu importe nos chances de réussite:
-nous avons une responsabilité collective à agir. La tâche qui nous incombe est
+enfants, disait Antoine de Saint-Exupery. Peu importe nos chances de réussite :
+nous avons la responsabilité collective à agir. La tâche qui nous incombe est
 impressionnante et déroutante mais j'espère avoir mis en lumière l'idée qu'une
 synergie est possible et nécessaire. Utilisateurs, techniciens, politiques et
 décideurs: nous avons tous notre rôle à jouer en produisant ce dont les autres
@@ -520,14 +529,16 @@ Il nous faut agir ensemble et pour notre intérêt à tous.
   need your help. I just need you to recognize that this shit is killing you …»
   --  Fred Moten
 
-De par sa position, le monde universitaire a toujours contribué à l'évolution
-de l'informatique tant par ses idées que par son code. Nous avons façonné
-l'internet pré-commercial et je crois qu'il nous incombe, à nous plus qu'à tout autre,
-de façonner l'internet pro-commercial. Nous disposons
-de chercheurs et d'ingénieurs en nombre et en qualité et nous ne sommes pas
-contraints par la rentabilité immédiate qui empêche le secteur privé d'innover
-dans le bon sens. Nous sommes les obligés de nos contribuables et force est de
-constater qu'ils attendent de nous de la pédagogie et des solutions.
+Le monde universitaire a façonné l'informatique l'internet pré-commercial
+grâce à par ses idées que par son code. Il a déjà démontré sa capacité à
+produire des solutions efficaces produite par une communauté de chercheurs et
+d'ingénieurs dans une organisation décentralisée animée par la réponse à des
+besoins fonctionnels et techniques. Nous n'avons pas les mains liés par la
+sauvegarde d'un modèle commercial et ne sommes pas contraints aux exigences
+de rentabilité immédiate qu'impose la concurrence. Nous sommes les obligés des
+contribuables et force est de constater qu'ils attendent de nous de la
+pédagogie et des solutions. Il nous incombe, à nous plus qu'à tout autre communauté,
+de mobiliser à nouveau notre savoir-faire pour de façonner l'internet post-commercial.
 
 Au travail.
 
