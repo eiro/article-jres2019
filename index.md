@@ -1,7 +1,7 @@
 ---
 vim: et ts=2 sts=2 sw=2 nowrap
 title: les problèmes environnementaux de la terre d'innovation et de partage
-keywords: [climat, écologie, électricité, changement climatique]
+keywords: [numérique frugal, électricité, changement climatique, pollution numérique, sobriété numérique]
 author: Marc Chantreux <marc.chantreux@renater.fr>
 ---
 

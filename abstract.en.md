@@ -1,7 +1,7 @@
 ---
 vim: et ts=2 sts=2 sw=2
 title: The environmental problems of innovation and sharing
-keywords: X article literature communication
+keywords: [lean it, electricity, climate change, digital pollution, digital sobriety ]
 author: JRES review team (probably D. Benza)
 about:
   original: { source: abstract.md, lang: fr }

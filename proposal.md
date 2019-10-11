@@ -1,8 +1,8 @@
 ---
 vim: et ts=2 sts=2 sw=2
 title: l'ESR et la résilience numérique. notre part dans la lutte contre le changement climatique
-keywords: climat écologie électricité changement-climatique
 author: Marc Chantreux <marc.chantreux@renater.fr>
+keywords: [numérique frugal, électricité, changement climatique, pollution numérique, sobriété numérique]
 ---
 
 Avec une pollution supérieure à celle de l'aviation civile, une augmentation
