@@ -531,14 +531,22 @@ Il nous faut agir ensemble et pour notre intérêt à tous.
 
 Le monde universitaire a façonné l'informatique l'internet pré-commercial
 grâce à par ses idées que par son code. Il a déjà démontré sa capacité à
-produire des solutions efficaces produite par une communauté de chercheurs et
-d'ingénieurs dans une organisation décentralisée animée par la réponse à des
-besoins fonctionnels et techniques. Nous n'avons pas les mains liés par la
-sauvegarde d'un modèle commercial et ne sommes pas contraints aux exigences
-de rentabilité immédiate qu'impose la concurrence. Nous sommes les obligés des
-contribuables et force est de constater qu'ils attendent de nous de la
-pédagogie et des solutions. Il nous incombe, à nous plus qu'à tout autre communauté,
-de mobiliser à nouveau notre savoir-faire pour de façonner l'internet post-commercial.
+produire des solutions efficaces grâce à une communauté de chercheurs et
+techniciens qui s'organisent spontanément autour de la résolution des problèmes.
+Nous n'avons pas les mains liés par la sauvegarde d'un modèle commercial et
+ne sommes pas contraints aux exigences de rentabilité immédiate
+qu'impose la concurrence ^[La montée en puissance de nouveaux modèles économiques
+fondés sur le financement participatif de développement de logiciels, bien que
+souhaitable, ne fonctionne bien que pour les outils directement utilisables
+pour les utilisateurs. C'est donc une force complémentaire] ^[une offre logicielle
+commerciale me semblerait inopportune:
+a) l'accès aux logiciels éco-conçus devrait être universel et donc indépendant
+du revenu de l'utilisateur.
+b) la compétition et le secret industriel me paraissent déplacés vu les enjeux. ].
+Nous sommes les obligés des contribuables et force est de constater qu'ils attendent
+de nous de la pédagogie et des solutions. Il nous incombe, à nous plus qu'à tout
+autre communauté, de mobiliser à nouveau notre savoir-faire pour de façonner
+l'internet post-commercial.
 
 Au travail.
 
