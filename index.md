@@ -490,9 +490,177 @@ la population du besoin de se rapproprier Internet. En France, la popularité
 relative de l'expérimentation
 "[Dégooglisons Internet](https://degooglisons-internet.org/fr/)",
 l'apparition des [chatons](http://chatons.org/) et le succès international du
-[FairPhone](https://www.fairphone.com/fr/) sont des signes de la volonté des utilisateurs
-de pouvoir prendre conscience des enjeux et de s'emparer de solutions
-responsables lorsqu'elles existent.
+[FairPhone](https://www.fairphone.com/fr/) sont des signes de la volonté
+des utilisateurs de pouvoir prendre conscience des enjeux et de s'emparer
+de solutions responsables lorsqu'elles existent.
+
+# La racines de ma réflexion
+
+Avant de vous livrer l'état d'avancement de ma réflexion, j'aimerais
+expliquer ici comment elle s'est construite et aimerais insister
+sur le fait que je ne prétends certainement pas être un expert. Je n'ai
+participé à aucun groupe de réflexion sur le sujet et je pense que de
+nombreux aspects du problème et des solutions m'échappent. Les objectifs
+que je me fixais en proposant cet article sont:
+
+* tenter  de sensibiliser et de donner les premiers éléments d'information
+* initier ou rejoindre des réflexions sur les solutions à mettre en place
+
+Je n'ai commencé à évoquer le sujet avec des informaticiens que
+lorsque que lors de mes premières prises de notes pour présent article.
+Toutefois mes idées ne sont issues d'une culture qui précède ma prise de
+conscience environnementale et je crois pouvoir participer à la réflexion
+en apportant une perspective différente de celle que l'on peut construire
+lorsqu'on commence à chercher des solutions suite au constat du problème.
+
+Aussi je présente ici le parcours qui a vu naitre cette perspective afin
+d'éclairer mon point de vue avant
+
+* c'est dans un club informatique que j'ai commencé à apprendre à programmer
+  au milieu des années 80 (sur un goupil G3),
+  tout était lent et l'optimisation coulait de soi.
+* Dans les années 90, utiliser un lecteur mp3 mettait un ordinateur à
+  genoux. On ne pouvait se balader dans une piste musicale qu'au prix
+  de plusieurs secondes d'attente et il fallait une journée
+  (je lançais un batch avant de partir au lycée) pour compresser un CD.
+  Nous nous connections à internet via des lignes téléphoniques
+  facturées à la minute: à 22h30 (heure ou le prix de la communication
+  baissait) et nous écrivions des scripts pour télécharger tout ce dont nous
+  avions besoin dans un laps de temps le plus court possible. Nous
+  téléchargions la liste des fichiers des serveurs ftp (ls-R.txt) pour
+  les consulter offline. Télécharger une disquette pouvait prendre une minute
+  et lorsqu'on visualisait une image sur les premiers sites web, nous
+  attendions que le rectangle gris préalablement dessiné par le navigateur
+  se remplisse. Pour éviter les frais, nous mettions des miroirs en place
+  et des sites complets s'échangeaient via des disques durs dans des
+  racks. Les e-zines et de nombreuses documentations
+  (comme le RFCs) étaient écrits en texte plain et les illustrations étaient
+  en [ascii art](https://en.wikipedia.org/wiki/ASCII_art). Le nombre de
+  personnes connectées simultanément à un service était configuré en fonction
+  des capacités de la machine qui hébergeait le serveur ou de la bande passante
+  disponible. Avoir des temps d'attente ou un message
+  "Too many users, try later" lors de l'accès à ces services était normal.
+* Comme beaucoup de geeks de ma génération, je me souviens avec émotion de la première
+  [demo](https://fr.wikipedia.org/wiki/Sc%C3%A8ne_d%C3%A9mo)
+  que j'ai vue (Enigma du groupe Phenomena). Nous voulions tous apprendre le C et l'assembleur.
+* au collège, j'avais du mal à croire cet ami qui me soutenait
+  que les ordinateurs seraient bientôt capables d'afficher des films
+  comme sur une télé.
+* En découvrant linux, nous découvrions la culture unix et les principes
+  de conceptions simples:
+  [worse is better](https://en.wikipedia.org/wiki/Worse_is_better),
+  [KISS principle](https://en.wikipedia.org/wiki/KISS_principle). Faire simple, efficace
+  et léger n'était plus seulement une nécessité mais une fierté.
+* Lorsque je suis devenu "professionnel", profitant en cela de la "bulle
+  internet" pour me faufiler parmis les rangs des techniciens formés
+  et compétents, l'ambiance a totalement changé: seule la productivité
+  comptait et la consommation de l'infrastructure était bien moins couteuse
+  que mon salaire ("met 2, 3, 4 serveurs si il faut mais ne perd pas de temps",
+  "ca marche déjà bien assez vite et j'ai des clients dans le tube",
+  "je ne peux pas vendre au client le fait que ton truc soit léger
+  mais c'est moche et ça il le verra tout de suite",
+  "on ne connait même pas son [MUA](https://fr.wikipedia.org/wiki/Client_de_messagerie): redirige le vers le webmail",
+  ...). Les utilisateurs n'ayant souvent aucun point de comparaison se contentaient
+  des performances de logiciels écrits en VisualBasic ou en Java et du peu de fonctionnalités
+  qu'offraient les outils que nous leur proposions.
+* des j'ai pratiqué deux formes d'informatique
+  * l'informatique professionnelle (devenu la norme), qui pratique
+    une informatique économiquement rentable dans un but commercial et
+    qui a imposé sa culture.
+  * l'informatique des hobbistes qui, loin d'être nostalgique, a continué à
+    experimenter et maintenir des services et des bases de code qui
+    perpétuent une culture que nous croyons plus saine ^[nous pensons la
+    complexité des systèmes actuels ne permet plus d'avoir une vision
+    d'ensemble ce qui pose des problèmes de maintenabilité, de sécurité
+    et d'évolution. le minimalisme n'est pas un principe esthétique
+    mais un pragmatisme qui s'appuie sur d'autres critères que la
+    rentabilité économique] et intellectuellement bien plus stimulante.
+    ^[Mon environement préféré est [dwm](https://dwm.suckless.org/),
+    mon MUA de référence est [mutt](http://mutt.org/), j'utilise toujours [IRC](https://fr.wikipedia.org/wiki/Internet_Relay_Chat)
+    et mon outils de communication préféré reste le mail.
+    je suis sur les listes de [openbsd](https://www.openbsd.org/),
+    [9front](http://9front.org/), [cat-v](http://cat-v.org/),
+    [suckless](http://suckless.org/)].
+
+Ma prise de conscience de l'impact du numérique sur le climat est très
+récente (courant 2017). J'ai commencé à me documenter sur les solutions
+proposées et me suis vite rendu compte que mes pratiques étaient
+déjà plus minimalistes que celles proposées par de nombreuses
+recommandations. Je conçois que les outils développés par la communauté
+[suckless](http://suckless.org), par exemple, ne constitue pas une offre
+logicielle grand public mais je crois aussi qu'une grande partie de
+l'économie que permettent ces outils ne réside pas dans leur ergonomie
+mais dans les stratégies qu'ils privilégient pour réaliser les tâches
+entreprises. Ces mêmes stratégies pourraient être réutilisés dans des
+outils plus ergonomiques (cf. la partie "solutions" du présent document).
+J'ai parfois tenté d'aborder le sujet dans les milieux
+technophiles, suscitant peu d'intérêt. Je me suis ensuite tourné vers
+les écologistes qui se sont montrés sensibles au sujet mais qui
+manquent cruellement d'accompagnement. Nous avons évoqué l'idée
+d'ateliers autour
+
+* ce qu'il faut savoir du fonctionnement d'Internet pour évaluer la
+  toxicité d'un geste.
+* l'éco-conception de sites (toujours à l'état de projet par manque de
+  temps).
+
+Pour le moment ces projets sont au point mort par manque de temps.
+
+# les solutions
+
+## objectifs
+
+### Créer les conditions d'une sobriété numérique
+
+Nous devons concevoir
+et promouvoir des outils et infrastructures permettant à nos
+utilisateurs de vivre une sobriété numérique dans les meilleures
+conditions possibles: moins nous générerons de frustration, plus nous
+faciliterons l'adoption des nouveaux usages.
+
+### Préparer une résilience numérique
+
+même si la mobilisation semble
+devenir une tendance lourde et que nombre d'acteurs continuent à
+formuler des messages optimistes, je crois que la précaution nous
+indique de commencer à imaginer ce que pourrait être utilisable
+après un effondrement de notre civilisation en se posant des questions
+comme:
+
+* les services qu'il semble nécessaire (ou souhaitable) de maintenir
+  dans un tel environnement ;
+* les moyens dont nous disposerons pour cette maintenance ;
+* les préparations à mettre en œuvre pour tenter d'assurer la présence
+  de ces moyens.
+
+## Pas de politique
+
+Je suis conscient que les propositions que je formule ont des conséquences
+socio-économiques mais je me garderais de toute suggestion ou remarque sur le
+sujet: je laisse aux personnes compétentes (politiques, économistes,
+intellectuels) le soin de gérer des problèmes qui sont de leur ressort.
+
+## La stratégie
+
+S'il est à espérer que les équipement qui seront mis sur le marché dans les
+prochaines années viseront tous l'efficience énergétique, vouloir renouveler le
+parc machine pour faire baiser le coût environnemental est un mauvais calcul
+qui ne prendrait pas en compte la pollution due à la production des nouveaux
+équipements. La stratégie recommandée est donc d'augmenter la longévité du parc
+existant tout en tentant d'en réduire la nocivité.
+
+Hors pannes physiques ^[c'est ici la responsabilité des politiques de produire
+des lois qui obligent les constructeurs à augmenter significativement la durée
+de vie de leurs équipements] et comportements consuméristes compulsifs,
+la longévité d'un équipement est conditionnée par sa capacité à exécuter des
+programmes dans des temps raisonnables ^[c'est d'ailleurs un des usages que le
+grand public fait de linux: des distributions complètes, environnement graphique
+inclus, ont pour objectif de privilégier des logiciels programmés par des
+développeurs qui ont pour objectifs premiers de conserver des logiciels simples
+et légers. Ces distributions permettent l'usage confortable de PC qui n'étaient
+plus en mesure d'exécuter correctement l'offre logicielle disponible sous Windows. 
+Les versions les plus spartiates tournent aisément sur la première génération
+de raspberry pi].
 
 # Des solutions
 
