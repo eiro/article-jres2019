@@ -1,7 +1,7 @@
 ---
 vim: et ts=2 sts=2 sw=2
 title: les problèmes environementaux de la terre d'innovation et de partage (résumé)
-keywords: [numérique frugal, électricité, changement climatique, pollution numérique, sobriété numérique]
+keywords: [électricité, changement climatique, pollution numérique, sobriété numérique, résilience numérique]
 author: Marc Chantreux <marc.chantreux@renater.fr>
 ---
 
