@@ -679,7 +679,101 @@ logiciels pour créer une offre qui:
   (et proposer des "modes déconnectés")
 * proposeront une ergonomie qui accompagneront les bonnes pratiques
 
-### L'acces au multimedia
+Il faut aussi mettre fin à des pratiques numériques lorsque celles-ci trouvent
+des alternatives intéressantes écologiquement.
+
+La liste est longue des pistes que nous avons à notre disposition et qui peuvent
+produire des effets qui nous donnerons un peu plus de temps: j'en partage ici une
+liste non-exhaustive. Mon choix s'est porté sur des idées qui me semblent être des
+compromis raisonables entre l'impact écologique, le besoin ergonomique d'un coté
+l'existant, le temps et les moyens dont nous disposons de l'autre.
+
+Je ne traite pas ici des moyens à mettre en oeuvre pour rendre nos DSI capables
+de devenir actrices de ces changements: c'est une considération politique.
+
+Je fais aussi part des idées qui ne sont pas directement liées aux activités
+des DSI: le numérique n'est pas un ensemble de silos mais un monde dont
+l'écosystème se construit sur différents degrés d'interactions. Nous serons
+impactés (si pas partie prenante) par toute évolution majeure de cet écosystème.
+
+Lorsque je signale qu'un script et/ou une source est disponible, je fais référence au
+[dépôt github de l'article](https://github.com/eiro/article-jres2019).
+
+### Les contenus multimédia
+
+La numérisation et la diffusion de contenus multimédia dans les proportions
+actuelles pausent problème. En ne parlant que des vidéos et des musique:
+
+* la décompression et donc la lecture de ces contenus nécessite une consommation
+  statique et/ou des dispositifs physiques sur le terminal (GPU pour l'encodage
+  et le décodage) ;
+* le transfert de ces contenus nécessite une bande passante conséquente ;
+
+Nous les contenus qui résultent d'une capture physique (enregistrements audio
+et vidéos) et sauf à ressortir nos lecteurs de compact disc et préférer
+la lecture de contenus de la qualité la plus faible possible, je n'ai pas
+vraiment de propositions à faire.
+
+Pour les contenus qui sont produits par des sources numériques, encourager
+la distribution et/ou le rendu depuis ces sources produirait au moins des
+économies de bande passante. ^[j'ai obtenu un fichier au format ogg vorbis
+de 3,5Mo en convertissant le premier module ProTracker que j'ai trouvé sur
+internet; lequel pesait 72Ko. Makefile disponible sur [le dépôt](https://github.com/eiro/article-jres2019/blob/master/sources/enigma/makefile)].
+
+
+un source au format 'protracker module'
+encodé en
+)
+
+Produire des contenus animés (et même interactifs)
+
+Produire des contenus numériques qui sollicitent moins
+
+Par contre,
+
+
+* la platteforme web est un bon exemple de 
+
+* produire contenus animés ne nécessitant pas d'encodage
+
+
+* en préférant des outils de lecture 
+
+animations vectorielles,
+
+  images plu
+)
+
+
+je n'ai pas de vraie solution
+pour le premier point
+
+Je n'ai pas d'idées claires sur le premier points
+
+
+
+
+que nous
+
+### mettre fin à la pub en ligne
+
+* réduire l'intéret
+  * des fermes à clicks
+  * du tracking et de la publicité ciblée
+* supprimer des payloads inutiles et forcés (youtube, ...)
+
+#### repenser les vecteurs de message
+
+Certes, une video peut avoir un impact
+
+
+
+
+Exemple: https://twitter.com/Strategie_Gouv/status/1172899052687515655
+
+
+L'accès à la production de l'industrie audio-visuelle est une catastrophe.
+Non seulement 80% de la bande passante 
 
 * autoriser/encourager de la copie privée
 * encourager le broadcasting (TNT)
