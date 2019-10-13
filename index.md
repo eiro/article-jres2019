@@ -431,10 +431,13 @@ site (sachant que je suis plutôt économe sur la structure des pages HTML).
 |---------------|------------------|---------|
 |208359         |105307            | 50.54   |
 
-Le texte source pèse moitié moins que les pages. Ajoutons à cela les css,
-le javascript, les images : une page web pèse en moyenne 2.3ko
-(presque autant que les 2,4ko du jeu Doom)
-(*cf.* [the state of web](https://www.httparchive.org/reports/state-of-the-web?start=latest)).
+Le texte source pèse moitié moins que les pages (le code des expérimentations
+que j'ai réalisé pour préparer cet article est disponible sur [le dépôt de
+l'article](https://github.com/eiro/article-jres2019) et continuera à évoluer
+après les JRES). Ajoutons à cela les css, le javascript, les images : une page
+web pèse en moyenne 2.3ko (presque autant que les 2,4ko du jeu Doom) (*cf.*
+[the state of
+web](https://www.httparchive.org/reports/state-of-the-web?start=latest)).
 
 Les interfaces graphiques qui permettaient de jouir de ces services correspondaient
 aux standards ergonomiques de l'époque mais il incombait à l'utilisateur d'acquérir
@@ -682,13 +685,31 @@ logiciels pour créer une offre qui:
 * encourager le broadcasting (TNT)
 * conserver la visibilité des petits producteurs? youtube ?  doter les médiathèques?
 
+### Réduire la bande passante
+
 ### Relocaliser les données
 
-* mirroirs, dumps, rsync!!! (avec des FS directement dans les explorateurs de fichiers)
+* rsync!!! (avec des FS directement dans les explorateurs de fichiers)
   (que valent les algos de sync des OO storage. filesender vs seafile, ... )
+
+### sérialiser differement
+
+* CRUD, édition, echanges, merge, query : choisir des formats adaptés a chaque contexte
+  (die, die soap & json over http!!)
+* ods vs csv
+* irc vs xmpp
+* text vs web ...
+
+### executer plus vite
+
+* temps et outils pour optimiser
+* langages "modernes" (haskell, go, rust, ...): compilation vs interpretation
+
+### réduire la taille des payloads
+
+* mirroirs, dumps, rsync
 * P2P
 * applications plutot que SAAS (exemple: traitement des données de votre montre connectée)
-
 
 ### L'évolution du web
 
@@ -712,14 +733,7 @@ logiciels pour créer une offre qui:
 
 ### mettre fin a la pub en ligne pour tuer le biz des clicks automatiques
 
-
 ### Parfois c'est un simple paramétrage
-
-le mode "déconnecté" d'une station de travail (qui devrait être le comportement par défaut
-pour éviter toute consommation dynamique inutile et profiter des avancées des
-équipements en terme de réduction statique
-(cf. [fonctionnement d'un ordinateur](https://fr.wikibooks.org/wiki/Fonctionnement_d%27un_ordinateur/La_consommation_d%27%C3%A9nergie_d%27un_ordinateur))
-n'est qu'affaire de configuration
 
 ### Minimiser le polling
 
@@ -727,9 +741,23 @@ n'est qu'affaire de configuration
 
 ## entre nous, la bande passante
 
-### réduire la taille des payloads
-
 ### reconstruire le web
+
+### Le paramètrage c'est important
+
+* mode connecté par defaut (et outils qui temporisent les envois)
+* ne plus relever automatiquement les messages
+* 
+
+
+
+
+
+le mode "déconnecté" d'une station de travail (qui devrait être le comportement par défaut
+pour éviter toute consommation dynamique inutile et profiter des avancées des
+équipements en terme de réduction statique
+(cf. [fonctionnement d'un ordinateur](https://fr.wikibooks.org/wiki/Fonctionnement_d%27un_ordinateur/La_consommation_d%27%C3%A9nergie_d%27un_ordinateur))
+n'est qu'affaire de configuration
 
 # Je ne veux pas de votre aide ...
 
