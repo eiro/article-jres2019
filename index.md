@@ -612,26 +612,29 @@ Pour le moment ces projets sont au point mort par manque de temps.
 
 ### Créer les conditions d'une sobriété numérique
 
-Nous devons concevoir
-et promouvoir des outils et infrastructures permettant à nos
+Nous devons concevoir et promouvoir des outils et infrastructures permettant à nos
 utilisateurs de vivre une sobriété numérique dans les meilleures
 conditions possibles: moins nous générerons de frustration, plus nous
 faciliterons l'adoption des nouveaux usages.
 
 ### Préparer une résilience numérique
 
-même si la mobilisation semble
-devenir une tendance lourde et que nombre d'acteurs continuent à
-formuler des messages optimistes, je crois que la précaution nous
-indique de commencer à imaginer ce que pourrait être utilisable
-après un effondrement de notre civilisation en se posant des questions
-comme:
+Même si la mobilisation semble devenir une tendance lourde et que nombre
+d'acteurs continuent à formuler des messages optimistes, je crois que la
+précaution nous indique de commencer à imaginer ce que pourrait être utilisable
+après un effondrement de notre civilisation en se posant des questions comme:
 
 * les services qu'il semble nécessaire (ou souhaitable) de maintenir
   dans un tel environnement ;
 * les moyens dont nous disposerons pour cette maintenance ;
 * les préparations à mettre en œuvre pour tenter d'assurer la présence
   de ces moyens.
+
+### Intégrer le handicap numérique
+
+Les régions les plus défavorisées de France ou du monde devraient pouvoir être
+équipés à bas coût et les réseaux à faible débit devraient pourvoir
+être suffisants pour assurer l'accès aux services importants.
 
 ## Pas de politique
 
