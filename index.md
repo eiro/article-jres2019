@@ -650,16 +650,13 @@ qui ne prendrait pas en compte la pollution due à la production des nouveaux
 équipements. La stratégie recommandée est donc d'augmenter la longévité du parc
 existant tout en tentant d'en réduire la nocivité.
 
-Hors pannes physiques et comportements consuméristes compulsifs,
-la longévité d'un équipement est conditionnée par sa capacité à exécuter des
-programmes dans des temps raisonnables ^[c'est d'ailleurs un des usages que le
-grand public fait de linux: des distributions complètes, environnement graphique
-inclus, ont pour objectif de privilégier des logiciels programmés par des
-développeurs qui ont pour objectifs premiers de conserver des logiciels simples
-et légers. Ces distributions permettent l'usage confortable de PC qui n'étaient
-plus en mesure d'exécuter correctement l'offre logicielle disponible sous Windows. 
-Les versions les plus spartiates tournent aisément sur la première génération
-de raspberry pi].
+Hors pannes physiques et comportements consuméristes compulsifs, la longévité
+d'un équipement est conditionnée par sa capacité à exécuter des programmes
+dans des temps raisonnables. C'est un des usages grand public qui est fait
+des [distributions linux](https://fr.wikipedia.org/wiki/Distribution_Linux)
+^[les versions les plus spartiates tournent aisément sur la première génération
+de raspberry pi, [damn small linux]]http://www.damnsmalllinux.org/) tournant
+sur un 486DX avec 16Mo de RAM]]. A ce sujet fais deux constats:
 
 * si l'esthétique des outils graphiques proposés est souvent en décalage avec
   la dernière mode, l'ergonomie est souvent assez comparable aux outils de référence
@@ -714,8 +711,6 @@ logiciels pour créer une offre qui:
     sauf que S+ => better archive + better index + meta 
 
 ### mettre fin a la pub en ligne pour tuer le biz des clicks automatiques
-
-
 
 
 ### Parfois c'est un simple paramétrage
