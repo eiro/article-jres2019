@@ -639,9 +639,10 @@ Les régions les plus défavorisées de France ou du monde devraient pouvoir êt
 ## Pas de politique
 
 Je suis conscient que les propositions que je formule ont des conséquences
-socio-économiques mais je me garderais de toute suggestion ou remarque sur le
-sujet: je laisse aux personnes compétentes (politiques, économistes,
-intellectuels) le soin de gérer des problèmes qui sont de leur ressort.
+socio-économiques et même si j'ai un avis sur les décisions qu'il faudrait
+envisager, je me garderais de toute suggestion ou remarque sur le
+sujet: je laisse aux politiques, économistes et intellectuels
+le soin de gérer des problèmes qui sont de leur ressort.
 
 ## La stratégie
 
