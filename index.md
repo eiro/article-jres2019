@@ -781,6 +781,127 @@ Non seulement 80% de la bande passante
 
 ### Réduire la bande passante
 
+Outre une gestion plus responsable des contenus multimédias, il nous reste
+beaucoup d'options pour réduire la bande passante:
+
+#### réduire le trafic des protocoles applicatifs
+
+Dans la plupart des cas, l'économie qu'on peut espérer ici est minime
+comparativement aux charges utiles mais dans le cas de la messagerie
+instantanée par exemple, la taille des charges utiles est souvent
+faible. La proportion du trafic liée au protocole devient alors
+conséquente ^[voir sur le dépôt les exemples d'échange].
+
+Comparativement à [XMPP](https://xmpp.org/rfcs/rfc3921.html),
+et autres outils/protocoles de messagerie instantanée
+(comme [Matrix](https://fr.wikipedia.org/wiki/Matrix_(protocole) ou Discord),
+le protocole [IRC](https://tools.ietf.org/rfc/rfc1459.txt) est très
+économe. Certes, il est perfectible: sera probablement perfectionné
+([IRCv3 working group](https://ircv3.net/)) mais a déjà perdu un grand nombre
+d'utilisateurs. Peut-être est-il temps de réévaluer les mérites comparés de
+ce genre d'outils.
+
+D'autres voies sont envisageables ( comme l'usage de sérialisations binaires
+pour remplacer le xml de xmpp ou le json de matrix: j'y reviens plus loin).
+
+#### la taille des charges utiles
+
+Comme déjà évoqué plus haut, dans de nombreux cas le texte constitue une
+alternative évidente et suffisante à des formats plus riches comme html
+ou pdf.
+
+Si nous prenons le cas de la messagerie (les emails sont souvent montrés du
+doigt comme une source importante de pollution), la vidéo de France Stratégie
+dont je parlais plus haut propose que la taille (j'imagine qu'ils parlent d'une
+taille moyenne) d'un message est de 70Ko. Soit. A bien y regarder:
+
+* le contenu du message est souvent formaté en html
+* cet html contient parfois des pièces jointes par exemple pour les signatures
+* la présence de ces pièces jointes sera
+  * multiplié par le nombre de destinataires
+  * multiplié par le nombre d'envois
+* une pièce jointe est bien plus lourde que le message lui-même dans
+  l'immense majorité des cas.
+* [MIME](https://fr.wikipedia.org/wiki/Multipurpose_Internet_Mail_Extensions)
+  impose un encodage pour les données non ASCII, cet encodage alourdit
+  la pièce (qui pèse 4/3 de son poids en moyenne).
+
+Si je fais des statistiques sur la taille de mes boites aux lettres
+(cf. le dépôt), je constate différent poids moyens:
+
+* 70Ko pour France Stratégie
+* 58Ko pour mes boites professionnelles
+* 16Ko pour mes boites personnelles
+* 5Ko  pour ma boite "Sent" ^[Je dispose d'un serveur http
+  sur lequel dépose tous les fichiers que je souhaite
+  communiquer et n'envoie des messages qu'en texte plain (UTF-8)].
+
+Lorsque l'enrichissement en méta données ou l'insertion de
+contenu est nécessaire, les formats tels que HTML et PDF
+restent pertinents pour le moment (cf. section suivante)
+^[comparez par exemple un fichier CSV et son équivalent opendocument].
+L'idée n'est donc pas de proscrire un format existant mais
+de préférer les formats triviaux lorsque c'est possible.
+
+#### Un format pour chaque usage ...
+
+... et la sérialisation binaire pour les échanges.
+
+Les couches bases du
+[modèle DOD](https://fr.wikipedia.org/wiki/Suite_des_protocoles_Internet)
+sont le royaume des encodages binaires: il était clair qu'à ce niveau
+du transport, la taille et la désérialisation efficace sont cruciales.
+Hors le même soin n'a pas été apporté aux protocoles applicatifs et
+aux charges utiles: utiliser du texte plutôt que des sérialisations utilisant
+des encodages
+[TSV](https://en.wikipedia.org/wiki/Type-length-value) rendait simplifiait
+le développement et la maintenance des logiciels client et serveurs (lire
+"[The Importance of Being Textual](http://www.catb.org/~esr/writings/taoup/html/ch05s01.html)").
+
+Si les usages des encodages binaires existent depuis longtemps dan les couches
+applicatives ([ASN.1](https://fr.wikipedia.org/wiki/ASN.1) et son
+[BER](https://fr.wikipedia.org/wiki/Basic_Encoding_Rules)), une très forte
+majorité des protocoles sérialisent bien les messages en textes pleins.
+
+Ce ne sera plus le cas de
+[la 3ème version d'HTTP](https://en.wikipedia.org/wiki/HTTP/3) qui va s'appuyer
+sur [QUIC](https://en.wikipedia.org/wiki/QUIC)
+(lire [le draft](https://quicwg.org/base-drafts/draft-ietf-quic-transport.html)
+pour les détails techniques).
+
+L'autre changement qui s'opère dans le web est l'usage grandissant
+du [bytecode](https://fr.wikipedia.org/wiki/Bytecode)
+[webassembly](https://developer.mozilla.org/fr/docs/WebAssembly/Concepts])
+pour remplacer le javascript. La encore, ça n'est pas qu'une question de poids:
+l'exécution d'un bytecode est bien plus efficace que l'interprétation d'un
+langage.
+
+Pourquoi s'arrêter en si bon chemin? Il serait tout à fait imaginable d'imaginer
+une sérialisation du [DOM](https://en.wikipedia.org/wiki/Document_Object_Model),
+du [CSS](https://en.wikipedia.org/wiki/Style_sheet_(web_development)) et
+des images vectorielles
+([SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics)) dans des format
+de sérialisation binaires dont la popularité est croissante hors du web
+(comme [messagepack](https://msgpack.org/) ou [cbor](https://cbor.io/)).
+
+Pour les projets utilisant des transpileurs vers html ou xml
+(comme [pug](http://pugjs.org/)), la transition pourrait se faire simplement
+en ajoutant un backend de sérialisation binaire. La transition pourrait
+alors se faire sans surcroit de travail pour les programmeurs.
+
+Les charges utiles sérialisées en
+[JSON](https://fr.wikipedia.org/wiki/JavaScript_Object_Notation)
+peuvent être remplacées des à présent par des sérialisations
+cbor: le mime type du body devient 'application/cbor'
+(lire rfc7049 section 7.3).
+
+De manière générale, la "binarisation" peut être appliquée à tous
+les protocoles et toutes les charges utiles. Cette généralisation
+permettrait des économies d'énergie non seulement pour
+le transport mais aussi pour la sérialisation et la désérialisation.
+L'édition des données peut se faire via des interfaces graphiques mais
+aussi, comme cela se partique déjà avec d'autres formats, pa 
+
 ### Relocaliser les données
 
 * rsync!!! (avec des FS directement dans les explorateurs de fichiers)
