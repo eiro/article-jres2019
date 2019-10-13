@@ -431,9 +431,6 @@ site (sachant que je suis plutôt économe sur la structure des pages HTML).
 |---------------|------------------|---------|
 |208359         |105307            | 50.54   |
 
-
-
-
 Le texte source pèse moitié moins que les pages. Ajoutons à cela les css,
 le javascript, les images : une page web pèse en moyenne 2.3ko
 (presque autant que les 2,4ko du jeu Doom)
@@ -653,9 +650,7 @@ qui ne prendrait pas en compte la pollution due à la production des nouveaux
 équipements. La stratégie recommandée est donc d'augmenter la longévité du parc
 existant tout en tentant d'en réduire la nocivité.
 
-Hors pannes physiques ^[c'est ici la responsabilité des politiques de produire
-des lois qui obligent les constructeurs à augmenter significativement la durée
-de vie de leurs équipements] et comportements consuméristes compulsifs,
+Hors pannes physiques et comportements consuméristes compulsifs,
 la longévité d'un équipement est conditionnée par sa capacité à exécuter des
 programmes dans des temps raisonnables ^[c'est d'ailleurs un des usages que le
 grand public fait de linux: des distributions complètes, environnement graphique
@@ -666,17 +661,80 @@ plus en mesure d'exécuter correctement l'offre logicielle disponible sous Windo
 Les versions les plus spartiates tournent aisément sur la première génération
 de raspberry pi].
 
-# Des solutions
+* si l'esthétique des outils graphiques proposés est souvent en décalage avec
+  la dernière mode, l'ergonomie est souvent assez comparable aux outils de référence
+  pour les besoins de base ;
+* il n'est nul besoin d'attendre que votre ordinateur soit rendu obsolète par
+  l'offre logicielle actuelle pour faire le choix d'un compromis entre esthétique
+  et énergie: l'économie sera réelle aussi sur du matériel récent (et la réactivité
+  de la station de travail est très appréciable).
 
-Nombre d'évolutions techniques de nos équipements permettront aux nouveaux
-matériels d'être toujours plus efficients énergiquement et de mettre en place
-des stratégies d'économie d'énergie plus large (par exemple) et même de
-récupérer l'énergie dans d'autre processus (refroidir les datacenters pour
-préchauffer l'eau des villes, ...) mais le problème de l'énergie grise nous
-commande de ne renouveler les parcs qu'avec parcimonie. Il nous
-faut assurer la longévité des équipements existant tout en réduisant sa nocivité.
+A mes yeux, il faut donc repenser la philosophie générale de production des
+logiciels pour créer une offre qui:
 
-Nous avons deux marges de manœuvres que sont les logiciels et les usages.
+* minimisera les ressources nécessaires à leur exécution des programmes
+  sur les terminaux et les serveurs
+* réduira le nombre et le poids et la distance
+  (calculée en nombre d'équipements) des interactions avec le réseau
+  (et proposer des "modes déconnectés")
+* proposeront une ergonomie qui accompagneront les bonnes pratiques
+
+### L'acces au multimedia
+
+* autoriser/encourager de la copie privée
+* encourager le broadcasting (TNT)
+* conserver la visibilité des petits producteurs? youtube ?  doter les médiathèques?
+
+### Relocaliser les données
+
+* mirroirs, dumps, rsync!!! (avec des FS directement dans les explorateurs de fichiers)
+  (que valent les algos de sync des OO storage. filesender vs seafile, ... )
+* P2P
+* applications plutot que SAAS (exemple: traitement des données de votre montre connectée)
+
+
+### L'évolution du web
+
+* wasm, websocket, grid
+* http3, binary protocols (msgpack, hpack, sereal, cbor ...) 
+
+### la télé c'était mieux avant
+### mettre fin à l'illusion des moteurs de recherche
+
+   * le crawling/scrapping  c'est mal!
+      -> feeds
+      -> données vs pages
+
+
+   * la base de données universelle basse conso n'est pas possible 
+    Q -> G -> A
+    Q -> H -> A -> G -> A
+    Q -> H -> A -> S* -> A
+    sauf que S* => vient sur mon site
+    sauf que S+ => better archive + better index + meta 
+
+### mettre fin a la pub en ligne pour tuer le biz des clicks automatiques
+
+
+
+
+### Parfois c'est un simple paramétrage
+
+le mode "déconnecté" d'une station de travail (qui devrait être le comportement par défaut
+pour éviter toute consommation dynamique inutile et profiter des avancées des
+équipements en terme de réduction statique
+(cf. [fonctionnement d'un ordinateur](https://fr.wikibooks.org/wiki/Fonctionnement_d%27un_ordinateur/La_consommation_d%27%C3%A9nergie_d%27un_ordinateur))
+n'est qu'affaire de configuration
+
+### Minimiser le polling
+
+### la sérialisation, c'est important
+
+## entre nous, la bande passante
+
+### réduire la taille des payloads
+
+### reconstruire le web
 
 # Je ne veux pas de votre aide ...
 
