@@ -707,77 +707,84 @@ actuelles pausent problème. En ne parlant que des vidéos et des musique:
 * la décompression et donc la lecture de ces contenus nécessite une consommation
   statique et/ou des dispositifs physiques sur le terminal (GPU pour l'encodage
   et le décodage) ;
-* le transfert de ces contenus nécessite une bande passante conséquente ;
+* le transfert de ces contenus nécessite une bande passante conséquente
+  (pour rappel: 80% de la bande passante globale pour les seules vidéos) ;
 
 Nous les contenus qui résultent d'une capture physique (enregistrements audio
 et vidéos) et sauf à ressortir nos lecteurs de compact disc et préférer
 la lecture de contenus de la qualité la plus faible possible, je n'ai pas
 vraiment de propositions à faire.
 
+#### Distribuer les sources
+
 Pour les contenus qui sont produits par des sources numériques, encourager
 la distribution et/ou le rendu depuis ces sources produirait au moins des
-économies de bande passante. ^[j'ai obtenu un fichier au format ogg vorbis
+économies de bande passante. Certains contenus (comme la musique électronique)
+sont particulièrement adaptés ^[j'ai obtenu un fichier au format ogg vorbis
 de 3,5Mo en convertissant le premier module ProTracker que j'ai trouvé sur
-internet; lequel pesait 72Ko. Makefile disponible sur [le dépôt](https://github.com/eiro/article-jres2019/blob/master/sources/enigma/makefile)].
+internet; lequel pesait 72Ko. Makefile disponible sur le dépôt dans sources/enigma].
+Les contenus animés et/ou interactifs (utilisés en formation) pourraient être
+distribués dans des archives contenant des fichiers vectoriels en plus des contenus
+bitmap. La plateforme web est une très bonne base technique pour la distribution
+et la lecture de tels contenus.
 
+Cela implique un changement culturel: donner l'accès aux sources, c'est en
+permettre l'édition et la réutilisation des éléments (samples, graphiques, ...).
 
-un source au format 'protracker module'
-encodé en
-)
+Pour le reste de la production audiovisuelle: mon rêve serait d'en débarrasser notre
+bande passante et nos magasins au profit d'une distribution par les médiathèques
+de supports qui puissent être librement copiés et échangés. Tout dispositif de
+protection numérique (qui soit dit en passant consomme de l'énergie) devrait être
+supprimé.
 
-Produire des contenus animés (et même interactifs)
+Si de la bande passante doit être mobilisée:
 
-Produire des contenus numériques qui sollicitent moins
+* le streaming est à éviter des que le terminal dispose d'un espace de stockage suffisant:
+  il serait bon de pouvoir copier  pour participer au partage et économiser le côut du
+  transfert en cas de rediffusion ;
+* le P2P réduirait le trafic dans nombre de situations ^[imaginez le gain pour un cours
+  qui serait diffusé dans une université différente de celle dans laquelle le professeur
+  le dispense] ;
+* sans avoir vérifié, il me semble que le broadcasting (via le réseau TNT)
+  est aussi un outils peu énergivore pour distribuer du contenu numérique.
 
-Par contre,
+Reste que les producteurs vidéastes (amateurs ou professionnels) avait trouvé dans
+les plateformes de streaming.
 
+#### choisir entre l'impact communicationel et l'impact environnemental
 
-* la platteforme web est un bon exemple de 
+On peut aisément admettre que qu'une vidéo puisse avoir un impact
+supérieur au texte en terme de communication, qu'un fond de page où on peut voir
+un open space pleins de collègues heureux se font des high-fives soit plus
+engageant qu'une simple page blanche mais cette approche a tendance à faire
+grossir les contenus.
 
-* produire contenus animés ne nécessitant pas d'encodage
+Exemple: [ce tweet](https://twitter.com/Strategie_Gouv/status/1172899052687515655)
+de [France Stratégie](https://www.strategie.gouv.fr/) qui rappelle en quelques mots
+ce qu'est l'éco-conception et qui présente la France comme un des leaders en la matière
+pèse 3,4Mo (3504221 octets exactement).
 
+* le texte est constitué d'une centaine de mots au mieux (environ 400 octets)
+* la video elle-même présente un groupe dont on imagine qu'il est en formation
+  (aucun contenu informatif).
 
-* en préférant des outils de lecture 
+En suivant le lien proposé, nous arrivons sur une page web dont le contenu textuel
+(liens inclus) est de 732 octets ^[obtenu avec un `lynx -dump`].
+La photo retouchée d'une carte électronique (732Ko) dont on peut admettre qu'il
+n'amène pas de contenu pèse pour sa part 746161 octets (soit 1019 fois plus).
 
-animations vectorielles,
+Même si les grands nombres nous échappent: le nombre de pages que nous consultons
+quotidiennement et le nombre d'humains qui font de même devrait nous alerter sur
+ces proportions.
 
-  images plu
-)
+### mettre fin à la publicité en ligne
 
-
-je n'ai pas de vraie solution
-pour le premier point
-
-Je n'ai pas d'idées claires sur le premier points
-
-
-
-
-que nous
-
-### mettre fin à la pub en ligne
-
-* réduire l'intéret
-  * des fermes à clicks
-  * du tracking et de la publicité ciblée
-* supprimer des payloads inutiles et forcés (youtube, ...)
-
-#### repenser les vecteurs de message
-
-Certes, une video peut avoir un impact
-
-
-
-
-Exemple: https://twitter.com/Strategie_Gouv/status/1172899052687515655
-
-
-L'accès à la production de l'industrie audio-visuelle est une catastrophe.
-Non seulement 80% de la bande passante 
-
-* autoriser/encourager de la copie privée
-* encourager le broadcasting (TNT)
-* conserver la visibilité des petits producteurs? youtube ?  doter les médiathèques?
+Serait probablement la seule mesure de sobriété populaire
+([la popularité des blockers](https://www.blogdumoderateur.com/etude-adblocking-2018/))
+en atteste. En plus de l'économie d'énergie liée à la disparition de ces contenus,
+cette fin aurait pour conséquence de réduire l'intérêt d'activités polluantes induites
+par ce modèle (comme les fermes de clicks et le tracking opéré par les régies publicité
+ciblée).
 
 ### Réduire la bande passante
 
@@ -900,79 +907,122 @@ les protocoles et toutes les charges utiles. Cette généralisation
 permettrait des économies d'énergie non seulement pour
 le transport mais aussi pour la sérialisation et la désérialisation.
 L'édition des données peut se faire via des interfaces graphiques mais
-aussi, comme cela se partique déjà avec d'autres formats, pa 
+aussi, comme cela se pratique déjà avec d'autres formats, par la conversion dans
+un format éditable pour l'humain.
 
-### Relocaliser les données
+Il existe des formats adaptés pour chaque usage
+(édition, interrogation, échange, ... ) et si nous n'en utilisons qu'un seul,
+c'est bien par facilité.
 
-* rsync!!! (avec des FS directement dans les explorateurs de fichiers)
-  (que valent les algos de sync des OO storage. filesender vs seafile, ... )
+### Relocaliser les données et les traitements
 
-### sérialiser differement
+[Le logiciel en ligne devient un standard en France](https://www.lesechos.fr/tech-medias/hightech/le-logiciel-en-ligne-devient-un-standard-en-france-1138371)
+et c'est une bien sombre nouvelle: nombre de ces outils proposent des
+fonctionnalités qu'un programme local pourrait exécuter. Que la génération de la carte
+de ma dernière balade ou l'évolution de mes performances sur mon parcours
+préféré ne nécessite en rien que mes données soient transférés sur un serveur
+qui collecte les données de l'ensemble des usagers. Pouvoir
+utiliser une application rudimentaire ne nécessitant de bande passante
+que pour télécharger les données topologiques d'un endroit que je fréquente
+pour la première fois serait pertinent non seulement sur un plan énergétique mais
+aussi pour la conservation de ma vie privée.
 
-* CRUD, édition, echanges, merge, query : choisir des formats adaptés a chaque contexte
-  (die, die soap & json over http!!)
-* ods vs csv
-* irc vs xmpp
-* text vs web ...
+Lorsque l'usage local n'est pas possible ou lorsque l'usage du réseau consiste
+en l'acquisition d'une donnée absente localement, il serait bon de généraliser
+l'usage des [CDN](https://fr.wikipedia.org/wiki/R%C3%A9seau_de_diffusion_de_contenu),
+des [miroirs](https://fr.wikipedia.org/wiki/Site_miroir),
+des réseaux [P2P](https://fr.wikipedia.org/wiki/Pair_%C3%A0_pair)
+(l'usage d'outils comme [peertube](https://joinpeertube.org/fr/) est par exemple bien adapté au monde universitaire)
+et autres dispositifs permettant d'utiliser des caches proches des utilisateurs lorsqu'il n'est pas
+possible de disposer d'une copie locale.
+
+Exemple d'usage personnel et à contre-courant de la culture actuelle qui propose
+à tout le monde de lancer une requête google des qu'un message d'erreur apparait:
+sur debian, les documentations des outils que j'utilise sont disponibles sous
+la forme de paquets: je les ai installés et indexé localement. Je ne sollicite
+donc plus le réseau pour leur consultation.  L'ai une archive locale des listes
+de diffusions qui me permettent de trouver des réponses: nul besoin de stack
+overflow pour trouver une réponse. Ce genre de pratique est efficace mais rien
+ne permet à un non-technicien de le faire facilement. Pourtant mon bureau
+intègre par défaut un moteur d'indexation et de suggestion:
+faciliter un tel comportement pourrait être simple si le site de documentation
+me proposait un lien vers une synchronisation locale.
+
+### l'assistance utilisateur et les paramètres par defaut
+
+Les outils les moins énergivores (par exemple ceux de la communauté 
+[suckless](http://suckless.org)) sont aussi les moins inclusifs: ils
+nécessite à la fois une culture (Unix) et une discipline (la lecture des documentation)
+que les utilisateurs n'ont pas. Toutefois, comme je l'ai évoqué plus haut:
+l'économie d'énergie de ces outils n'est pas tant dans leur execution que dans
+la stratégie sous-jacente par defaut.
+
+Dans le monde des utilisateurs, les logiciels sont tout aussi capables
+mais les stratégies par défaut sont pensées pour satisfaire l'utilisateur.
+Le paramétrage et l'ergonomie pourrait être repensées pour privilégier les
+pratiques évitant tout usage provoquant une dynamique (lire [fonctionnement d'un
+ordinateur](https://fr.wikibooks.org/wiki/Fonctionnement_d%27un_ordinateur/La_consommation_d%27%C3%A9nergie_d%27un_ordinateur)) inutile.
+
+Les logiciels pourraient aussi assister dans les bonnes pratiques
+et en expliquer la démarche.
+Pour les MUA ^[je prend l'exemple du MUA parce que c'est un bon cas d'école:
+la messagerie est très décriée et toutes les fonctionnalités présente dans ces
+outils sont là pour de bonnes raisons: les mauvaises pratiques résident dans un 
+sage inapproprié des fonctionnalités], nous pourrions imaginer que des messages
+suivants puissent apparaitre au moment opportun:
+
+* "vous êtes sur le point d'envoyer une pièce jointe. Votre correspondant
+  dispose-t'il une connexion permanente? Voici des alternatives .."
+* "vous écrivez à une liste de diffusion, l'HTML est à éviter. Les règles
+  de mise en forme du texte sont: ...." ;
+* "votre réponse contient l'intégralité du message d'origine,
+  souhaitez-vous des conseils pour mise en forme d'une réponse?"
+* "voulez-vous déposer ce document sur votre espace personnel et proposer
+  le lien dans votre message? ^[encore
+  faudrait-t'il que les opérateurs fournissent sans qu'une demande
+  ne soit nécessaire un espace de stockage dont une partie
+  pourrait être servi par des serveurs http statiques]. ;
+* "vous archivez un message qui est présent l'archive de la liste. A moins
+  que vous n'en fassiez une lecture fréquente, la suppression est recommandée".
+
+des boutons pourraient être ajoutés qui correspondent aux headers ou aux paramètres
+des listes.
+
+* obtenir l'aide du robot de liste
+* vous désabonner de cette liste
+* recevoir cette liste en digest
+* accéder à l'archive de la liste
+* ne répondre qu'à la liste
+* configurer la liste
 
 ### executer plus vite
 
-* temps et outils pour optimiser
-* langages "modernes" (haskell, go, rust, ...): compilation vs interpretation
+Nous sommes tous conscients que les langages dynamiques et autres
+technologies qui privilégie le temps de développement au temps d'exécution
+ont une véritable incidence sur les performances de nos programmes
+(webassembly est une réponse aux performances de javascript qui
+sont médiocres comparativement à ceux de langages compilés.
+[Crystal](http://crystal-lang.org/) répond aux problèmes de
+performances de ruby et d'autres exemples peuvent être trouvés).
 
-### réduire la taille des payloads
+Si les langages dynamiques restent des technologies très intéressantes
+pour produire des logiciels qui seront peu sollicités, il me semble que
+nous devrions les éviter pour les outils qui font l'objet d'un usage
+quotidien (oui,
+je pense à toutes ces applications écrites en php, python, perl, ruby ...).
 
-* mirroirs, dumps, rsync
-* P2P
-* applications plutot que SAAS (exemple: traitement des données de votre montre connectée)
+L'offre des langages compilés a beaucoup évolué ces dernières années
+et rend l'adoption de cette stratégie bien plus intéressante qu'elle
+ne le fut dans les années 90, décennie qui a vu l'explosion des langages
+dynamiques. Si cet effort était couteux il y a encore quelques années,
+nous disposons maintenant de langages modernes et d'écosystèmes riches
+qui offrent de nouvelles perspectives (haskell/stack,
+rust/cargo, crystal/shards, ...).
 
-### L'évolution du web
+Encore faut-t'il que nous soit donné le temps de former les équipes et
+entreprendre la migration de nos systèmes d'information vers ce genre
+de technologies.
 
-* wasm, websocket, grid
-* http3, binary protocols (msgpack, hpack, sereal, cbor ...) 
-
-### la télé c'était mieux avant
-### mettre fin à l'illusion des moteurs de recherche
-
-   * le crawling/scrapping  c'est mal!
-      -> feeds
-      -> données vs pages
-
-
-   * la base de données universelle basse conso n'est pas possible 
-    Q -> G -> A
-    Q -> H -> A -> G -> A
-    Q -> H -> A -> S* -> A
-    sauf que S* => vient sur mon site
-    sauf que S+ => better archive + better index + meta 
-
-### mettre fin a la pub en ligne pour tuer le biz des clicks automatiques
-
-### Parfois c'est un simple paramétrage
-
-### Minimiser le polling
-
-### la sérialisation, c'est important
-
-## entre nous, la bande passante
-
-### reconstruire le web
-
-### Le paramètrage c'est important
-
-* mode connecté par defaut (et outils qui temporisent les envois)
-* ne plus relever automatiquement les messages
-* 
-
-
-
-
-
-le mode "déconnecté" d'une station de travail (qui devrait être le comportement par défaut
-pour éviter toute consommation dynamique inutile et profiter des avancées des
-équipements en terme de réduction statique
-(cf. [fonctionnement d'un ordinateur](https://fr.wikibooks.org/wiki/Fonctionnement_d%27un_ordinateur/La_consommation_d%27%C3%A9nergie_d%27un_ordinateur))
-n'est qu'affaire de configuration
 
 # Je ne veux pas de votre aide ...
 
