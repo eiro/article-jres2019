@@ -1,8 +1,10 @@
 # vim: nowrap
 JRESDOC = pandoc --reference-doc=rc/modele-jres2019-libreoffice.ott
 WEB = curl -sLko $@
-all: index.odt
-%.odt: %.md; $(JRESDOC) -o $@ $<
+all: index.odt index.latex index.pdf
+%.odt  : %.md ; $(JRESDOC) -o $@ $<
+%.pdf  : %.md ; pandoc -V geometry:margin=1in --template template.tex -o $@ $<
+%.latex: %.md ; pandoc -V geometry:margin=1in --template template.tex -o $@ $<
 
 IMAGES = \
 	images/Annual-World-Population-since-10-thousand-BCE-for-OWID.png \
