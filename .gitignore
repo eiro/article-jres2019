@@ -1,0 +1,9 @@
+*.sw?
+*.aux
+*.latex
+*.log
+*.orig
+*.odt
+*.out
+*.pdf
+jres-pandoc/
