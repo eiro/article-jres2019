@@ -3,6 +3,19 @@ vim: et ts=2 sts=2 sw=2 nowrap
 title: les problèmes environnementaux de la terre d'innovation et de partage
 keywords: [électricité, changement climatique, pollution numérique, sobriété numérique, résilience numérique]
 author: Marc Chantreux <marc.chantreux@renater.fr>
+beaulieu: &beaulieu |
+    c/o CRI Campus de Beaulieu, Bat 12 D\
+    263, Avenue du Gal Leclerc CS 74205\
+    35042 RENNES Cedex
+auteur:
+- {nom: Marc Chantreux  , labo: Renater , adresse: *beaulieu }
+header-includes:
+- \usepackage{longtable}
+- \usepackage{todonotes}
+- \usepackage{tcolorbox}
+- \usepackage{acro}
+- \usepackage{booktabs}
+- \include{prelude}
 ---
 
 [Antropocène]: https://fr.wikipedia.org/wiki/Anthropoc%C3%A8ne Antropocène
@@ -273,7 +286,7 @@ Voici en résumé ce qu'il faut en retenir pour le sujet de cet article :
   en plus nombreux à consommer toujours plus
   ([The Trajectory of the Anthropocene : the Great Acceleration](https://openresearch-repository.anu.edu.au/bitstream/1885/66463/8/01_Steffen_GREAT%20ACCELERATION_2015.pdf))
 
-  ![12 indicateurs de l'activité humaine de 1950 à nos jours](images/ga-trends-se-page.png)
+  ![12 indicateurs de l'activité humaine de 1950 à nos jours](images/ga-trends-se.png){width=100%}
 
 * les matières premières (en plus du métal, plastique et autres,
   le numérique utilise des terres et métaux rares nécessaires à la fabrications
@@ -1067,4 +1080,3 @@ autre communauté, de mobiliser à nouveau notre savoir-faire pour de façonner
 l'internet post-commercial.
 
 Au travail.
-
