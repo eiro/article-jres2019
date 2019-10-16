@@ -16,23 +16,321 @@ header-includes:
 - \usepackage{acro}
 - \usepackage{booktabs}
 - \include{prelude}
+references:
+
+- id: Anthropocène
+  title: Antropocène
+  URL: https://fr.wikipedia.org/wiki/Anthropoc%C3%A8ne
+- id: sixthextinction
+  title: 6ème extinction de masse
+  URL: https://fr.wikipedia.org/wiki/Extinction_de_l%27Holoc%C3%A8ne
+- id: picextraction
+  title: pic d'extraction pétrolier
+  URL: https://fr.wikipedia.org/wiki/Pic_p%C3%A9trolier)
+- id: jevons
+  title: Paradoxe de Jevons
+  URL: https://fr.wikipedia.org/wiki/Paradoxe_de_Jevons
+- id: world3
+  title: World3 model
+  URL: https://fr.wikipedia.org/wiki/World3
+- id: shiftproject
+  title: Shift Project
+  URL: https://theshiftproject.org/
+- id: carbone4
+  title: Carbone4
+  URL: http://www.carbone4.com/
+- id: jmjancovici
+  title: Jean-Marc Jancovici
+  URL: https://fr.wikipedia.org/wiki/Jean-Marc_Jancovici
+- id: senatenquete
+  title: Commission d'enquête sur le coût réel de l'électricité afin d'en déterminer l'imputation aux différents agents économiques
+  URL: http://www.senat.fr/commission/enquete/cout_electricite/
+- id: ademe
+  title: Agence de l'Environnement et de la Maîtrise de l'Énergie
+  URL: https://www.ademe.fr/
+- id: reveilleur
+  title: le réveilleur
+  URL: https://www.lereveilleur.com
+- id: ecoinfo
+  title: le GDS CNRS Ecoinfo
+  URL: https://ecoinfo.cnrs.fr/
+- id: moore
+  title: loi de Moore
+  URL: https://fr.wikipedia.org/wiki/Loi_de_Moore
+- id: livecycle
+  title: coût global de possession
+  URL: https://fr.wikipedia.org/wiki/Co%C3%BBt_du_cycle_de_vie
+- id: flyboard
+  title: flyboard
+  URL: https://fr.wikipedia.org/wiki/Flyboard
+- id: ide
+  title: I tested all intelligent IDEs
+  URL: https://livablesoftware.com/smart-intelligent-ide-programming/
+- id: alphago
+  title: AlphaGo, Locked Strategies, and Eco-Cognitive Openness
+  URL: https://www.mdpi.com/2409-9287/4/1/8/htm
+- id: hal
+  title: HAL
+  URL: https://fr.wikipedia.org/wiki/HAL_9000
+- id: unsustainable
+  title: unsustainable use of online video
+  URL: https://theshiftproject.org/en/article/unsustainable-use-online-video/
+- id: sobriety
+  title: la version 2019 de "toward the digital sobriety"
+  URL: https://theshiftproject.org/wp-content/uploads/2019/03/Lean-ICT-Report_The-Shift-Project_2019.pdf
+- id: risk
+  title: "Increasing risk over time of weather-related hazards to the European population : a data-driven prognostic study"
+  URL: https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196
+- id: leanit
+  title: rapport shift project lean it
+  URL: https://theshiftproject.org/wp-content/uploads/2019/03/Lean-ICT-Report_The-Shift-Project_2019.pdf
+- id: collapsologie
+  title: collapsologie
+  URL: https://fr.wikipedia.org/wiki/Collapsologie collapsologie
+- id: survivalistes
+  title: survivalistes
+  URL: https://fr.wikipedia.org/wiki/Survivalisme survivalisme
+- id: doomsday
+  title: Doomsday Prep for the Super-Rich
+  URL: https://www.newyorker.com/magazine/2017/01/30/doomsday-prep-for-the-super-rich
+- id: whatif
+  title: What if we stop pretending
+  URL: https://www.newyorker.com/culture/cultural-comment/what-if-we-stopped-pretending
+- id: jonathan
+  title: Jonathan Franzen
+  URL: https://fr.wikipedia.org/wiki/Jonathan_Franzen
+- id: flygskam
+  title: Flygskam
+  URL: https://fr.wikipedia.org/wiki/Honte_de_prendre_l%27avion
+- id: internet
+  title: "internet : la pollution cachée"
+  URL: https://www.editionsmontparnasse.fr/p1735/Internet-La-pollution-cachee-DVD
+- id: meadows
+  title: rapport Meadows
+  URL: https://en.wikipedia.org/wiki/The_Limits_to_Growth
+- id: global
+  title: Is Global Collapse Imminent?
+  URL: https://sustainable.unimelb.edu.au/__data/assets/pdf_file/0005/2763500/MSSI-ResearchPaper-4_Turner_2014.pdf
+- id: shift
+  title: shift project
+  URL: https://theshiftproject.org/en/home/
+- id: jmj
+  title: Jean-Marc Jancovici
+  URL: https://fr.wikipedia.org/wiki/Jean-Marc_Jancovici
+- id: carbone4
+  title: Carbone4
+  URL: http://www.carbone4.com/
+- id: commission
+  title: commission d'enquête sur le coût réel de l'électricité afin d'en déterminer l'imputation aux différents agents économiques
+  URL: http://www.senat.fr/commission/enquete/cout_electricite/
+- id: videocommission
+  title: la video de l'audition
+  URL: https://www.youtube.com/watch?v=MULmZYhvXik
+- id: ademe
+  title: Agence de l'Environnement et de la Maîtrise de l'Énergie
+  URL: https://www.ademe.fr/
+- id: reveilleur
+  title: le réveilleur
+  URL: https://www.lereveilleur.com
+- id: thesereveilleur
+  title: sa thèse
+  URL: https://tel.archives-ouvertes.fr/tel-01668439
+- id: etis
+  title: ETIS
+  URL: https://www-etis.ensea.fr/
+- id: ecoinfo
+  title: le GDS (groupe de service) Ecoinfo
+  URL: https://ecoinfo.cnrs.fr/
+- id: anthropocène
+  title: Anthropocène
+  URL: https://fr.wikipedia.org/wiki/Anthropoc%C3%A8ne
+- id: sixthextinction
+  title: une extinction de masse
+  URL: https://fr.wikipedia.org/wiki/Extinction_de_l%27Holoc%C3%A8ne
+- id: trajectory
+  title: "The Trajectory of the Anthropocene : the Great Acceleration"
+  URL: https://openresearch-repository.anu.edu.au/bitstream/1885/66463/8/01_Steffen_GREAT%20ACCELERATION_2015.pdf
+- id: metalnomore
+  title: "l’épuisement des métaux et minéraux : faut-il s’inquiéter?"
+  URL: https://www.ademe.fr/sites/default/files/assets/documents/epuisement-metaux-mineraux-201706-fiche-technique.pdf
+- id: oilpic
+  title: le pic pétrolier
+  URL: https://fr.wikipedia.org/wiki/Pic_p%C3%A9trolier
+- id: production
+  title: production de pétrole en milliards de barils, mesurée et projetée dans
+  URL: images/oil.png
+- id: smartphone
+  title: "Smartphone pour tous, quel prix pour la planète ?"
+  URL: https://www.franceculture.fr/emissions/cultures-monde/culturesmonde-du-jeudi-28-fevrier-2019
+- id: source
+  title: source
+  URL: https://fr.wikipedia.org/wiki/Production_d%27%C3%A9lectricit%C3%A9
+- id: greyenergy
+  title: énergie grise
+  URL: https://fr.wikipedia.org/wiki/%C3%89nergie_grise
+- id: itelectricity
+  title: "On Global Electricity Usage of Communication Technology : Trends to 2030"
+  URL: https://www.mdpi.com/2078-1547/6/1/117
+- id: eternal
+  title: Eternal September
+  URL: https://fr.wikipedia.org/wiki/Septembre_%C3%A9ternel
+- id: prism
+  title: PRISM
+  URL: https://fr.wikipedia.org/wiki/PRISM_programme_de_surveillance
+- id: degooglisons
+  title: Dégooglisons Internet
+  URL: https://degooglisons-internet.org/fr/
+- id: chatons
+  title: chatons
+  URL: http://chatons.org/
+- id: fairphone
+  title: FairPhone
+  URL: https://www.fairphone.com/fr/
+- id: ascii
+  title: ascii art
+  URL: https://en.wikipedia.org/wiki/ASCII_art
+- id: demo
+  title: demo
+  URL: https://fr.wikipedia.org/wiki/Sc%C3%A8ne_d%C3%A9mo
+- id: worse
+  title: worse is better
+  URL: https://en.wikipedia.org/wiki/Worse_is_better
+- id: kiss
+  title: KISS principle
+  URL: https://en.wikipedia.org/wiki/KISS_principle
+- id: mua
+  title: MUA
+  URL: https://fr.wikipedia.org/wiki/Client_de_messagerie
+- id: dwm
+  title: dwm
+  URL: https://dwm.suckless.org/
+- id: mutt
+  title: mutt
+  URL: http://mutt.org/
+- id: irc
+  title: IRC
+  URL: https://fr.wikipedia.org/wiki/Internet_Relay_Chat
+- id: openbsd
+  title: openbsd
+  URL: https://www.openbsd.org/
+- id: 9front
+  title: 9front
+  URL: http://9front.org/
+- id: cat-v
+  title: cat-v
+  URL: http://cat-v.org/
+- id: suckless
+  title: suckless
+  URL: http://suckless.org/
+- id: suckless
+  title: suckless
+  URL: http://suckless.org
+- id: distributions
+  title: distributions linux
+  URL: https://fr.wikipedia.org/wiki/Distribution_Linux
+- id: dslinux
+  title: damn small linux
+  URL: http://www.damnsmalllinux.org/
+- id: article
+  title: dépôt github de l'article
+  URL: https://github.com/eiro/article-jres2019
+- id: tweetfrancestrat
+  title: ce tweet
+  URL: https://twitter.com/Strategie_Gouv/status/1172899052687515655
+- id: francestrat
+  title: France Stratégie
+  URL: https://www.strategie.gouv.fr/
+- id: la
+  title: la popularité des blockers
+  URL: https://www.blogdumoderateur.com/etude-adblocking-2018/
+- id: xmpp
+  title: XMPP
+  URL: https://xmpp.org/rfcs/rfc3921.html
+- id: matrix
+  title: Matrix
+  URL: https://fr.wikipedia.org/wiki/Matrix_(protocole
+- id: irrfc
+  title: rfc IRC
+  URL: https://tools.ietf.org/rfc/rfc1459.txt
+- id: ircv3
+  title: IRCv3 working group
+  URL: https://ircv3.net/
+- id: mime
+  title: MIME
+  URL: https://fr.wikipedia.org/wiki/Multipurpose_Internet_Mail_Extensions
+- id: modèle
+  title: modèle DOD
+  URL: https://fr.wikipedia.org/wiki/Suite_des_protocoles_Internet
+- id: tsv
+  title: TSV
+  URL: https://en.wikipedia.org/wiki/Type-length-value
+- id: betext
+  title: The Importance of Being Textual
+  URL: http://www.catb.org/~esr/writings/taoup/html/ch05s01.html
+- id: asn
+  title: ASN.1
+  URL: https://fr.wikipedia.org/wiki/ASN.1
+- id: ber
+  title: BER
+  URL: https://fr.wikipedia.org/wiki/Basic_Encoding_Rules
+- id: http3
+  title: HTTP3
+  URL: https://en.wikipedia.org/wiki/HTTP/3
+- id: quic
+  title: QUIC
+  URL: https://en.wikipedia.org/wiki/QUIC
+- id: quicdraft
+  title: le draft quic
+  URL: https://quicwg.org/base-drafts/draft-ietf-quic-transport.html
+- id: bytecode
+  title: bytecode
+  URL: https://fr.wikipedia.org/wiki/Bytecode
+- id: webassembly
+  title: webassembly
+  URL: https://developer.mozilla.org/fr/docs/WebAssembly/Concepts]
+- id: dom
+  title: DOM
+  URL: https://en.wikipedia.org/wiki/Document_Object_Model
+- id: css
+  title: CSS
+  URL: https://en.wikipedia.org/wiki/Style_sheet_(web_development
+- id: svg
+  title: SVG
+  URL: https://en.wikipedia.org/wiki/Scalable_Vector_Graphics
+- id: messagepack
+  title: messagepack
+  URL: https://msgpack.org/
+- id: pug
+  title: pug
+  URL: http://pugjs.org/
+- id: json
+  title: JSON
+  URL: https://fr.wikipedia.org/wiki/JavaScript_Object_Notation
+- id: badnews
+  title: Le logiciel en ligne devient un standard en France
+  URL: https://www.lesechos.fr/tech-medias/hightech/le-logiciel-en-ligne-devient-un-standard-en-france-1138371
+- id: cdn
+  title: CDN
+  URL: https://fr.wikipedia.org/wiki/R%C3%A9seau_de_diffusion_de_contenu
+- id: miroirs
+  title: miroirs
+  URL: https://fr.wikipedia.org/wiki/Site_miroir
+- id: p2p
+  title: P2P
+  URL: https://fr.wikipedia.org/wiki/Pair_%C3%A0_pair
+- id: peertube
+  title: peertube
+  URL: https://joinpeertube.org/fr/
+- id: suckless
+  title: suckless
+  URL: http://suckless.org
+- id: crystal
+  title: Crystal
+  URL: http://crystal-lang.org/
+
 ---
 
-[Antropocène]: https://fr.wikipedia.org/wiki/Anthropoc%C3%A8ne Antropocène
-[sixthextinction]: https://fr.wikipedia.org/wiki/Extinction_de_l%27Holoc%C3%A8ne 6ème extinction de masse
-[picextraction]: https://fr.wikipedia.org/wiki/Pic_p%C3%A9trolier) pic d'extraction pétrolier
-[jevons]: https://fr.wikipedia.org/wiki/Paradoxe_de_Jevons Paradoxe de Jevons
-[world3]: https://fr.wikipedia.org/wiki/World3 World3 model
-[shiftproject]: https://theshiftproject.org/ Shift Project
-[carbone4]: http://www.carbone4.com/ Carbone4
-[jmjancovici]: https://fr.wikipedia.org/wiki/Jean-Marc_Jancovici Jean-Marc Jancovici
-[senatenquete]: http://www.senat.fr/commission/enquete/cout_electricite/ Commission d'enquête sur le coût réel de l'électricité afin d'en déterminer l'imputation aux différents agents économiques
-[ademe]: https://www.ademe.fr/ Agence de l'Environnement et de la Maîtrise de l'Énergie
-[reveilleur]: https://www.lereveilleur.com le réveilleur
-[ecoinfo]: https://ecoinfo.cnrs.fr/ le GDS CNRS Ecoinfo
-[fromhere]: http://from.here.org here
-
-# Prologue : L'article dont vous êtes le héros
+# Prologue : L'article dont vous êtes le héros 
 
 Depuis nos DSI et autres organismes impliqués dans la production de biens et
 services numériques, nous fournissons aux usagers des outils qui ont permis
@@ -45,9 +343,7 @@ fierté en plus d'assurer une position sociale et financière. Érigée en dikta
 et au détriment de toute autre considération (rationalité des systèmes
 d'information, coût énergétiques entre autres...) cette seule satisfaction
 nous a poussés à utiliser chaque nouveau gain de performance que nous
-procurait la réalisation de la
-[loi de Moore](https://fr.wikipedia.org/wiki/Loi_de_Moore)
-en nouvelle source de jouissance numérique.
+procurait la réalisation de la [@moore] en nouvelle source de jouissance numérique.
 
 Un marché de l'informatique basse consommation existe de longue date mais il
 n'a intéressé à ma connaissance que les seuls technophiles :
@@ -55,10 +351,8 @@ des logiciels plus puissants et attractifs ont poussé les consommateurs à
 l'achat d'ordinateurs de plus en plus puissants, les forcant à
 renouveler régulièrement leur matériel en choisissant les processeurs de
 dernière génération. Alors que la clairevoyance de Moore aurait pu permettre de
-réduire le
-[coût global de possession](https://fr.wikipedia.org/wiki/Co%C3%BBt_du_cycle_de_vie),
-c'est en fait l'inverse qui c'est produit. Ce phénomène (le [Paradoxe de
-Jevons](https://fr.wikipedia.org/wiki/Paradoxe_de_Jevons)) n'est en rien
+réduire le [@livecycle], c'est en fait l'inverse qui c'est produit. Ce phénomène le
+[@jevons] n'est en rien
 spécifique au numérique.
 
 Nous avons certes contribué à un bond formidable de l'humanité. Nous ne faisons en
@@ -81,7 +375,7 @@ nos maisons pour pouvoir parler à la télévision, demander l'heure ou la mét�
 Les plus technophiles s'abreuvent de flux d'informations qui nous annoncent un futur
 proche peuplé :
 
-* d'hommes volants ([flyboard](https://fr.wikipedia.org/wiki/Flyboard)) ;
+* d'hommes volants ([@flyboard]) ;
 * de voitures autonomes ;
 * d'objets connectés qui interagiront pour augmenter notre réalité avec
   des composants graphiques inspirés des meilleurs jeux video ;
@@ -226,7 +520,7 @@ les rivières pour sauver la banquise en 1994] seraient du à l'alarmisme d'une
 communauté scientifique en manque d'attention.
 
 Le [rapport Meadows](https://en.wikipedia.org/wiki/The_Limits_to_Growth), rendu
-au cercle de Rome en 1972 est une bonne illustration d'un modèle ([world3])
+au cercle de Rome en 1972 est une bonne illustration d'un modèle ([@world3])
 qui a été toujours débattu sur un plan théorique, dont la précision a été
 régulièrement améliorée, mais dont les conclusions et les échelles de temps
 n'ont pas vraiment varié. Toujours pas de preuve formelle, certes ... mais
@@ -1080,3 +1374,6 @@ autre communauté, de mobiliser à nouveau notre savoir-faire pour de façonner
 l'internet post-commercial.
 
 Au travail.
+
+# Bibliographie
+
