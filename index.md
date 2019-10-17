@@ -423,7 +423,7 @@ la version 2019 de "toward the digital sobriety" [@sobriety], un graphique montr
 que même en appliquant le plan de sobriété proposé par le shift project [@leanit],
 nous ne ferons que ralentir la croissance du phénomène (le numérique polluera plus en 2025 qu'aujourd'hui).
 
-![projection de consommation d'énergie (hors énergie grise) liée au numérique jusqu'en 2025 produit par le shift project](images/digital-energy-consumption.png)
+![projection de consommation d'énergie (hors énergie grise) liée au numérique jusqu'en 2025 produit par le shift project](images/digital-energy-consumption.png){height=30%}
 
 La menace est pourtant là: les vagues de chaleur pourraient faire 150.000 morts
 par ans à la fin du siècle [@risk] et l'échec d'une transition énergétique
@@ -582,8 +582,6 @@ Voici en résumé ce qu'il faut en retenir pour le sujet de cet article :
 * l'impact des activités de l'homme s'accroît à mesure que nous sommes de plus
   en plus nombreux à consommer toujours plus [@trajectory] ;
 
-  ![12 indicateurs de l'activité humaine de 1950 à nos jours](images/ga-trends-se.png){width=100%}
-
 * les matières premières (en plus du métal, plastique et autres,
   le numérique utilise des terres et métaux rares nécessaires à la fabrications
   des composants) et les combustibles fossiles (*sine qua none* pour la quantité
@@ -702,7 +700,7 @@ des données. De leur côté, les prestataires vont mettre en place des infrastr
 conséquente rendues nécessaire par le cumul des trafics et les exigences de disponibilité
 des clients. Le transport représente 16% de la consommation.
 
-![répartition de la consommation énergétique du numérique](images/consumption-distribution-page.png)
+![répartition de la consommation énergétique du numérique](images/consumption-distribution.png){height=40%}
 
 On peut relativiser ces 16%: les seules vidéos en ligne représentent à elles
 seules 80% de la bande passante (13% pour le seul Netflix) [@unsustainable].
@@ -733,8 +731,8 @@ site (sachant que je suis plutôt économe sur la structure des pages HTML).
 |208359         |105307            | 50.54   |
 
 Le texte source pèse moitié moins que les pages (le code des expérimentations
-que j'ai réalisé pour préparer cet article est disponible sur [le dépôt de
-l'article](https://github.com/eiro/article-jres2019) et continuera à évoluer
+que j'ai réalisé pour préparer cet article est disponible sur le dépôt de
+l'article [@article] et continuera à évoluer
 après les JRES). Ajoutons à cela les css, le javascript, les images : une page
 web pèse en moyenne 2.3ko (presque autant que les 2,4ko du jeu Doom) [@stateofweb].
 
@@ -746,7 +744,7 @@ les connaissances suffisantes pour :
 * choisir et paramétrer un client ;
 * identifier les messages d'erreur ;
 
-![3 façons différentes de visualiser le forum fr.sci.physique: slrn, "google groupes" et Thunderbird qui ressemble à s'y méprendre à son ancêtre (Netscape Communicator)](images/3-generations-de-fora-page.png)
+![3 façons différentes de visualiser le forum fr.sci.physique: slrn, "google groupes" et Thunderbird qui ressemble à s'y méprendre à son ancêtre (Netscape Communicator)](images/3-generations-de-fora.png){height=50%}
 
 Cette configuration ne correspondait pas aux attentes du public qui ne comprenait pas
 les bénéfices fonctionnels qu'ils pouvaient tirer de la liberté de choix d'un client
