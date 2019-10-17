@@ -1,6 +1,5 @@
 *.sw?
 *.aux
-*.latex
 *.log
 *.orig
 *.odt
