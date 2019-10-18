@@ -21,7 +21,9 @@ images/Annual-World-Population-since-10-thousand-BCE-for-OWID.png:
 
 # index.md: $(IMAGES)
 
-deploy: index.odt ; scp index.odt aude:www/pub/jres.odt
+deploy: index.odt index.md
+	scp index.odt aude:www/pub/jres.odt
+	scp index.pdf aude:www/pub/index.pdf
 
 # images/digital-energy-consumption.png
 #convert -resize 50% sources/lean-it/images/i-163.png images/digital-energy-consumption.png
