@@ -1,0 +1,79 @@
+%% Copyright 2012 Renater
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License, either version 1.3
+% of this license or (at your option) any later version.
+% The latest version of this license is in
+%   http://www.latex-project.org/lppl.txt
+% and version 1.3 or later is part of all distributions of LaTeX
+% version 2005/12/01 or later.
+%
+% This work has the LPPL maintenance status `maintained'.
+%
+% The Current Maintainer of this work is Matthieu Herrb
+%
+% This work consists of the files:
+% jres.cls
+% article.tex
+%----------------------------------------------------------------------
+%
+% Instructions pour utiliser la classe jres :
+%
+% Suivre cet exemple au maximum. Règles générales :
+%
+% - suivre les règles de saise de french/babel concernant les
+%   ponctuations doubles
+% - le style de bibliographie est imposé, pas besoin de le re-définir.
+%
+%----------------------------------------------------------------------
+% Utilisation de la classe de documents jres.
+% Les parametres city et year permettent de situer le lieu et l'année
+% (optionnels si la version à jour de la classe est utilisée)
+
+\providecommand{\tightlist}{%
+      \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\documentclass[city=Nantes,year=2017]{jres}
+
+    % si pdflatex est utilisé, spécifier le codage du fichier source
+    \usepackage[utf8x]{inputenc}
+
+    \title{$title$}
+    $for(auteur)$
+    \auteur{$auteur.nom$}{$auteur.labo$}{$auteur.adresse$}
+    $endfor$
+
+$if(biblatex)$
+\usepackage[$if(biblio-style)$style=$biblio-style$,$endif$$for(biblatexoptions)$$biblatexoptions$$sep$,$endfor$]{biblatex}
+$for(bibliography)$
+\addbibresource{$bibliography$}
+$endfor$
+$endif$
+$if(csl-refs)$
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newenvironment{cslreferences}%
+  {$if(csl-hanging-indent)$\setlength{\parindent}{0pt}%
+  \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces$endif$}%
+  {\par}
+$endif$
+
+$for(header-includes)$$header-includes$$endfor$
+
+\begin{document}
+
+% produit le titre selon les infos ci-dessus
+\maketitle
+
+$body$
+
+% \section*{Annexe}
+%
+% Les auteurs ajoutent, si nécessaire, une annexe avec une section non
+% numérotée.
+%
+% % Bibiliographie
+% \nocite{*}
+% \bibliography{article}
+
+\end{document}
