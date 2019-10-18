@@ -347,7 +347,7 @@ references:
   URL: http://crystal-lang.org/
 ---
 
-# Prologue : L'article dont vous êtes le héros 
+# Prologue : L'article dont vous êtes le héros
 
 Depuis nos DSI et autres organismes impliqués dans la production de biens et
 services numériques, nous fournissons aux usagers des outils qui ont permis
@@ -360,14 +360,14 @@ fierté en plus d'assurer une position sociale et financière. Érigée en dikta
 et au détriment de toute autre considération (rationalité des systèmes
 d'information, coût énergétiques entre autres...) cette seule satisfaction
 nous a poussés à utiliser chaque nouveau gain de performance que nous
-procurait la réalisation de la [@moore] en nouvelle source de jouissance numérique.
+procurait la réalisation de la loi de Moore ^[[@moore]] en nouvelle source de jouissance numérique.
 
 Un marché de l'informatique basse consommation existe de longue date mais il
 n'a intéressé à ma connaissance que les seuls technophiles :
 des logiciels plus puissants et attractifs ont poussé les consommateurs à
-l'achat d'ordinateurs de plus en plus puissants, les forcant à
+l'achat d'ordinateurs de plus en plus puissants, les forçant à
 renouveler régulièrement leur matériel en choisissant les processeurs de
-dernière génération. Alors que la clairevoyance de Moore aurait pu permettre de
+dernière génération. Alors que la clairvoyance de Moore aurait pu permettre de
 réduire le [@livecycle], c'est en fait l'inverse qui c'est produit. Ce phénomène le
 [@jevons] n'est en rien
 spécifique au numérique.
@@ -378,7 +378,7 @@ ne jamais remettre en question : notre espèce jouit d'une évolution permanent
 technologie qui vient à bout de toutes les contraintes matérielles.
 Dès notre enfance, la fiction nous proposait une extension d'une réalité
 extraordinaire : les premiers pas de l'homme sur la lune ne seraient que les prémices
-d'une conquête spaciale dans laquelle :
+d'une conquête spatiale dans laquelle :
 
 * l'énergie et l'accès aux matières premières semblaient infinies ;
 * nous entretenions des conversations avec des ordinateurs d'une intelligence
@@ -399,7 +399,7 @@ proche peuplé :
   des composants graphiques inspirés des meilleurs jeux video ;
 * d'une réinvention de la démocratie et de l'économie de marchés grâce à la blockchain ;
 * d'intelligences artificielles qui nous remplaceront avantageusement ou nous
-  assisteront dans toutes nos tâches intellectuelles, diagnostiquant plus surement que les
+  assisteront dans toutes nos tâches intellectuelles, diagnostiquant plus sûrement que les
   médecins, anticipant la pensée du développeur pour écrire le code à sa place [@ide]
   et découvrant des stratégies en jouant à des jeux que nous pratiquons depuis des siècles [@alphago] ;
 * de tous ces avancées qui confirment notre foi dans une technologie qui servira l'élévation
@@ -418,15 +418,16 @@ en consommant de l'énergie, il participe à la transformation de combustibles f
 Il faut mettre HAL hors tension si nous voulons sauvegarder une partie de notre qualité de vie.
 
 Dans l'étude [@unsustainable], on peut lire que le numérique représente 4% de nos rejets de
-gaz à effets de serre (déjà plus que l'aviation civile) avec un aux de croissance de 9% par an. Dans
-la version 2019 de "toward the digital sobriety" [@sobriety], un graphique montre
-que même en appliquant le plan de sobriété proposé par le shift project [@leanit],
-nous ne ferons que ralentir la croissance du phénomène (le numérique polluera plus en 2025 qu'aujourd'hui).
+gaz à effets de serre (déjà plus que l'aviation civile) avec un taux de croissance de 9% par an.
+Dans son étude sur la sobriété numérique [@sobriety], on trouve ce graphique qui montre 
+que même en appliquant le plan de sobriété qu'ils proposent [@leanit],
+nous ne ferons que ralentir la croissance du phénomène
+(le numérique polluera plus en 2025 qu'aujourd'hui).
 
 ![projection de consommation d'énergie (hors énergie grise) liée au numérique jusqu'en 2025 produit par le shift project](images/digital-energy-consumption.png){height=30%}
 
 La menace est pourtant là: les vagues de chaleur pourraient faire 150.000 morts
-par ans à la fin du siècle [@risk] et l'échec d'une transition énergétique
+par an à la fin du siècle [@risk] et l'échec d'une transition énergétique
 provoquerait l'effondrement de notre civilisation.  C'est l'hypothèse de départ
 de la collapsologie [@collapsologie] et le scénario auquel se préparent les
 survivalistes [@survivalistes].  Les plus pessimistes se préparent selon leurs
@@ -456,7 +457,7 @@ de comprendre dans les grandes lignes les interactions de systèmes complexes
 et hétérogènes et pour identifier celles qui seront énergivores.  Même pour
 un technicien, ce travail est parfois difficile.
 
-Un exemple: à quel moment faut-t'il préférer un client de messagerie au webmail?
+Un exemple: à quel moment faut-t-il préférer un client de messagerie au webmail?
 si la réponse est évidente sur son poste de travail, elle est contrainte par de
 nombreuses questions techniques lors d'utilisation occasionnelle d'autres terminaux:
 le protocole utilisé (ne pas perdre du courriel avec POP3),
@@ -466,7 +467,7 @@ du nombre d'usages qui va être fait de cette messagerie sur le terminal ...
 Si le problème n'est pas systématique, la profusion des usages nous forcent
 souvent à produire des réponses dont la complexité démotive les utilisateurs.
 Il nous incombe de trouver les réponses les plus simples possibles
-et construire une offre logicielle capable d'aiguiller nos utilisateurs vers les
+et de construire une offre logicielle capable d'aiguiller nos utilisateurs vers les
 comportements les moins énergivores.
 
 Si à titre professionnel ou personnel, nous sommes impliqués dans
@@ -474,8 +475,8 @@ le développement, l'architecture, le support ou l'exploitation d'un
 service numérique, nous devenons à la fois les fournisseurs et les consommateurs
 de ce rêve et de ses implications. Nous avons rendu les fondements de notre
 société et une grande majorité de nos concitoyens toujours plus dépendants
-d'applications. Nous avons permis des usages qui vont parfois bien au delà
-du simple confort (enjeux démocratiques, sécurité, médical, ...) et renoncer à
+d'applications. Nous avons permis des usages qui vont parfois bien au-delà
+du simple confort (enjeux démocratiques, sécurité, médical, …). Renoncer à
 ces acquis sera d'autant plus difficile que les enjeux nous échappent
 par leur complexité et leurs proportions. Tout cela semble d'autant plus lointain
 et imperceptible que les acteurs économiques actuels pèsent de toutes leur
@@ -488,12 +489,12 @@ alimenter le datacenter d'Apple dans un documentaire [@internet].
 
 Nous avons été les chevilles ouvrières de possibles auxquels il va falloir renoncer
 et trouver le courage de prôner une sobriété numérique à contre-courant de
-la doxa actuelle. Nous allons devoir convaincre dans un dans un environnement
+la *doxa* actuelle. Nous allons devoir convaincre, dans un environnement
 professionnel ou le somptuaire est la norme et la demande. L'idée est intimidante
 et décourageante au premier regard mais nous pouvons semer les germes d'une éthique
 et des pratiques qui, si elles sont suffisamment adoptées, permettront peut-être
 d'avoir d'ici cinquante ans les ressources énergétiques qui nous permettent
-de tenir jusqu'à une transition énergétique crédible en ayant épargné à
+de tenir jusqu'à une transition énergétique crédible tout en épargnant à
 l'atmosphère terrestre les quelques tonnes de CO₂ de trop.
 
 Et si malheureusement nous loupions cette opportunité et que l'humanité
@@ -503,7 +504,7 @@ une informatique de résilience. Il faut rappeler que produire de nouveaux
 outils numériques ne suffit pas : contribuer à leur adoption sera probablement
 le gros du travail.
 
-Pensons à nos enfants et disons-nous soit l'issue de cette bataille,
+Pensons à nos enfants et disons-nous que quelque soit l'issue de cette bataille,
 la plus triste des défaites serait de se dire que nous n'avons rien fait.
 Nous ne pouvons ni nous taire, ni baisser les bras.
 
@@ -524,7 +525,7 @@ aux problèmes de la pollution numérique.
 Ce serait une erreur de penser que les catastrophes qui nous étaient déja
 annoncées dans les années 80 et déjà moquées ou ignorées à l'époque ^[dans
 "les arènes de l'info", le guignol de Johnny Halliday jetait des glaçons dans
-les rivières pour sauver la banquise en 1994] seraient du à l'alarmisme d'une
+les rivières pour sauver la banquise en 1994] seraient dû à l'alarmisme d'une
 communauté scientifique en manque d'attention.
 
 Le rapport Meadows [@meadows], rendu
@@ -532,17 +533,17 @@ au cercle de Rome en 1972 est une bonne illustration d'un modèle ([@world3])
 qui a été toujours débattu sur un plan théorique, dont la précision a été
 régulièrement améliorée, mais dont les conclusions et les échelles de temps
 n'ont pas vraiment varié. Toujours pas de preuve formelle, certes ... mais
-puisque la réalité conforte les prédictions du modèle depuis déjà 5 décenies,
-il est tout à fait probable qu'il soit encore correct pour la décénie qui vient
+puisque la réalité conforte les prédictions du modèle depuis déjà 5 décennies,
+il est tout à fait probable qu'il soit encore correct pour la décennie qui vient
 [@global].
 
 ![prévisions de world3 et données réelles observées conforme aux prévisions](images/world3.jpg)
 
 Les faits énoncés plus loin ne font que démontrer la qualité des prédictions et
 des modèles. Les effets incidents constatés sont systématiquement ajoutés à ces
-modèles qui ne font que confirmer (ou accélérer) des conclusions des
-conclusions qui n'ont globalement pas varié. Ce que nous percevons déjà comme
-des désagréments sont les premiers signes de catastrophes qui ont sont annoncés
+modèles qui ne font que confirmer (ou accélérer) des conclusions qui n'ont
+globalement pas varié. Ce que nous percevons déjà comme
+des désagréments, ce sont les premiers signes de catastrophes qui sont annoncées
 par des modèles de plus en plus fiables.
 
 ## les sources
@@ -550,7 +551,7 @@ par des modèles de plus en plus fiables.
 La littérature scientifique constitue la source la plus légitime
 d'information mais sa densité et sa spécialisation ne permettent pas de
 se faire une idée des problèmes dans un temps raisonnable.
-D'un autre coté, les organismes qui compilent ces données
+D'un autre côté, les organismes qui compilent ces données
 scientifiques compilent des sources différentes avec des degrés divers
 de mise à jour. Le tableau et les conclusions sont généralement similaires.
 Aussi ai-je choisi de conserver en priorité les analyses et conclusions
@@ -568,7 +569,7 @@ d'organismes qui :
 
 ## Bienvenue dans l'anthropocène
 
-Régulièrement, un évenement majeur provoque un changement significatif de
+Régulièrement, un évènement majeur provoque un changement significatif de
 l'écosystème terrestre. S'ouvre alors une nouvelle "époque géologique".
 L'Holocène a commencé il y a 11 700 ans, lors de la fin de la dernière glaciation
 et nous sommes en train d'y mettre fin: l'activité humaine a modifié assez
@@ -583,7 +584,7 @@ Voici en résumé ce qu'il faut en retenir pour le sujet de cet article :
   en plus nombreux à consommer toujours plus [@trajectory] ;
 
 * les matières premières (en plus du métal, plastique et autres,
-  le numérique utilise des terres et métaux rares nécessaires à la fabrications
+  le numérique utilise des terres et métaux rares nécessaires à la fabrication
   des composants) et les combustibles fossiles (*sine qua none* pour la quantité
   et la disponibilité d'énergie nécessaire à notre consommation) se
   raréfient [@metalnomore particulièrement la section 9]
@@ -601,7 +602,7 @@ Voici en résumé ce qu'il faut en retenir pour le sujet de cet article :
   de nombreux problèmes (entre autres : la production des équipements est polluante). De plus,
   les rendements sont encore très faibles comparativement aux combustibles fossiles.
   Comme l'illustre le graphique suivant, nous n'avons pas de vraie solution pour effectuer
-  notre transition énergétique (je n'ai pas inclus la fission nucléaire dans ma réflexion par manque d'informations
+  notre transition énergétique (je n'ai pas inclus la fusion nucléaire dans ma réflexion par manque d'informations
   fiables sur l'avancement des projets).
   
   ![responsabilités du fossile dans la production électrique](images/electricite.png)
@@ -610,10 +611,10 @@ Voici en résumé ce qu'il faut en retenir pour le sujet de cet article :
 
 Nous sommes donc en face de deux crises environnementales :
 
-* les transformations trop rapides que nous faisons subir à l'écosystème le
+* Les transformations trop rapides que nous faisons subir à l'écosystème le
   déséquilibrent. Les conséquences sur le vivant dans son ensemble sont tragiques
   pour la plupart des terriens, humains ou non [@sixthextinction].
-* les réserves des ressources sur lesquelles reposent nos quotidiens sont en cours
+* Les réserves des ressources sur lesquelles reposent nos quotidiens sont en cours
   d'épuisement. On peut conjecturer que la pénurie des plus critiques
   (comme celles liées à la production d'énergie) provoqueront la fin du mode de vie industriel.
 
@@ -656,7 +657,7 @@ identiques défendant des conclusions similaires. Nous pouvons nous appuyer
 sur les expériences et réflexions existantes sur les autres pollutions
 pour la comprendre.  Dés lors attendre des solutions purement
 technologiques à des problèmes purement technologiques ne
-nous servira qu'a valider benoîtement les discours commerciaux les plus
+nous servira qu'à valider benoîtement les discours commerciaux les plus
 cyniques et/ou inconscients.
 
 Dénoncée depuis de nombreuses années et mobilisant des concepts simples, la
@@ -664,19 +665,19 @@ pollution liée au transport est bien comprise maintenant. Je vais donc faire
 une analogie avec la voiture :
 
 Chaque kilomètre parcouru en voiture n'a qu'une pollution négligeable à
-l'échelle planétaire mais il s'additionne à des millions d'autres qui auront
+l'échelle planétaire. Mais il s'additionne à des millions d'autres qui auront
 une conséquence : une pollution massive. L'individu doit donc se mettre à penser
 globalement avec une idée en tête : chaque kilomètre compte.
 Réduire la pollution en achetant une
 nouvelle voiture, c'est oublier l'énergie grise. Les ingénieurs peuvent
 trouver des carburants plus verts, les infrastructures peuvent se doter de
 routes plus directes mais le moyen le plus efficace pour éviter
-la pollution est de renoncer à effectuer trajet ou de choisir des modes de
+la pollution est de renoncer à effectuer le trajet ou de choisir des modes de
 locomotion alternatifs :
 
 * les transports en commun, tout d'abord, qui permettent de mutualiser
   la pollution
-* les transports utilisant notre propre énergie mécanique (vélo, ...)
+* les transports utilisant notre propre énergie mécanique (vélo, …)
 
 Ces deux modes de locomotions ont des contraintes, leur adoption doit être
 encouragée par des aménagements et des structures adaptées. Or, ces
@@ -697,7 +698,7 @@ Pour réduire les coûts, nous avons choisi la délocalisation. Cette stratégie
 pertinente économiquement mais elle nous coupe de la capacité de mesurer et maîtriser
 les coûts environnementaux induits par les pratiques des prestataires et le transport
 des données. De leur côté, les prestataires vont mettre en place des infrastructures
-conséquente rendues nécessaire par le cumul des trafics et les exigences de disponibilité
+conséquentes rendues nécessaire par le cumul des trafics et les exigences de disponibilité
 des clients. Le transport représente 16% de la consommation.
 
 ![répartition de la consommation énergétique du numérique](images/consumption-distribution.png){height=40%}
@@ -737,7 +738,7 @@ après les JRES). Ajoutons à cela les css, le javascript, les images : une pag
 web pèse en moyenne 2.3ko (presque autant que les 2,4ko du jeu Doom) [@stateofweb].
 
 Les interfaces graphiques qui permettaient de jouir de ces services correspondaient
-aux standards ergonomiques de l'époque mais il incombait à l'utilisateur d'acquérir
+aux standards ergonomiques de l'époque, mais il incombait à l'utilisateur d'acquérir
 les connaissances suffisantes pour :
 
 * identifier ces services ;
@@ -754,9 +755,9 @@ elle engendrait au contraire le maintien d'infrastructures et un support rendu
 difficile par la grande diversité des outils disponibles). De plus,
 l'explosion commerciale du réseau a créé une vraie pénurie d'informaticiens
 qualifiés et les entreprises ont embaucher massivement des personnels formés
-sur le tas dans le monde de l'informatique personnelle ou lors de formations éclaires
+sur le tas dans le monde de l'informatique personnelle ou lors de formations éclairs
 [@eternal].  Le niveau moyen de ces personnes était faible et le manque de recul était la norme.
-Elles malgré tout propulsées "experts" par des services commerciaux.
+Elles malgré tout propulsées «experts» par des services commerciaux.
 À partir de cette époque au moins ^[les
 orientations technologiques prises par le management était déjà critiqué dans
 les années 80 par des ingénieurs devenus illustres depuis, tel que Rob Pike]
@@ -768,11 +769,11 @@ depuis son terminal).
 Dans un contexte où la concurrence était féroce, l'absence de modèle commercial
 a induit une absence de financement pour la promotion, la formation des utilisateurs
 et l'évolution d'un réseau participatif et neutre. Aussi l'évolution de réseaux
-distribués et le peer to peer (architectures pourtant intéressante dans une
+distribués et le P2P ^[[@p2p]] (architectures pourtant intéressante dans une
 perspective de bande passante) sont devenus confidentiels et parfois calomniés.
 
-En outre, la décentralisation et le peer to peer posent le problème de la
-monétisation des contenus sous copyright. Même si des propositions ont été
+En outre, la décentralisation et le P2P posent le problème de la
+monétisation des contenus sous *copyright*. Même si des propositions ont été
 formulées aux politiques pour repenser la rémunération des auteurs, les
 industries culturelles ont toujours refusé de perdre la main sur leurs
 plateformes.
@@ -780,12 +781,12 @@ plateformes.
 Certes, il y avait une demande de l'usager pour simplifier l'accès au réseau
 mais ce sont bien des impératifs purement commerciaux qui ont conditionné
 notre réponse et la culture qui en a découlé. La situation évolue et l'affaire
-PRISM [@prism], même
+PRISM ^[[@prism]], même
 si elle n'est pas liée à l'écologie, a fait prendre conscience à une frange de
-la population du besoin de se rapproprier Internet. En France, la popularité
-relative de l'expérimentation de Framasoft [@degooglisons],
-l'apparition des chatons [@chatons] et le succès international du
-fairphone [@fairphone] sont des signes de la volonté des utilisateurs de
+la population du besoin de se réapproprier Internet. En France, la popularité
+relative de l'expérimentation de Framasoft "Dégooglisons internet" ^[[@degooglisons]],
+l'apparition des chatons ^[[@chatons]] et le succès international du
+fairphone ^[[@fairphone]] sont des signes de la volonté des utilisateurs de
 pouvoir prendre conscience des enjeux et de s'emparer de solutions responsables
 lorsqu'elles existent.
 
