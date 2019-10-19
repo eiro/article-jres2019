@@ -3,12 +3,17 @@ vim: et ts=2 sts=2 sw=2 nowrap
 title: les problèmes environnementaux de la terre d'innovation et de partage
 keywords: [électricité, changement climatique, pollution numérique, sobriété numérique, résilience numérique]
 author: Marc Chantreux <marc.chantreux@renater.fr>
-beaulieu: &beaulieu |
+meta:
+  postal:
+  beaulieu: &beaulieu |
     c/o CRI Campus de Beaulieu, Bat 12 D\
     263, Avenue du Gal Leclerc CS 74205\
     35042 RENNES Cedex
+  daviel: &daviel |
+    23 Rue Daviel,\
+    75013 Paris
 auteur:
-- {nom: Marc Chantreux  , labo: Renater , adresse: *beaulieu }
+- {nom: Marc Chantreux  , labo: Renater , adresse: *daviel }
 header-includes:
 - \usepackage{longtable}
 - \usepackage{todonotes}
@@ -21,6 +26,14 @@ TODO:
 - intégrer relecture de didier
 references:
 
+- URL: http://www.pouet.net/prod.php?which=394
+  id: enigma
+  nutitle: Enigma by Phenomena
+  title: "[Enigma by Phenomena](http://www.pouet.net/prod.php?which=394)"
+- URL: https://www.ibm.com/watson-health/about/get-the-facts
+  id: watson
+  nutitle: "Watson Health: Get the facts"
+  title: "[Watson Health: Get the facts](https://www.ibm.com/watson-health/about/get-the-facts)"
 - URL: https://fr.wikibooks.org/wiki/Fonctionnement_d%27un_ordinateur/La_consommation_d%27%C3%A9nergie_d%27un_ordinateur
   id: howcomputerswork
   nutitle: "fonctionnement d'un ordinateur: la consommation"
@@ -38,8 +51,7 @@ references:
   nutitle: the state of web
   title: '[the state of web](https://www.httparchive.org/reports/state-of-the-web?start=latest)'
 - author:
-    - family: Pitron
-      given: Guillaume
+    - { family: Pitron, given: Guillaume }
   id: metalwar
   title: 'La guerre des métaux rares : La face cachée de la transition énergétique et numérique'
 - URL: https://www.franceculture.fr/emissions/la-transition/dun-effondrement-lautre
@@ -48,8 +60,8 @@ references:
   title: "[d'un effondrement à l'autre](https://www.franceculture.fr/emissions/la-transition/dun-effondrement-lautre)"
 - URL: https://fr.wikipedia.org/wiki/Extinction_de_l%27Holoc%C3%A8ne
   id: sixthextinction
-  nutitle: 6ème extinction de masse
-  title: '[6ème extinction de masse](https://fr.wikipedia.org/wiki/Extinction_de_l%27Holoc%C3%A8ne)'
+  nutitle: sixième extinction de masse
+  title: '[sixième extinction de masse](https://fr.wikipedia.org/wiki/Extinction_de_l%27Holoc%C3%A8ne)'
 - URL: https://fr.wikipedia.org/wiki/Pic_p%C3%A9trolier)
   id: picextraction
   nutitle: pic d'extraction pétrolier
@@ -100,7 +112,7 @@ references:
   title: '[HAL](https://fr.wikipedia.org/wiki/HAL_9000)'
 - URL: https://theshiftproject.org/en/article/unsustainable-use-online-video/
   id: unsustainable
-  nutitle: unsustainable use of online video
+  nutitle: The unsustainable use of online video
   title: '[unsustainable use of online video](https://theshiftproject.org/en/article/unsustainable-use-online-video/)'
 - URL: https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(17)30082-7/fulltext?elsca1=tlpr
   id: risk
@@ -436,7 +448,7 @@ n'a intéressé à ma connaissance que les seuls technophiles :
 des logiciels plus puissants et attractifs ont poussé les consommateurs à
 l'achat d'ordinateurs de plus en plus puissants, les forçant à
 renouveler régulièrement leur matériel en choisissant les processeurs de
-dernière génération. Ce phénomène le [@jevons] n'est en rien spécifique au numérique.
+dernière génération. Ce phénomène ^[[@jevons]] n'est en rien spécifique au numérique.
 
 Nous avons certes contribué à un bond formidable de l'humanité. Nous ne faisons en
 cela que vérifier la certitude que notre culture toute entière nous a poussés à
@@ -459,19 +471,19 @@ nos maisons pour pouvoir parler à la télévision, demander l'heure ou la mét�
 Les plus technophiles s'abreuvent de flux d'informations qui nous annoncent un futur
 proche peuplé :
 
-* d'hommes volants [@flyboard] ;
+* d'hommes volants ^[[@flyboard]] ;
 * de voitures autonomes ;
 * d'objets connectés qui interagiront pour augmenter notre réalité avec
   des composants graphiques inspirés des meilleurs jeux video ;
 * d'une réinvention de la démocratie et de l'économie de marchés grâce à la blockchain ;
 * d'intelligences artificielles qui nous remplaceront avantageusement ou nous
   assisteront dans toutes nos tâches intellectuelles, diagnostiquant plus sûrement que les
-  médecins, anticipant la pensée du développeur pour écrire le code à sa place [@ide]
-  et découvrant des stratégies en jouant à des jeux que nous pratiquons depuis des siècles [@alphago] ;
+  médecins ^[[@watson]], anticipant la pensée du développeur pour écrire le code à sa place [@ide]
+  et découvrant des stratégies en jouant à des jeux que nous pratiquons depuis des siècles ^[[@alphago]] ;
 * de tous ces avancées qui confirment notre foi dans une technologie qui servira l'élévation
   de l'humanité.
 
-Il n'y a plus qu'à demander à HAL [@hal] des
+Il n'y a plus qu'à demander à HAL ^[[@hal]] des
 idées pour redonner foi en l'avenir à tous ces jeunes qui descendent dans la
 rue afin de quémander un futur, anxieux de voir le tableau se noircir à chaque
 nouvelle annonce sur les effets du réchauffement climatique. S'il n'a rien
@@ -483,7 +495,7 @@ en consommant de l'énergie, il participe à la transformation de combustibles f
 (dont nous allons manquer) en CO₂ (qui rend notre atmosphère impropre à notre survie).
 Il faut mettre HAL hors tension si nous voulons sauvegarder une partie de notre qualité de vie.
 
-Dans l'étude [@unsustainable], on peut lire que le numérique représente 4% de nos rejets de
+Dans l'étude "The unsustainable use of online video"^[[@unsustainable]], on peut lire que le numérique représente 4% de nos rejets de
 gaz à effets de serre (déjà plus que l'aviation civile) avec un taux de croissance de 9% par an.
 Dans son étude sur la sobriété numérique ^[[@leanit]], on trouve ce graphique qui montre
 que même en appliquant le plan de sobriété proposé, nous ne ferons que ralentir la croissance du phénomène
@@ -492,18 +504,17 @@ que même en appliquant le plan de sobriété proposé, nous ne ferons que ralen
 ![projection de consommation d'énergie (hors énergie grise) liée au numérique jusqu'en 2025 produit par le shift project](images/digital-energy-consumption.png){height=30%}
 
 La menace est pourtant là: les vagues de chaleur pourraient faire 150.000 morts
-par an à la fin du siècle [@risk] et l'échec d'une transition énergétique
+par an à la fin du siècle ^[[@risk]] et l'échec d'une transition énergétique
 provoquerait l'effondrement de notre civilisation.  C'est l'hypothèse de départ
-de la collapsologie [@collapsologie] et le scénario auquel se préparent les
-survivalistes [@survivalistes].  Les plus pessimistes se préparent selon leurs
-moyens [@doomsday] et appellent les pouvoirs publics à se préparer aux
+de la collapsologie ^[[@collapsologie]] et le scénario auquel se préparent les
+survivalistes ^[[@survivalistes]].  Les plus pessimistes se préparent selon leurs
+moyens ^[[@doomsday]] et appellent les pouvoirs publics à se préparer aux
 conséquences du changement climatique plutôt que de croire encore en une
-stabilisation de la situation.
-Une chronique de France Culture [@fromto] revient sur les nombreuses réactions
-suscitées par la publication de "What if we stop pretending" [@whatif]
-de Jonathan Franzen [@jonathan].
+stabilisation de la situation. La chronique "d'un effondrement à l'autre" ^[[@fromto]]
+revient sur les nombreuses réactions suscitées par "What if we stop pretending" ^[[@whatif]],
+la lettre ouverte de l'influent Jonathan Franzen ^[[@jonathan]].
 
-Dans un tel contexte, pendant numérique du Flygskam [@flygskam]
+Dans un tel contexte, pendant numérique du Flygskam ^[[@flygskam]]
 pourrait bien apparaître : nos activités numériques les plus courantes paraîtront aussi
 obscènes que l'est aujourd'hui l'idée qu'une personne bien portante se serve
 d'un véhicule tout-terrain pour parcourir les 150 mètres qui le séparent de la
@@ -550,7 +561,8 @@ et l'agonie de la biosphère. Les éditeurs et constructeurs se gardent bien de 
 dire que les datacenters qui fourniront les services disponibles sur votre nouveau
 terminal participent par exemple à la décapitation de montagnes américaines
 desquelles on extrait du charbon (voir les images des montagnes décapitées pour
-alimenter le datacenter d'Apple dans un documentaire [@internet].
+alimenter le datacenter d'Apple dans le documentaire "internet : la pollution cachée"
+^[[@internet]].
 
 Nous avons été les chevilles ouvrières de possibles auxquels il va falloir renoncer
 et trouver le courage de prôner une sobriété numérique à contre-courant de
@@ -593,14 +605,14 @@ annoncées dans les années 80 et déjà moquées ou ignorées à l'époque ^[da
 les rivières pour sauver la banquise en 1994] seraient dû à l'alarmisme d'une
 communauté scientifique en manque d'attention.
 
-Le rapport Meadows [@meadows], rendu
-au cercle de Rome en 1972 est une bonne illustration d'un modèle ([@world3])
+Le rapport Meadows ^[[@meadows]], rendu
+au cercle de Rome en 1972 est une bonne illustration d'un modèle World3 (^[[@world3]])
 qui a été toujours débattu sur un plan théorique, dont la précision a été
 régulièrement améliorée, mais dont les conclusions et les échelles de temps
 n'ont pas vraiment varié. Toujours pas de preuve formelle, certes ... mais
 puisque la réalité conforte les prédictions du modèle depuis déjà 5 décennies,
 il est tout à fait probable qu'il soit encore correct pour la décennie qui vient
-[@global].
+^[[@global]].
 
 ![prévisions de world3 et données réelles observées conforme aux prévisions](images/world3.jpg)
 
@@ -623,14 +635,14 @@ Aussi ai-je choisi de conserver en priorité les analyses et conclusions
 d'organismes qui :
 
 * ont l'oreille de nos politiques et particulièrement :
-  * le shift project [@shiftproject] : le président [@jmj] est membre d'un
-    cabinet d'experts [@carbone4] et a été entendu par le sénat [@commission].
-    La vidéo de l'audition est disponible sur sa chaine youtube [@videocommission].
-  * l'ADEME [@ademe]
+  * le shift project ^[[@shiftproject]] : le président ^[[@jmj]] est membre du
+    cabinet d'experts Carbone4 ^[[@carbone4]] et a été entendu par le sénat ^[[@commission]].
+    La vidéo de l'audition est disponible sur sa chaine youtube ^[[@videocommission]].
+  * l'ADEME : Agence de l'Environnement et de la Maîtrise de l'Énergie^[[@ademe]]
 * sont issus de la communauté ESR française dont
-  * la chaine youtube "le réveilleur" [@reveilleur] dont l'auteur a préparé thèse
-  [@thesereveilleur] à l'ETIS [@etis].
-  * Ecoinfo [@ecoinfo]
+  * la chaine youtube "le réveilleur" ^[[@reveilleur]] dont l'auteur a préparé thèse
+  [@thesereveilleur] à l'ETIS ^[[@etis]].
+  * Ecoinfo ^[[@ecoinfo]]
 
 ## Bienvenue dans l'anthropocène
 
@@ -639,21 +651,21 @@ l'écosystème terrestre. S'ouvre alors une nouvelle "époque géologique".
 L'Holocène a commencé il y a 11 700 ans, lors de la fin de la dernière glaciation
 et nous sommes en train d'y mettre fin: l'activité humaine a modifié assez
 significativement l'écosystème pour que les géologues parlent maintenant
-d'Anthropocène (âge de l'homme) [@anthropocène].
+d'Anthropocène (âge de l'homme) ^[[@anthropocène]].
 Parmi les conséquences, on trouve notamment une extinction de masse,
-la sixième que la terre aie connue [@sixthextinction].
+la sixième que la terre aie connue ^[[@sixthextinction]].
 
 Voici en résumé ce qu'il faut en retenir pour le sujet de cet article :
 
 * l'impact des activités de l'homme s'accroît à mesure que nous sommes de plus
-  en plus nombreux à consommer toujours plus [@trajectory] ;
+  en plus nombreux à consommer toujours plus ^[[@trajectory]] ;
 
 * les matières premières (en plus du métal, plastique et autres,
   le numérique utilise des terres et métaux rares nécessaires à la fabrication
   des composants) et les combustibles fossiles (*sine qua none* pour la quantité
   et la disponibilité d'énergie nécessaire à notre consommation) se
-  raréfient [@metalnomore particulièrement la section 9]
-  [@oilpic]. On estime que le pic d'extraction du pétrole a eu lieu en 2008.
+  raréfient ^[[@metalnomore particulièrement la section 9]]
+  ^[[@oilpic]]. On estime que le pic d'extraction du pétrole a eu lieu en 2008.
 
   ![production de pétrole en milliards de barils, mesurée et projetée dans](images/oil.png)
 
@@ -661,7 +673,7 @@ Voici en résumé ce qu'il faut en retenir pour le sujet de cet article :
 
   * leur extraction est de plus en plus énergivore et polluante
   * des tensions politiques (allant jusqu'aux conflits armés) apparaissent
-    autour des points d'extraction.  [@smartphone] [@metalwar]
+    autour des points d'extraction.  ^[[@smartphone]] ^[[@metalwar]]
 
 * avec le recul, les solutions pour la mise en œuvre d'énergie renouvelables posent encore
   de nombreux problèmes (entre autres : la production des équipements est polluante). De plus,
@@ -672,13 +684,13 @@ Voici en résumé ce qu'il faut en retenir pour le sujet de cet article :
   
   ![responsabilités du fossile dans la production électrique](images/electricite.png)
 
-  [@productionelectrique]
+  ^[[@productionelectrique]]
 
 Nous sommes donc en face de deux crises environnementales :
 
 * Les transformations trop rapides que nous faisons subir à l'écosystème le
   déséquilibrent. Les conséquences sur le vivant dans son ensemble sont tragiques
-  pour la plupart des terriens, humains ou non [@sixthextinction].
+  pour la plupart des terriens, humains ou non ^[[@sixthextinction]].
 * Les réserves des ressources sur lesquelles reposent nos quotidiens sont en cours
   d'épuisement. On peut conjecturer que la pénurie des plus critiques
   (comme celles liées à la production d'énergie) provoqueront la fin du mode de vie industriel.
@@ -697,14 +709,14 @@ fondé sur la somme de nos efforts individuels.
 
 Outre le fait que le recyclage et le stockage des déchets
 ont leurs pollutions propres, j'aimerais insister sur une notion qui n'apparaît
-qu'en filigrane dans les points précédents : l'énergie grise [@greyenergy].
+qu'en filigrane dans les points précédents : l'énergie grise ^[[@greyenergy]].
 La production de matériels technologiques (et numériques en particulier), pollue
 de nombreuses manières :
 * la production elle-même.
 * la production des outils nécessaires à sa conception, sa réalisation, son
   conditionnement, son expédition (avec les mêmes conséquences).
 
-Autour de 50% [@itelectricity estime à 45%]
+Autour de 50% ^[[@itelectricity estime à 45%]]
 de la pollution d'un produit sera effective avant sa mise
 sous tension pour une durée d'exploitation de 2 ans en moyenne.
 
@@ -768,8 +780,8 @@ des clients. Le transport représente 16% de la consommation.
 
 ![répartition de la consommation énergétique du numérique](images/consumption-distribution.png){height=40%}
 
-On peut relativiser ces 16%: les seules vidéos en ligne représentent à elles
-seules 80% de la bande passante (13% pour le seul Netflix) [@unsustainable].
+^[On peut relativiser ces 16%: les seules vidéos en ligne représentent à elles
+seules 80% de la bande passante (13% pour le seul Netflix^[[@unsustainable]]).]
 
 On pourrait soutenir que ces plateformes se sont créées pour répondre à un besoin
 mais c'est au mieux une vérité partielle (partiale). Ce serait oublier que toutes les
@@ -798,9 +810,9 @@ site (sachant que je suis plutôt économe sur la structure des pages HTML).
 
 Le texte source pèse moitié moins que les pages (le code des expérimentations
 que j'ai réalisé pour préparer cet article est disponible sur le dépôt de
-l'article [@article] et continuera à évoluer
-après les JRES). Ajoutons à cela les css, le javascript, les images : une page
-web pèse en moyenne 2.3ko (presque autant que les 2,4ko du jeu Doom) [@stateofweb].
+l'article ^[[@article]] et continuera à évoluer
+après les JRES). Ajoutons à cela les CSS, le javascript, les images : une page
+web pèse en moyenne 2.3ko (presque autant que les 2,4ko du jeu Doom) ^[[@stateofweb]].
 
 Les interfaces graphiques qui permettaient de jouir de ces services correspondaient
 aux standards ergonomiques de l'époque, mais il incombait à l'utilisateur d'acquérir
@@ -821,7 +833,7 @@ difficile par la grande diversité des outils disponibles). De plus,
 l'explosion commerciale du réseau a créé une vraie pénurie d'informaticiens
 qualifiés et les entreprises ont embaucher massivement des personnels formés
 sur le tas dans le monde de l'informatique personnelle ou lors de formations éclairs
-[@eternal].  Le niveau moyen de ces personnes était faible et le manque de recul était la norme.
+^[[@eternal]].  Le niveau moyen de ces personnes était faible et le manque de recul était la norme.
 Elles malgré tout propulsées «experts» par des services commerciaux.
 À partir de cette époque au moins ^[les
 orientations technologiques prises par le management était déjà critiqué dans
@@ -896,29 +908,29 @@ d'éclairer mon point de vue avant
   et des sites complets s'échangeaient via des disques durs dans des
   racks. Les e-zines et de nombreuses documentations
   (comme le RFCs) étaient écrits en texte plain et les illustrations étaient
-  en ascii art [@ascii]. Le nombre de
+  en ascii art ^[[@ascii]]. Le nombre de
   personnes connectées simultanément à un service était configuré en fonction
   des capacités de la machine qui hébergeait le serveur ou de la bande passante
   disponible. Avoir des temps d'attente ou un message
   "Too many users, try later" lors de l'accès à ces services était normal.
 * Comme beaucoup de geeks de ma génération, je me souviens avec émotion de la première
-  demo [@demo]
-  que j'ai vue (Enigma du groupe Phenomena). Nous voulions tous apprendre le C et l'assembleur.
+  demo ^[[@demo]]
+  que j'ai vue ^[[@enigma]]. Nous voulions tous apprendre le C et l'assembleur.
 * au collège, j'avais du mal à croire cet ami qui me soutenait
   que les ordinateurs seraient bientôt capables d'afficher des films
   comme sur une télé.
 * En découvrant linux, nous découvrions la culture unix et les principes
-  de conceptions simples [@worse] [@kiss].  Faire simple, efficace
+  de conceptions simples ^[[@worse]] ^[[@kiss]].  Faire simple, efficace
   et léger n'était plus seulement une nécessité mais une fierté.
 * Lorsque je suis devenu "professionnel", profitant en cela de la "bulle
   internet" pour me faufiler parmis les rangs des techniciens formés
   et compétents, l'ambiance a totalement changé: seule la productivité
   comptait et la consommation de l'infrastructure était bien moins couteuse
   que mon salaire ("met 2, 3, 4 serveurs si il faut mais ne perd pas de temps",
-  "ca marche déjà bien assez vite et j'ai des clients dans le tube",
+  "ça marche déjà bien assez vite et j'ai des clients dans le tube",
   "je ne peux pas vendre au client le fait que ton truc soit léger
   mais c'est moche et ça il le verra tout de suite",
-  "on ne connait même pas son MUA [@mua]: redirige le vers le webmail",
+  "on ne connait même pas son MUA ^[[@mua]]: redirige le vers le webmail",
   ...). Les utilisateurs n'ayant souvent aucun point de comparaison se contentaient
   des performances de logiciels écrits en VisualBasic ou en Java et du peu de fonctionnalités
   qu'offraient les outils que nous leur proposions.
@@ -934,12 +946,11 @@ d'éclairer mon point de vue avant
     et d'évolution. le minimalisme n'est pas un principe esthétique
     mais un pragmatisme qui s'appuie sur d'autres critères que la
     rentabilité économique] et intellectuellement bien plus stimulante.
-    ^[Mon environement préféré est dwm [@dwm], mon MUA de référence est
-    mutt [@mutt](http://mutt.org/), j'utilise toujours IRC [@irc]
-    [IRC](https://fr.wikipedia.org/wiki/Internet_Relay_Chat)
+    ^[Mon environement préféré est dwm ^[[@dwm]], mon MUA de référence est
+    mutt ^[[@mutt]], j'utilise toujours IRC ^[[@irc]]
     et mon outils de communication préféré reste le mail.
-    je abonné aux les listes de openbsd [@openbsd], 9front [@9front],
-    cat-v [@cat-v] et suckless [@suckless].
+    je abonné aux les listes de openbsd ^[[@openbsd]], 9front ^[[@9front]],
+    cat-v ^[[@cat-v]] et suckless ^[[@suckless]].
 
 Ma prise de conscience de l'impact du numérique sur le climat est très
 récente (courant 2017). J'ai commencé à me documenter sur les solutions
@@ -1015,9 +1026,9 @@ existant tout en tentant d'en réduire la nocivité.
 Hors pannes physiques et comportements consuméristes compulsifs, la longévité
 d'un équipement est conditionnée par sa capacité à exécuter des programmes
 dans des temps raisonnables. C'est un des usages grand public qui est fait
-des distributions linux [@distributions]
+des distributions linux ^[[@distributions]]
 ^[les versions les plus spartiates tournent aisément sur la première génération
-de raspberry pi, damn small linux [@dslinux] est capable
+de raspberry pi, damn small linux ^[[@dslinux]] est capable
 de s'executer sur un 486DX avec 16Mo de RAM]]. A ce sujet fais deux constats:
 
 * si l'esthétique des outils graphiques proposés est souvent en décalage avec
@@ -1056,7 +1067,7 @@ l'écosystème se construit sur différents degrés d'interactions. Nous serons
 impactés (si pas partie prenante) par toute évolution majeure de cet écosystème.
 
 Lorsque je signale qu'un script et/ou une source est disponible, je fais référence au
-dépôt github du présent article [@article].
+dépôt github du présent article ^[[@article]].
 
 ### Les contenus multimédia
 
@@ -1118,7 +1129,7 @@ un open space pleins de collègues heureux se font des high-fives soit plus
 engageant qu'une simple page blanche mais cette approche a tendance à faire
 grossir les contenus.
 
-Exemple: ce tweet [@tweetfrancestrat] qui rappelle en quelques mots
+Exemple: ce tweet ^[[@tweetfrancestrat]] qui rappelle en quelques mots
 ce qu'est l'éco-conception et qui présente la France comme un des leaders en la matière
 pèse 3,4Mo (3504221 octets exactement).
 
@@ -1137,7 +1148,7 @@ ces proportions.
 
 ### mettre fin à la publicité en ligne
 
-Serait probablement la seule mesure de sobriété populaire [@blockers]
+Serait probablement la seule mesure de sobriété populaire ^[[@blockers]]
 en atteste. En plus de l'économie d'énergie liée à la disparition de ces contenus,
 cette fin aurait pour conséquence de réduire l'intérêt d'activités polluantes induites
 par ce modèle (comme les fermes de clicks et le tracking opéré par les régies publicité
@@ -1156,11 +1167,11 @@ instantanée par exemple, la taille des charges utiles est souvent
 faible. La proportion du trafic liée au protocole devient alors
 conséquente ^[voir sur le dépôt les exemples d'échange].
 
-Comparativement à XMPP [@xmpp]
+Comparativement à XMPP ^[[@xmpp]]
 et autres outils/protocoles de messagerie instantanée fondée sur des API
-REST [@matrix par exemple].
-le protocole IRC [@ircrfc] est très économe. Certes, il est perfectible:
-sera probablement perfectionné [@ircv3] mais a déjà perdu un grand nombre
+REST ^[[@matrix par exemple]].
+le protocole IRC ^[[@ircrfc]] est très économe. Certes, il est perfectible:
+sera probablement perfectionné ^[[@ircv3]] mais a déjà perdu un grand nombre
 d'utilisateurs. Peut-être est-il temps de réévaluer les mérites comparés de
 ce genre d'outils.
 
@@ -1185,7 +1196,7 @@ taille moyenne) d'un message est de 70Ko. Soit. A bien y regarder:
   * multiplié par le nombre d'envois
 * une pièce jointe est bien plus lourde que le message lui-même dans
   l'immense majorité des cas.
-* MIME [@mime] impose un encodage pour les données non ASCII,
+* MIME ^[[@mime]] impose un encodage pour les données non ASCII,
   cet encodage alourdit la pièce (qui pèse 4/3 de son poids en moyenne).
 
 Si je fais des statistiques sur la taille de mes boites aux lettres
@@ -1209,42 +1220,42 @@ de préférer les formats triviaux lorsque c'est possible.
 
 ... et la sérialisation binaire pour les échanges.
 
-Les couches bases du modèle DOD [@dod]
+Les couches bases du modèle DOD ^[[@dod]]
 sont le royaume des encodages binaires: il était clair qu'à ce niveau
 du transport, la taille et la désérialisation efficace sont cruciales.
 Hors le même soin n'a pas été apporté aux protocoles applicatifs et
 aux charges utiles: utiliser du texte plutôt que des sérialisations utilisant
-des encodages [@tsv] rendait simplifiait le développement et la
-maintenance des logiciels client et serveurs [@betext].
+des encodages ^[[@tsv]] rendait simplifiait le développement et la
+maintenance des logiciels client et serveurs ^[[@betext]].
 
 Si les usages des encodages binaires existent depuis longtemps dan les couches
-applicatives [@asn] [@ber], une très forte
+applicatives ^[[@asn]] ^[[@ber]], une très forte
 majorité des protocoles sérialisent bien les messages en textes pleins.
 
-Ce ne sera plus le cas de la 3ème version d'HTTP [@http3] qui va s'appuyer
-QUIC [@quic] [@quicdraft].
+Ce ne sera plus le cas de la 3ème version d'HTTP ^[[@http3]] qui va s'appuyer
+QUIC ^[[@quic]] ^[[@quicdraft]].
 
 L'autre changement qui s'opère dans le web est l'usage grandissant
-du bytecode webassembly [@bytecode] [@webassembly]
+du bytecode webassembly ^[[@bytecode]] ^[[@webassembly]]
 pour remplacer le javascript. La encore, ça n'est pas qu'une question de poids:
 l'exécution d'un bytecode est bien plus efficace que l'interprétation d'un
 langage.
 
 Pourquoi s'arrêter en si bon chemin? Il serait tout à fait imaginable d'imaginer
-une sérialisation du DOM [@dom],
-du CSS [@css]  et
-des images vectorielles [@svg] dans des format
+une sérialisation du DOM ^[[@dom]],
+du CSS ^[[@css]]  et
+des images vectorielles ^[[@svg]] dans des format
 de sérialisation binaires dont la popularité est croissante hors du web
-[@messagepack], [@cbor]
+^[[@messagepack]], ^[[@cbor]]
 
-Pour les projets utilisant des transpileurs vers html ou xml [@pug],
+Pour les projets utilisant des transpileurs vers HTML ou XML ^[[@pug]],
 la transition pourrait se faire simplement
-en ajoutant un backend de sérialisation binaire. La transition pourrait
+en ajoutant un *backend* de sérialisation binaire. La transition pourrait
 alors se faire sans surcroit de travail pour les programmeurs.
 
-Les charges utiles sérialisées en JSON [@json]
+Les charges utiles sérialisées en JSON ^[[@json]]
 peuvent être remplacées des à présent par des sérialisations
-cbor: le mime type du body devient 'application/cbor' [@rfc7049 section 7.3]
+*cbor*: le mime type du body devient 'application/cbor' ^[[@rfc7049 section 7.3]]
 
 De manière générale, la "binarisation" peut être appliquée à tous
 les protocoles et toutes les charges utiles. Cette généralisation
@@ -1260,7 +1271,7 @@ c'est bien par facilité.
 
 ### Relocaliser les données et les traitements
 
-Le logiciel en ligne devient un standard en France [@badnews]
+Le logiciel en ligne devient un standard en France ^[[@badnews]]
 et c'est une bien sombre nouvelle: nombre de ces outils proposent des
 fonctionnalités qu'un programme local pourrait exécuter. Que la génération de la carte
 de ma dernière balade ou l'évolution de mes performances sur mon parcours
@@ -1273,8 +1284,8 @@ aussi pour la conservation de ma vie privée.
 
 Lorsque l'usage local n'est pas possible ou lorsque l'usage du réseau consiste
 en l'acquisition d'une donnée absente localement, il serait bon de généraliser
-l'usage des CDN [@cdn], miroirs [@miroirs], des réseaux P2P [@p2p]
-(l'usage d'outils comme peertube [@peertube] est par exemple bien adapté au monde universitaire)
+l'usage des CDN ^[[@cdn]], miroirs ^[[@miroirs]], des réseaux P2P ^[[@p2p]]
+(l'usage d'outils comme peertube ^[[@peertube]] est par exemple bien adapté au monde universitaire)
 et autres dispositifs permettant d'utiliser des caches proches des utilisateurs lorsqu'il n'est pas
 possible de disposer d'une copie locale.
 
@@ -1292,23 +1303,23 @@ me proposait un lien vers une synchronisation locale.
 
 ### l'assistance utilisateur et les paramètres par defaut
 
-Les outils les moins énergivores (par exemple ceux de la communauté suckless [@suckless]
+Les outils les moins énergivores (par exemple ceux de la communauté suckless ^[[@suckless]]
 sont aussi les moins inclusifs: ils
 nécessite à la fois une culture (Unix) et une discipline (la lecture des documentation)
 que les utilisateurs n'ont pas. Toutefois, comme je l'ai évoqué plus haut:
-l'économie d'énergie de ces outils n'est pas tant dans leur execution que dans
-la stratégie sous-jacente par defaut.
+l'économie d'énergie de ces outils n'est pas tant dans leur exécution que dans
+la stratégie sous-jacente par défaut.
 
 Dans le monde des utilisateurs, les logiciels sont tout aussi capables
 mais les stratégies par défaut sont pensées pour satisfaire l'utilisateur.
 Le paramétrage et l'ergonomie pourrait être repensées pour privilégier les
-pratiques évitant tout usage provoquant une dynamique inutile [@howcomputerswork].
+pratiques évitant tout usage provoquant une dynamique inutile ^[[@howcomputerswork]].
 
 Les logiciels pourraient aussi assister dans les bonnes pratiques
 et en expliquer la démarche.
 Pour les MUA ^[je prend l'exemple du MUA parce que c'est un bon cas d'école:
 la messagerie est très décriée et toutes les fonctionnalités présente dans ces
-outils sont là pour de bonnes raisons: les mauvaises pratiques résident dans un 
+outils sont là pour de bonnes raisons: les mauvaises pratiques résident dans un
 sage inapproprié des fonctionnalités], nous pourrions imaginer que des messages
 suivants puissent apparaitre au moment opportun:
 
@@ -1329,12 +1340,12 @@ suivants puissent apparaitre au moment opportun:
 des boutons pourraient être ajoutés qui correspondent aux headers ou aux paramètres
 des listes.
 
-* obtenir l'aide du robot de liste
-* vous désabonner de cette liste
-* recevoir cette liste en digest
-* accéder à l'archive de la liste
-* ne répondre qu'à la liste
-* configurer la liste
+* obtenir l'aide du robot de liste ;
+* vous désabonner de cette liste ;
+* recevoir cette liste en digest ;
+* accéder à l'archive de la liste ;
+* ne répondre qu'à la liste ;
+* configurer la liste.
 
 ### executer plus vite
 
@@ -1343,7 +1354,7 @@ technologies qui privilégie le temps de développement au temps d'exécution
 ont une véritable incidence sur les performances de nos programmes
 (webassembly est une réponse aux performances de javascript qui
 sont médiocres comparativement à ceux de langages compilés.
-Crystal [@crystal] répond aux problèmes de
+Crystal ^[[@crystal]] répond aux problèmes de
 performances de ruby et d'autres exemples peuvent être trouvés).
 
 Si les langages dynamiques restent des technologies très intéressantes
