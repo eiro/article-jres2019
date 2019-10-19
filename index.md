@@ -15,15 +15,13 @@ meta:
 auteur:
 - {nom: Marc Chantreux  , labo: Renater , adresse: *daviel }
 header-includes:
-- \usepackage{longtable}
-- \usepackage{todonotes}
-- \usepackage{tcolorbox}
-- \usepackage{acro}
-- \usepackage{booktabs}
-- \include{prelude}
+        \usepackage{longtable}
+        \usepackage{todonotes}
+        \usepackage{tcolorbox}
+        \usepackage{acro}
+        \usepackage{booktabs}
+        \include{prelude}
 TODO:
-- rendus pourris des images
-- intégrer relecture de didier
 references:
 
 - URL: http://www.pouet.net/prod.php?which=394
