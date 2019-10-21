@@ -901,13 +901,13 @@ d'éclairer mon point de vue avant
   baissait) et nous écrivions des scripts pour télécharger tout ce dont nous
   avions besoin dans un laps de temps le plus court possible. Nous
   téléchargions la liste des fichiers des serveurs ftp (ls-R.txt) pour
-  les consulter offline. Télécharger une disquette pouvait prendre une minute
+  les consulter hors ligne. Télécharger une disquette pouvait prendre une minute
   et lorsqu'on visualisait une image sur les premiers sites web, nous
   attendions que le rectangle gris préalablement dessiné par le navigateur
   se remplisse. Pour éviter les frais, nous mettions des miroirs en place
   et des sites complets s'échangeaient via des disques durs dans des
   racks. Les e-zines et de nombreuses documentations
-  (comme le RFCs) étaient écrits en texte plain et les illustrations étaient
+  (comme le RFCs) étaient écrits en texte brut et les illustrations étaient
   en ascii art ^[[@ascii]]. Le nombre de
   personnes connectées simultanément à un service était configuré en fonction
   des capacités de la machine qui hébergeait le serveur ou de la bande passante
