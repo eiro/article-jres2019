@@ -439,14 +439,14 @@ fierté en plus d'assurer une position sociale et financière. Érigée en dikta
 et au détriment de toute autre considération (rationalité des systèmes
 d'information, coût énergétiques entre autres...) cette seule satisfaction
 nous a poussés à utiliser chaque nouveau gain de performance que nous
-procurait la réalisation de la loi de Moore ^[[@moore]] en nouvelle source de jouissance numérique.
+procurait la réalisation de la loi de Moore [@moore] en nouvelle source de jouissance numérique.
 
 Un marché de l'informatique basse consommation existe de longue date mais il
 n'a intéressé à ma connaissance que les seuls technophiles :
 des logiciels plus puissants et attractifs ont poussé les consommateurs à
 l'achat d'ordinateurs de plus en plus puissants, les forçant à
 renouveler régulièrement leur matériel en choisissant les processeurs de
-dernière génération. Ce phénomène ^[[@jevons]] n'est en rien spécifique au numérique.
+dernière génération. Ce phénomène [@jevons] n'est en rien spécifique au numérique.
 
 Nous avons certes contribué à un bond formidable de l'humanité. Nous ne faisons en
 cela que vérifier la certitude que notre culture toute entière nous a poussés à
@@ -469,7 +469,7 @@ nos maisons pour pouvoir parler à la télévision, demander l'heure ou la mét�
 Les plus technophiles s'abreuvent de flux d'informations qui nous annoncent un futur
 proche peuplé :
 
-* d'hommes volants ^[[@flyboard]] ;
+* d'hommes volants ^[@flyboard] ;
 * de voitures autonomes ;
 * d'objets connectés qui interagiront pour augmenter notre réalité avec
   des composants graphiques inspirés des meilleurs jeux video ;
@@ -638,7 +638,7 @@ d'organismes qui :
     La vidéo de l'audition est disponible sur sa chaine youtube ^[[@videocommission]].
   * l'ADEME : Agence de l'Environnement et de la Maîtrise de l'Énergie^[[@ademe]]
 * sont issus de la communauté ESR française dont
-  * la chaine youtube "le réveilleur" ^[[@reveilleur]] dont l'auteur a préparé thèse
+  * la chaine youtube "le réveilleur" ^[[@reveilleur]] dont l'auteur a préparé sa thèse
   [@thesereveilleur] à l'ETIS ^[[@etis]].
   * Ecoinfo ^[[@ecoinfo]]
 
@@ -662,8 +662,8 @@ Voici en résumé ce qu'il faut en retenir pour le sujet de cet article :
   le numérique utilise des terres et métaux rares nécessaires à la fabrication
   des composants) et les combustibles fossiles (*sine qua none* pour la quantité
   et la disponibilité d'énergie nécessaire à notre consommation) se
-  raréfient ^[[@metalnomore particulièrement la section 9]]
-  ^[[@oilpic]]. On estime que le pic d'extraction du pétrole a eu lieu en 2008.
+  raréfient. ^[[@metalnomore particulièrement la section 9]]
+  On estime que le pic d'extraction du pétrole a eu lieu en 2008. ^[[@oilpic]]
 
   ![production de pétrole en milliards de barils, mesurée et projetée dans](images/oil.png)
 
@@ -822,6 +822,8 @@ les connaissances suffisantes pour :
 
 ![3 façons différentes de visualiser le forum fr.sci.physique: slrn, "google groupes" et Thunderbird qui ressemble à s'y méprendre à son ancêtre (Netscape Communicator)](images/3-generations-de-fora.png){height=50%}
 
+\pagebreak
+
 Cette configuration ne correspondait pas aux attentes du public qui ne comprenait pas
 les bénéfices fonctionnels qu'ils pouvaient tirer de la liberté de choix d'un client
 final et qui refusait un temps d'apprentissage. De plus,
@@ -933,9 +935,8 @@ d'éclairer mon point de vue avant
   des performances de logiciels écrits en VisualBasic ou en Java et du peu de fonctionnalités
   qu'offraient les outils que nous leur proposions.
 * des j'ai pratiqué deux formes d'informatique
-  * l'informatique professionnelle (devenu la norme), qui pratique
-    une informatique économiquement rentable dans un but commercial et
-    qui a imposé sa culture.
+  * l'informatique professionnelle (devenu la norme), qui développe des pratiques
+    économiquement rentables et se fonde sur le discours des acteurs du marché.
   * l'informatique des hobbistes qui, loin d'être nostalgique, a continué à
     experimenter et maintenir des services et des bases de code qui
     perpétuent une culture que nous croyons plus saine ^[nous pensons la
@@ -1024,10 +1025,10 @@ existant tout en tentant d'en réduire la nocivité.
 Hors pannes physiques et comportements consuméristes compulsifs, la longévité
 d'un équipement est conditionnée par sa capacité à exécuter des programmes
 dans des temps raisonnables. C'est un des usages grand public qui est fait
-des distributions linux ^[[@distributions]]
-^[les versions les plus spartiates tournent aisément sur la première génération
-de raspberry pi, damn small linux ^[[@dslinux]] est capable
-de s'executer sur un 486DX avec 16Mo de RAM]]. A ce sujet fais deux constats:
+des distributions linux ^[[@distributions]]. Les versions les
+plus spartiates tournent aisément sur la première génération de raspberry pi.
+^[damn small linux ^[[@dslinux]] est capable de s'executer sur un 486DX avec 16Mo de RAM]
+A ce sujet fais deux constats :
 
 * si l'esthétique des outils graphiques proposés est souvent en décalage avec
   la dernière mode, l'ergonomie est souvent assez comparable aux outils de référence
@@ -1418,4 +1419,3 @@ l'internet post-commercial.
 Au travail.
 
 # Bibliographie
-
