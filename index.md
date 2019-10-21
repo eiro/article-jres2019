@@ -621,7 +621,7 @@ globalement pas varié. Ce que nous percevons déjà comme
 des désagréments, ce sont les premiers signes de catastrophes qui sont annoncées
 par des modèles de plus en plus fiables.
 
-## les sources
+## Les sources
 
 La littérature scientifique constitue la source la plus légitime
 d'information mais sa densité et sa spécialisation ne permettent pas de
@@ -703,7 +703,7 @@ et les décisions qui s'imposent pour «sauver la planète», le changement de p
 passe par une restructuration de l'économie autour de nouveaux modes de consommation
 fondé sur la somme de nos efforts individuels.
 
-## la dépollution qui pollue
+## La dépollution qui pollue
 
 Outre le fait que le recyclage et le stockage des déchets
 ont leurs pollutions propres, j'aimerais insister sur une notion qui n'apparaît
@@ -826,15 +826,15 @@ les connaissances suffisantes pour :
 
 Cette configuration ne correspondait pas aux attentes du public qui ne comprenait pas
 les bénéfices fonctionnels qu'ils pouvaient tirer de la liberté de choix d'un client
-final et qui refusait un temps d'apprentissage. De plus,
-elle ne disposait d'aucun modèle économique rentable (pour les opérateurs,
+final et qui refusait un temps d'apprentissage.
+Elle ne disposait pas non plus d'un modèle économique rentable (pour les opérateurs,
 elle engendrait au contraire le maintien d'infrastructures et un support rendu
 difficile par la grande diversité des outils disponibles). De plus,
 l'explosion commerciale du réseau a créé une vraie pénurie d'informaticiens
-qualifiés et les entreprises ont embaucher massivement des personnels formés
+qualifiés et les entreprises ont embauché massivement des personnels formés
 sur le tas dans le monde de l'informatique personnelle ou lors de formations éclairs
 ^[[@eternal]].  Le niveau moyen de ces personnes était faible et le manque de recul était la norme.
-Elles malgré tout propulsées «experts» par des services commerciaux.
+Elles étaient malgré tout propulsées «experts» par des services commerciaux.
 À partir de cette époque au moins ^[les
 orientations technologiques prises par le management était déjà critiqué dans
 les années 80 par des ingénieurs devenus illustres depuis, tel que Rob Pike]
@@ -975,9 +975,9 @@ d'ateliers autour
 
 Pour le moment ces projets sont au point mort par manque de temps.
 
-# les solutions
+# Les solutions
 
-## objectifs
+## Objectifs
 
 ### Créer les conditions d'une sobriété numérique
 
@@ -1120,7 +1120,7 @@ Si de la bande passante doit être mobilisée:
 Reste que les producteurs vidéastes (amateurs ou professionnels) avait trouvé dans
 les plateformes de streaming.
 
-#### choisir entre l'impact communicationel et l'impact environnemental
+#### Choisir entre l'impact communicationel et l'impact environnemental
 
 On peut aisément admettre que qu'une vidéo puisse avoir un impact
 supérieur au texte en terme de communication, qu'un fond de page où on peut voir
@@ -1145,7 +1145,7 @@ Même si les grands nombres nous échappent: le nombre de pages que nous consult
 quotidiennement et le nombre d'humains qui font de même devrait nous alerter sur
 ces proportions.
 
-### mettre fin à la publicité en ligne
+### Mettre fin à la publicité en ligne
 
 Serait probablement la seule mesure de sobriété populaire ^[[@blockers]]
 en atteste. En plus de l'économie d'énergie liée à la disparition de ces contenus,
@@ -1158,7 +1158,7 @@ ciblée).
 Outre une gestion plus responsable des contenus multimédias, il nous reste
 beaucoup d'options pour réduire la bande passante:
 
-#### réduire le trafic des protocoles applicatifs
+#### Réduire le trafic des protocoles applicatifs
 
 Dans la plupart des cas, l'économie qu'on peut espérer ici est minime
 comparativement aux charges utiles mais dans le cas de la messagerie
@@ -1177,7 +1177,7 @@ ce genre d'outils.
 D'autres voies sont envisageables (comme l'usage de sérialisations binaires
 pour remplacer le xml de xmpp ou le json de matrix: j'y reviens plus loin).
 
-#### la taille des charges utiles
+#### La taille des charges utiles
 
 Comme déjà évoqué plus haut, dans de nombreux cas le texte constitue une
 alternative évidente et suffisante à des formats plus riches comme html
@@ -1300,7 +1300,7 @@ intègre par défaut un moteur d'indexation et de suggestion:
 faciliter un tel comportement pourrait être simple si le site de documentation
 me proposait un lien vers une synchronisation locale.
 
-### l'assistance utilisateur et les paramètres par defaut
+### L'assistance utilisateur et les paramètres par defaut
 
 Les outils les moins énergivores (par exemple ceux de la communauté suckless ^[[@suckless]]
 sont aussi les moins inclusifs: ils
@@ -1346,7 +1346,7 @@ des listes.
 * ne répondre qu'à la liste ;
 * configurer la liste.
 
-### executer plus vite
+### Exécuter plus vite
 
 Nous sommes tous conscients que les langages dynamiques et autres
 technologies qui privilégie le temps de développement au temps d'exécution
