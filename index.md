@@ -880,8 +880,8 @@ que je me fixais en proposant cet article sont:
 * initier ou rejoindre des réflexions sur les solutions à mettre en place
 
 Je n'ai commencé à évoquer le sujet avec des informaticiens que
-lorsque que lors de mes premières prises de notes pour présent article.
-Toutefois mes idées ne sont issues d'une culture qui précède ma prise de
+lorsque que lors de mes premières prises de notes pour le présent article.
+Toutefois mes idées sont issues d'une culture qui précède ma prise de
 conscience environnementale et je crois pouvoir participer à la réflexion
 en apportant une perspective différente de celle que l'on peut construire
 lorsqu'on commence à chercher des solutions suite au constat du problème.
