@@ -956,11 +956,11 @@ récente (courant 2017). J'ai commencé à me documenter sur les solutions
 proposées et me suis vite rendu compte que mes pratiques étaient
 déjà plus minimalistes que celles proposées par de nombreuses
 recommandations. Je conçois que les outils développés par la communauté
-[suckless](http://suckless.org), par exemple, ne constitue pas une offre
+[suckless](http://suckless.org), par exemple, ne constituent pas une offre
 logicielle grand public mais je crois aussi qu'une grande partie de
 l'économie que permettent ces outils ne réside pas dans leur ergonomie
 mais dans les stratégies qu'ils privilégient pour réaliser les tâches
-entreprises. Ces mêmes stratégies pourraient être réutilisés dans des
+entreprises. Ces mêmes stratégies pourraient être réutilisées dans des
 outils plus ergonomiques (cf. la partie "solutions" du présent document).
 J'ai parfois tenté d'aborder le sujet dans les milieux
 technophiles, suscitant peu d'intérêt. Je me suis ensuite tourné vers
@@ -1002,7 +1002,7 @@ après un effondrement de notre civilisation en se posant des questions comme:
 ### Intégrer le handicap numérique
 
 Les régions les plus défavorisées de France ou du monde devraient pouvoir être
-équipés à bas coût et les réseaux à faible débit devraient pourvoir
+équipés à bas coût et les réseaux à faible débit devraient pouvoir
 être suffisants pour assurer l'accès aux services importants.
 
 ## Pas de politique
@@ -1028,7 +1028,7 @@ dans des temps raisonnables. C'est un des usages grand public qui est fait
 des distributions linux ^[[@distributions]]. Les versions les
 plus spartiates tournent aisément sur la première génération de raspberry pi.
 ^[damn small linux ^[[@dslinux]] est capable de s'executer sur un 486DX avec 16Mo de RAM]
-A ce sujet fais deux constats :
+À ce sujet, je fais deux constats :
 
 * si l'esthétique des outils graphiques proposés est souvent en décalage avec
   la dernière mode, l'ergonomie est souvent assez comparable aux outils de référence
@@ -1038,7 +1038,7 @@ A ce sujet fais deux constats :
   et énergie: l'économie sera réelle aussi sur du matériel récent (et la réactivité
   de la station de travail est très appréciable).
 
-A mes yeux, il faut donc repenser la philosophie générale de production des
+À mes yeux, il faut donc repenser la philosophie générale de production des
 logiciels pour créer une offre qui:
 
 * minimisera les ressources nécessaires à leur exécution des programmes
