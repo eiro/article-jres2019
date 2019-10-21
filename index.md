@@ -923,7 +923,7 @@ d'éclairer mon point de vue avant
   de conceptions simples ^[[@worse]] ^[[@kiss]].  Faire simple, efficace
   et léger n'était plus seulement une nécessité mais une fierté.
 * Lorsque je suis devenu "professionnel", profitant en cela de la "bulle
-  internet" pour me faufiler parmis les rangs des techniciens formés
+  internet" pour me faufiler parmi les rangs des techniciens formés
   et compétents, l'ambiance a totalement changé: seule la productivité
   comptait et la consommation de l'infrastructure était bien moins couteuse
   que mon salaire ("met 2, 3, 4 serveurs si il faut mais ne perd pas de temps",
@@ -934,7 +934,7 @@ d'éclairer mon point de vue avant
   ...). Les utilisateurs n'ayant souvent aucun point de comparaison se contentaient
   des performances de logiciels écrits en VisualBasic ou en Java et du peu de fonctionnalités
   qu'offraient les outils que nous leur proposions.
-* des j'ai pratiqué deux formes d'informatique
+* dès lors j'ai pratiqué deux formes d'informatique
   * l'informatique professionnelle (devenu la norme), qui développe des pratiques
     économiquement rentables et se fonde sur le discours des acteurs du marché.
   * l'informatique des hobbistes qui, loin d'être nostalgique, a continué à
@@ -948,7 +948,7 @@ d'éclairer mon point de vue avant
     ^[Mon environement préféré est dwm ^[[@dwm]], mon MUA de référence est
     mutt ^[[@mutt]], j'utilise toujours IRC ^[[@irc]]
     et mon outils de communication préféré reste le mail.
-    je abonné aux les listes de openbsd ^[[@openbsd]], 9front ^[[@9front]],
+    je suis abonné aux listes de openbsd ^[[@openbsd]], 9front ^[[@9front]],
     cat-v ^[[@cat-v]] et suckless ^[[@suckless]].
 
 Ma prise de conscience de l'impact du numérique sur le climat est très
