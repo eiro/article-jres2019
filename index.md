@@ -1071,7 +1071,7 @@ dépôt github du présent article ^[[@article]].
 ### Les contenus multimédia
 
 La numérisation et la diffusion de contenus multimédia dans les proportions
-actuelles pausent problème. En ne parlant que des vidéos et des musique:
+actuelles posent problème. En ne parlant que des vidéos et des musique:
 
 * la décompression et donc la lecture de ces contenus nécessite une consommation
   statique et/ou des dispositifs physiques sur le terminal (GPU pour l'encodage
@@ -1079,7 +1079,7 @@ actuelles pausent problème. En ne parlant que des vidéos et des musique:
 * le transfert de ces contenus nécessite une bande passante conséquente
   (pour rappel: 80% de la bande passante globale pour les seules vidéos) ;
 
-Nous les contenus qui résultent d'une capture physique (enregistrements audio
+Pour les contenus qui résultent d'une capture physique (enregistrements audio
 et vidéos) et sauf à ressortir nos lecteurs de compact disc et préférer
 la lecture de contenus de la qualité la plus faible possible, je n'ai pas
 vraiment de propositions à faire.
@@ -1108,7 +1108,7 @@ supprimé.
 
 Si de la bande passante doit être mobilisée:
 
-* le streaming est à éviter des que le terminal dispose d'un espace de stockage suffisant:
+* le streaming est à éviter dès que le terminal dispose d'un espace de stockage suffisant:
   il serait bon de pouvoir copier  pour participer au partage et économiser le côut du
   transfert en cas de rediffusion ;
 * le P2P réduirait le trafic dans nombre de situations ^[imaginez le gain pour un cours
@@ -1122,9 +1122,9 @@ les plateformes de streaming.
 
 #### Choisir entre l'impact communicationel et l'impact environnemental
 
-On peut aisément admettre que qu'une vidéo puisse avoir un impact
+On peut aisément admettre qu'une vidéo puisse avoir un impact
 supérieur au texte en terme de communication, qu'un fond de page où on peut voir
-un open space pleins de collègues heureux se font des high-fives soit plus
+un open space plein de collègues heureux se font des high-fives soit plus
 engageant qu'une simple page blanche mais cette approche a tendance à faire
 grossir les contenus.
 
@@ -1186,7 +1186,7 @@ ou pdf.
 Si nous prenons le cas de la messagerie (les emails sont souvent montrés du
 doigt comme une source importante de pollution), la vidéo de France Stratégie
 dont je parlais plus haut propose que la taille (j'imagine qu'ils parlent d'une
-taille moyenne) d'un message est de 70Ko. Soit. A bien y regarder:
+taille moyenne) d'un message est de 70Ko. Soit. À bien y regarder:
 
 * le contenu du message est souvent formaté en html
 * cet html contient parfois des pièces jointes par exemple pour les signatures
@@ -1219,15 +1219,15 @@ de préférer les formats triviaux lorsque c'est possible.
 
 ... et la sérialisation binaire pour les échanges.
 
-Les couches bases du modèle DOD ^[[@dod]]
+Les couches basses du modèle DOD ^[[@dod]]
 sont le royaume des encodages binaires: il était clair qu'à ce niveau
 du transport, la taille et la désérialisation efficace sont cruciales.
 Hors le même soin n'a pas été apporté aux protocoles applicatifs et
 aux charges utiles: utiliser du texte plutôt que des sérialisations utilisant
-des encodages ^[[@tsv]] rendait simplifiait le développement et la
-maintenance des logiciels client et serveurs ^[[@betext]].
+des encodages ^[[@tsv]] simplifiait le développement et la
+maintenance des logiciels clients et serveurs ^[[@betext]].
 
-Si les usages des encodages binaires existent depuis longtemps dan les couches
+Si les usages des encodages binaires existent depuis longtemps dans les couches
 applicatives ^[[@asn]] ^[[@ber]], une très forte
 majorité des protocoles sérialisent bien les messages en textes pleins.
 
@@ -1253,7 +1253,7 @@ en ajoutant un *backend* de sérialisation binaire. La transition pourrait
 alors se faire sans surcroit de travail pour les programmeurs.
 
 Les charges utiles sérialisées en JSON ^[[@json]]
-peuvent être remplacées des à présent par des sérialisations
+peuvent être remplacées dès à présent par des sérialisations
 *cbor*: le mime type du body devient 'application/cbor' ^[[@rfc7049 section 7.3]]
 
 De manière générale, la "binarisation" peut être appliquée à tous
@@ -1292,7 +1292,7 @@ Exemple d'usage personnel et à contre-courant de la culture actuelle qui propos
 à tout le monde de lancer une requête google des qu'un message d'erreur apparait:
 sur debian, les documentations des outils que j'utilise sont disponibles sous
 la forme de paquets: je les ai installés et indexé localement. Je ne sollicite
-donc plus le réseau pour leur consultation.  L'ai une archive locale des listes
+donc plus le réseau pour leur consultation.  J'ai une archive locale des listes
 de diffusions qui me permettent de trouver des réponses: nul besoin de stack
 overflow pour trouver une réponse. Ce genre de pratique est efficace mais rien
 ne permet à un non-technicien de le faire facilement. Pourtant mon bureau
@@ -1349,7 +1349,7 @@ des listes.
 ### Exécuter plus vite
 
 Nous sommes tous conscients que les langages dynamiques et autres
-technologies qui privilégie le temps de développement au temps d'exécution
+technologies qui privilégient le temps de développement au temps d'exécution
 ont une véritable incidence sur les performances de nos programmes
 (webassembly est une réponse aux performances de javascript qui
 sont médiocres comparativement à ceux de langages compilés.
@@ -1398,10 +1398,10 @@ Il nous faut agir ensemble et pour notre intérêt à tous.
 >  --  Fred Moten
 
 Le monde universitaire a façonné l'informatique l'internet pré-commercial
-grâce à par ses idées que par son code. Il a déjà démontré sa capacité à
+tant par ses idées que par son code. Il a déjà démontré sa capacité à
 produire des solutions efficaces grâce à une communauté de chercheurs et
 techniciens qui s'organisent spontanément autour de la résolution des problèmes.
-Nous n'avons pas les mains liés par la sauvegarde d'un modèle commercial et
+Nous n'avons pas les mains liées par la sauvegarde d'un modèle commercial et
 ne sommes pas contraints aux exigences de rentabilité immédiate
 qu'impose la concurrence ^[La montée en puissance de nouveaux modèles économiques
 fondés sur le financement participatif de développement de logiciels, bien que
