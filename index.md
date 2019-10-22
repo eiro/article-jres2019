@@ -621,7 +621,7 @@ globalement pas varié. Ce que nous percevons déjà comme
 des désagréments, ce sont les premiers signes de catastrophes qui sont annoncées
 par des modèles de plus en plus fiables.
 
-## les sources
+## Les sources
 
 La littérature scientifique constitue la source la plus légitime
 d'information mais sa densité et sa spécialisation ne permettent pas de
@@ -703,7 +703,7 @@ et les décisions qui s'imposent pour «sauver la planète», le changement de p
 passe par une restructuration de l'économie autour de nouveaux modes de consommation
 fondé sur la somme de nos efforts individuels.
 
-## la dépollution qui pollue
+## La dépollution qui pollue
 
 Outre le fait que le recyclage et le stockage des déchets
 ont leurs pollutions propres, j'aimerais insister sur une notion qui n'apparaît
@@ -826,15 +826,15 @@ les connaissances suffisantes pour :
 
 Cette configuration ne correspondait pas aux attentes du public qui ne comprenait pas
 les bénéfices fonctionnels qu'ils pouvaient tirer de la liberté de choix d'un client
-final et qui refusait un temps d'apprentissage. De plus,
-elle ne disposait d'aucun modèle économique rentable (pour les opérateurs,
+final et qui refusait un temps d'apprentissage.
+Elle ne disposait pas non plus d'un modèle économique rentable (pour les opérateurs,
 elle engendrait au contraire le maintien d'infrastructures et un support rendu
 difficile par la grande diversité des outils disponibles). De plus,
 l'explosion commerciale du réseau a créé une vraie pénurie d'informaticiens
-qualifiés et les entreprises ont embaucher massivement des personnels formés
+qualifiés et les entreprises ont embauché massivement des personnels formés
 sur le tas dans le monde de l'informatique personnelle ou lors de formations éclairs
 ^[[@eternal]].  Le niveau moyen de ces personnes était faible et le manque de recul était la norme.
-Elles malgré tout propulsées «experts» par des services commerciaux.
+Elles étaient malgré tout propulsées «experts» par des services commerciaux.
 À partir de cette époque au moins ^[les
 orientations technologiques prises par le management était déjà critiqué dans
 les années 80 par des ingénieurs devenus illustres depuis, tel que Rob Pike]
@@ -880,8 +880,8 @@ que je me fixais en proposant cet article sont:
 * initier ou rejoindre des réflexions sur les solutions à mettre en place
 
 Je n'ai commencé à évoquer le sujet avec des informaticiens que
-lorsque que lors de mes premières prises de notes pour présent article.
-Toutefois mes idées ne sont issues d'une culture qui précède ma prise de
+lorsque que lors de mes premières prises de notes pour le présent article.
+Toutefois mes idées sont issues d'une culture qui précède ma prise de
 conscience environnementale et je crois pouvoir participer à la réflexion
 en apportant une perspective différente de celle que l'on peut construire
 lorsqu'on commence à chercher des solutions suite au constat du problème.
@@ -901,13 +901,13 @@ d'éclairer mon point de vue avant
   baissait) et nous écrivions des scripts pour télécharger tout ce dont nous
   avions besoin dans un laps de temps le plus court possible. Nous
   téléchargions la liste des fichiers des serveurs ftp (ls-R.txt) pour
-  les consulter offline. Télécharger une disquette pouvait prendre une minute
+  les consulter hors ligne. Télécharger une disquette pouvait prendre une minute
   et lorsqu'on visualisait une image sur les premiers sites web, nous
   attendions que le rectangle gris préalablement dessiné par le navigateur
   se remplisse. Pour éviter les frais, nous mettions des miroirs en place
   et des sites complets s'échangeaient via des disques durs dans des
   racks. Les e-zines et de nombreuses documentations
-  (comme le RFCs) étaient écrits en texte plain et les illustrations étaient
+  (comme le RFCs) étaient écrits en texte brut et les illustrations étaient
   en ascii art ^[[@ascii]]. Le nombre de
   personnes connectées simultanément à un service était configuré en fonction
   des capacités de la machine qui hébergeait le serveur ou de la bande passante
@@ -923,7 +923,7 @@ d'éclairer mon point de vue avant
   de conceptions simples ^[[@worse]] ^[[@kiss]].  Faire simple, efficace
   et léger n'était plus seulement une nécessité mais une fierté.
 * Lorsque je suis devenu "professionnel", profitant en cela de la "bulle
-  internet" pour me faufiler parmis les rangs des techniciens formés
+  internet" pour me faufiler parmi les rangs des techniciens formés
   et compétents, l'ambiance a totalement changé: seule la productivité
   comptait et la consommation de l'infrastructure était bien moins couteuse
   que mon salaire ("met 2, 3, 4 serveurs si il faut mais ne perd pas de temps",
@@ -934,7 +934,7 @@ d'éclairer mon point de vue avant
   ...). Les utilisateurs n'ayant souvent aucun point de comparaison se contentaient
   des performances de logiciels écrits en VisualBasic ou en Java et du peu de fonctionnalités
   qu'offraient les outils que nous leur proposions.
-* des j'ai pratiqué deux formes d'informatique
+* dès lors j'ai pratiqué deux formes d'informatique
   * l'informatique professionnelle (devenu la norme), qui développe des pratiques
     économiquement rentables et se fonde sur le discours des acteurs du marché.
   * l'informatique des hobbistes qui, loin d'être nostalgique, a continué à
@@ -948,7 +948,7 @@ d'éclairer mon point de vue avant
     ^[Mon environement préféré est dwm ^[[@dwm]], mon MUA de référence est
     mutt ^[[@mutt]], j'utilise toujours IRC ^[[@irc]]
     et mon outils de communication préféré reste le mail.
-    je abonné aux les listes de openbsd ^[[@openbsd]], 9front ^[[@9front]],
+    je suis abonné aux listes de openbsd ^[[@openbsd]], 9front ^[[@9front]],
     cat-v ^[[@cat-v]] et suckless ^[[@suckless]].
 
 Ma prise de conscience de l'impact du numérique sur le climat est très
@@ -956,11 +956,11 @@ récente (courant 2017). J'ai commencé à me documenter sur les solutions
 proposées et me suis vite rendu compte que mes pratiques étaient
 déjà plus minimalistes que celles proposées par de nombreuses
 recommandations. Je conçois que les outils développés par la communauté
-[suckless](http://suckless.org), par exemple, ne constitue pas une offre
+[suckless](http://suckless.org), par exemple, ne constituent pas une offre
 logicielle grand public mais je crois aussi qu'une grande partie de
 l'économie que permettent ces outils ne réside pas dans leur ergonomie
 mais dans les stratégies qu'ils privilégient pour réaliser les tâches
-entreprises. Ces mêmes stratégies pourraient être réutilisés dans des
+entreprises. Ces mêmes stratégies pourraient être réutilisées dans des
 outils plus ergonomiques (cf. la partie "solutions" du présent document).
 J'ai parfois tenté d'aborder le sujet dans les milieux
 technophiles, suscitant peu d'intérêt. Je me suis ensuite tourné vers
@@ -975,9 +975,9 @@ d'ateliers autour
 
 Pour le moment ces projets sont au point mort par manque de temps.
 
-# les solutions
+# Les solutions
 
-## objectifs
+## Objectifs
 
 ### Créer les conditions d'une sobriété numérique
 
@@ -1002,7 +1002,7 @@ après un effondrement de notre civilisation en se posant des questions comme:
 ### Intégrer le handicap numérique
 
 Les régions les plus défavorisées de France ou du monde devraient pouvoir être
-équipés à bas coût et les réseaux à faible débit devraient pourvoir
+équipés à bas coût et les réseaux à faible débit devraient pouvoir
 être suffisants pour assurer l'accès aux services importants.
 
 ## Pas de politique
@@ -1028,7 +1028,7 @@ dans des temps raisonnables. C'est un des usages grand public qui est fait
 des distributions linux ^[[@distributions]]. Les versions les
 plus spartiates tournent aisément sur la première génération de raspberry pi.
 ^[damn small linux ^[[@dslinux]] est capable de s'executer sur un 486DX avec 16Mo de RAM]
-A ce sujet fais deux constats :
+À ce sujet, je fais deux constats :
 
 * si l'esthétique des outils graphiques proposés est souvent en décalage avec
   la dernière mode, l'ergonomie est souvent assez comparable aux outils de référence
@@ -1038,7 +1038,7 @@ A ce sujet fais deux constats :
   et énergie: l'économie sera réelle aussi sur du matériel récent (et la réactivité
   de la station de travail est très appréciable).
 
-A mes yeux, il faut donc repenser la philosophie générale de production des
+À mes yeux, il faut donc repenser la philosophie générale de production des
 logiciels pour créer une offre qui:
 
 * minimisera les ressources nécessaires à leur exécution des programmes
@@ -1071,7 +1071,7 @@ dépôt github du présent article ^[[@article]].
 ### Les contenus multimédia
 
 La numérisation et la diffusion de contenus multimédia dans les proportions
-actuelles pausent problème. En ne parlant que des vidéos et des musique:
+actuelles posent problème. En ne parlant que des vidéos et des musique:
 
 * la décompression et donc la lecture de ces contenus nécessite une consommation
   statique et/ou des dispositifs physiques sur le terminal (GPU pour l'encodage
@@ -1079,7 +1079,7 @@ actuelles pausent problème. En ne parlant que des vidéos et des musique:
 * le transfert de ces contenus nécessite une bande passante conséquente
   (pour rappel: 80% de la bande passante globale pour les seules vidéos) ;
 
-Nous les contenus qui résultent d'une capture physique (enregistrements audio
+Pour les contenus qui résultent d'une capture physique (enregistrements audio
 et vidéos) et sauf à ressortir nos lecteurs de compact disc et préférer
 la lecture de contenus de la qualité la plus faible possible, je n'ai pas
 vraiment de propositions à faire.
@@ -1108,7 +1108,7 @@ supprimé.
 
 Si de la bande passante doit être mobilisée:
 
-* le streaming est à éviter des que le terminal dispose d'un espace de stockage suffisant:
+* le streaming est à éviter dès que le terminal dispose d'un espace de stockage suffisant:
   il serait bon de pouvoir copier  pour participer au partage et économiser le côut du
   transfert en cas de rediffusion ;
 * le P2P réduirait le trafic dans nombre de situations ^[imaginez le gain pour un cours
@@ -1120,11 +1120,11 @@ Si de la bande passante doit être mobilisée:
 Reste que les producteurs vidéastes (amateurs ou professionnels) avait trouvé dans
 les plateformes de streaming.
 
-#### choisir entre l'impact communicationel et l'impact environnemental
+#### Choisir entre l'impact communicationel et l'impact environnemental
 
-On peut aisément admettre que qu'une vidéo puisse avoir un impact
+On peut aisément admettre qu'une vidéo puisse avoir un impact
 supérieur au texte en terme de communication, qu'un fond de page où on peut voir
-un open space pleins de collègues heureux se font des high-fives soit plus
+un open space plein de collègues heureux se font des high-fives soit plus
 engageant qu'une simple page blanche mais cette approche a tendance à faire
 grossir les contenus.
 
@@ -1145,7 +1145,7 @@ Même si les grands nombres nous échappent: le nombre de pages que nous consult
 quotidiennement et le nombre d'humains qui font de même devrait nous alerter sur
 ces proportions.
 
-### mettre fin à la publicité en ligne
+### Mettre fin à la publicité en ligne
 
 Serait probablement la seule mesure de sobriété populaire ^[[@blockers]]
 en atteste. En plus de l'économie d'énergie liée à la disparition de ces contenus,
@@ -1158,7 +1158,7 @@ ciblée).
 Outre une gestion plus responsable des contenus multimédias, il nous reste
 beaucoup d'options pour réduire la bande passante:
 
-#### réduire le trafic des protocoles applicatifs
+#### Réduire le trafic des protocoles applicatifs
 
 Dans la plupart des cas, l'économie qu'on peut espérer ici est minime
 comparativement aux charges utiles mais dans le cas de la messagerie
@@ -1177,7 +1177,7 @@ ce genre d'outils.
 D'autres voies sont envisageables (comme l'usage de sérialisations binaires
 pour remplacer le xml de xmpp ou le json de matrix: j'y reviens plus loin).
 
-#### la taille des charges utiles
+#### La taille des charges utiles
 
 Comme déjà évoqué plus haut, dans de nombreux cas le texte constitue une
 alternative évidente et suffisante à des formats plus riches comme html
@@ -1186,7 +1186,7 @@ ou pdf.
 Si nous prenons le cas de la messagerie (les emails sont souvent montrés du
 doigt comme une source importante de pollution), la vidéo de France Stratégie
 dont je parlais plus haut propose que la taille (j'imagine qu'ils parlent d'une
-taille moyenne) d'un message est de 70Ko. Soit. A bien y regarder:
+taille moyenne) d'un message est de 70Ko. Soit. À bien y regarder:
 
 * le contenu du message est souvent formaté en html
 * cet html contient parfois des pièces jointes par exemple pour les signatures
@@ -1219,15 +1219,15 @@ de préférer les formats triviaux lorsque c'est possible.
 
 ... et la sérialisation binaire pour les échanges.
 
-Les couches bases du modèle DOD ^[[@dod]]
+Les couches basses du modèle DOD ^[[@dod]]
 sont le royaume des encodages binaires: il était clair qu'à ce niveau
 du transport, la taille et la désérialisation efficace sont cruciales.
 Hors le même soin n'a pas été apporté aux protocoles applicatifs et
 aux charges utiles: utiliser du texte plutôt que des sérialisations utilisant
-des encodages ^[[@tsv]] rendait simplifiait le développement et la
-maintenance des logiciels client et serveurs ^[[@betext]].
+des encodages ^[[@tsv]] simplifiait le développement et la
+maintenance des logiciels clients et serveurs ^[[@betext]].
 
-Si les usages des encodages binaires existent depuis longtemps dan les couches
+Si les usages des encodages binaires existent depuis longtemps dans les couches
 applicatives ^[[@asn]] ^[[@ber]], une très forte
 majorité des protocoles sérialisent bien les messages en textes pleins.
 
@@ -1253,7 +1253,7 @@ en ajoutant un *backend* de sérialisation binaire. La transition pourrait
 alors se faire sans surcroit de travail pour les programmeurs.
 
 Les charges utiles sérialisées en JSON ^[[@json]]
-peuvent être remplacées des à présent par des sérialisations
+peuvent être remplacées dès à présent par des sérialisations
 *cbor*: le mime type du body devient 'application/cbor' ^[[@rfc7049 section 7.3]]
 
 De manière générale, la "binarisation" peut être appliquée à tous
@@ -1292,7 +1292,7 @@ Exemple d'usage personnel et à contre-courant de la culture actuelle qui propos
 à tout le monde de lancer une requête google des qu'un message d'erreur apparait:
 sur debian, les documentations des outils que j'utilise sont disponibles sous
 la forme de paquets: je les ai installés et indexé localement. Je ne sollicite
-donc plus le réseau pour leur consultation.  L'ai une archive locale des listes
+donc plus le réseau pour leur consultation.  J'ai une archive locale des listes
 de diffusions qui me permettent de trouver des réponses: nul besoin de stack
 overflow pour trouver une réponse. Ce genre de pratique est efficace mais rien
 ne permet à un non-technicien de le faire facilement. Pourtant mon bureau
@@ -1300,7 +1300,7 @@ intègre par défaut un moteur d'indexation et de suggestion:
 faciliter un tel comportement pourrait être simple si le site de documentation
 me proposait un lien vers une synchronisation locale.
 
-### l'assistance utilisateur et les paramètres par defaut
+### L'assistance utilisateur et les paramètres par defaut
 
 Les outils les moins énergivores (par exemple ceux de la communauté suckless ^[[@suckless]]
 sont aussi les moins inclusifs: ils
@@ -1346,10 +1346,10 @@ des listes.
 * ne répondre qu'à la liste ;
 * configurer la liste.
 
-### executer plus vite
+### Exécuter plus vite
 
 Nous sommes tous conscients que les langages dynamiques et autres
-technologies qui privilégie le temps de développement au temps d'exécution
+technologies qui privilégient le temps de développement au temps d'exécution
 ont une véritable incidence sur les performances de nos programmes
 (webassembly est une réponse aux performances de javascript qui
 sont médiocres comparativement à ceux de langages compilés.
@@ -1398,10 +1398,10 @@ Il nous faut agir ensemble et pour notre intérêt à tous.
 >  --  Fred Moten
 
 Le monde universitaire a façonné l'informatique l'internet pré-commercial
-grâce à par ses idées que par son code. Il a déjà démontré sa capacité à
+tant par ses idées que par son code. Il a déjà démontré sa capacité à
 produire des solutions efficaces grâce à une communauté de chercheurs et
 techniciens qui s'organisent spontanément autour de la résolution des problèmes.
-Nous n'avons pas les mains liés par la sauvegarde d'un modèle commercial et
+Nous n'avons pas les mains liées par la sauvegarde d'un modèle commercial et
 ne sommes pas contraints aux exigences de rentabilité immédiate
 qu'impose la concurrence ^[La montée en puissance de nouveaux modèles économiques
 fondés sur le financement participatif de développement de logiciels, bien que
