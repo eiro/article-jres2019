@@ -24,6 +24,18 @@ header-includes:
 TODO:
 references:
 
+- id: whichlanguage
+  title: '[Which Programming Languages Use the Least Electricity?](https://thenewstack.io/which-programming-languages-use-the-least-electricity/)'
+  nutitle: Which Programming Languages Use the Least Electricity?
+  URL: 'https://thenewstack.io/which-programming-languages-use-the-least-electricity/'
+- URL: https://fr.wikipedia.org/wiki/Synchronized_Multimedia_Integration_Language
+  nutitle: Synchronized Multimedia Integration Language (SMILE)
+  title: '[Synchronized Multimedia Integration Language (SMILE)](https://fr.wikipedia.org/wiki/Synchronized_Multimedia_Integration_Language)'
+  id: smile
+- URL: https://fr.wikipedia.org/wiki/PGF/TikZ
+  nutitle: PGF/TikZ
+  title: '[PGF/TikZ](https://fr.wikipedia.org/wiki/PGF/TikZ)'
+  id: tikz
 - URL: http://www.pouet.net/prod.php?which=394
   id: enigma
   nutitle: Enigma by Phenomena
@@ -320,10 +332,10 @@ references:
   id: xmpp
   nutitle: XMPP
   title: '[XMPP](https://xmpp.org/rfcs/rfc3921.html)'
-- URL: https://fr.wikipedia.org/wiki/Matrix_(protocole
+- URL: 'https://fr.wikipedia.org/wiki/Matrix_(protocole)'
   id: matrix
   nutitle: Matrix
-  title: '[Matrix](https://fr.wikipedia.org/wiki/Matrix_(protocole)'
+  title: '[Matrix](https://fr.wikipedia.org/wiki/Matrix)'
 - URL: https://tools.ietf.org/rfc/rfc1459.txt
   id: ircrfc
   nutitle: rfc IRC
@@ -439,14 +451,14 @@ fierté en plus d'assurer une position sociale et financière. Érigée en dikta
 et au détriment de toute autre considération (rationalité des systèmes
 d'information, coût énergétiques entre autres...) cette seule satisfaction
 nous a poussés à utiliser chaque nouveau gain de performance que nous
-procurait la réalisation de la loi de Moore [@moore] en nouvelle source de jouissance numérique.
+procurait la réalisation de la loi de Moore ^[[@moore]] en nouvelle source de jouissance numérique.
 
 Un marché de l'informatique basse consommation existe de longue date mais il
 n'a intéressé à ma connaissance que les seuls technophiles :
 des logiciels plus puissants et attractifs ont poussé les consommateurs à
 l'achat d'ordinateurs de plus en plus puissants, les forçant à
 renouveler régulièrement leur matériel en choisissant les processeurs de
-dernière génération. Ce phénomène [@jevons] n'est en rien spécifique au numérique.
+dernière génération. Ce phénomène ^[[@jevons]] n'est en rien spécifique au numérique.
 
 Nous avons certes contribué à un bond formidable de l'humanité. Nous ne faisons en
 cela que vérifier la certitude que notre culture toute entière nous a poussés à
@@ -469,14 +481,14 @@ nos maisons pour pouvoir parler à la télévision, demander l'heure ou la mét�
 Les plus technophiles s'abreuvent de flux d'informations qui nous annoncent un futur
 proche peuplé :
 
-* d'hommes volants ^[@flyboard] ;
+* d'hommes volants ^[[@flyboard]] ;
 * de voitures autonomes ;
 * d'objets connectés qui interagiront pour augmenter notre réalité avec
   des composants graphiques inspirés des meilleurs jeux video ;
 * d'une réinvention de la démocratie et de l'économie de marchés grâce à la blockchain ;
 * d'intelligences artificielles qui nous remplaceront avantageusement ou nous
   assisteront dans toutes nos tâches intellectuelles, diagnostiquant plus sûrement que les
-  médecins ^[[@watson]], anticipant la pensée du développeur pour écrire le code à sa place [@ide]
+  médecins ^[[@watson]], anticipant la pensée du développeur pour écrire le code à sa place ^[[@ide]]
   et découvrant des stratégies en jouant à des jeux que nous pratiquons depuis des siècles ^[[@alphago]] ;
 * de tous ces avancées qui confirment notre foi dans une technologie qui servira l'élévation
   de l'humanité.
@@ -810,7 +822,7 @@ Le texte source pèse moitié moins que les pages (le code des expérimentations
 que j'ai réalisé pour préparer cet article est disponible sur le dépôt de
 l'article ^[[@article]] et continuera à évoluer
 après les JRES). Ajoutons à cela les CSS, le javascript, les images : une page
-web pèse en moyenne 2.3ko (presque autant que les 2,4ko du jeu Doom) ^[[@stateofweb]].
+web pèse en moyenne 2.3Mo (presque autant que les 2,4Mo du jeu Doom) ^[[@stateofweb]].
 
 Les interfaces graphiques qui permettaient de jouir de ces services correspondaient
 aux standards ergonomiques de l'époque, mais il incombait à l'utilisateur d'acquérir
@@ -874,7 +886,7 @@ expliquer ici comment elle s'est construite et aimerais insister
 sur le fait que je ne prétends certainement pas être un expert. Je n'ai
 participé à aucun groupe de réflexion sur le sujet et je pense que de
 nombreux aspects du problème et des solutions m'échappent. Les objectifs
-que je me fixais en proposant cet article sont:
+que je me fixe en proposant cet article sont:
 
 * tenter  de sensibiliser et de donner les premiers éléments d'information
 * initier ou rejoindre des réflexions sur les solutions à mettre en place
@@ -891,34 +903,35 @@ d'éclairer mon point de vue avant
 
 * c'est dans un club informatique que j'ai commencé à apprendre à programmer
   au milieu des années 80 (sur un goupil G3),
-  tout était lent et l'optimisation coulait de soi.
+  tout était lent et l'optimisation coulait de soi ;
 * Dans les années 90, utiliser un lecteur mp3 mettait un ordinateur à
   genoux. On ne pouvait se balader dans une piste musicale qu'au prix
   de plusieurs secondes d'attente et il fallait une journée
-  (je lançais un batch avant de partir au lycée) pour compresser un CD.
-  Nous nous connections à internet via des lignes téléphoniques
-  facturées à la minute: à 22h30 (heure ou le prix de la communication
-  baissait) et nous écrivions des scripts pour télécharger tout ce dont nous
-  avions besoin dans un laps de temps le plus court possible. Nous
-  téléchargions la liste des fichiers des serveurs ftp (ls-R.txt) pour
-  les consulter hors ligne. Télécharger une disquette pouvait prendre une minute
+  (je lançais un batch avant de partir au lycée) pour compresser un CD ;
+* Nous nous connections à internet via des lignes téléphoniques
+  facturées à la minute. Nous attendions 22h30 (heure ou le prix de la
+  communication baissait) et nous écrivions des scripts pour télécharger
+  tout ce dont nous avions besoin dans un laps de temps le plus court possible.
+  Nous téléchargions la liste des fichiers des serveurs ftp (ls-R.txt) pour
+  les consulter offline. Télécharger une disquette pouvait prendre une minute
   et lorsqu'on visualisait une image sur les premiers sites web, nous
   attendions que le rectangle gris préalablement dessiné par le navigateur
-  se remplisse. Pour éviter les frais, nous mettions des miroirs en place
+  se remplisse ;
+* Pour éviter les frais, nous mettions des miroirs en place
   et des sites complets s'échangeaient via des disques durs dans des
-  racks. Les e-zines et de nombreuses documentations
-  (comme le RFCs) étaient écrits en texte brut et les illustrations étaient
-  en ascii art ^[[@ascii]]. Le nombre de
-  personnes connectées simultanément à un service était configuré en fonction
-  des capacités de la machine qui hébergeait le serveur ou de la bande passante
-  disponible. Avoir des temps d'attente ou un message
-  "Too many users, try later" lors de l'accès à ces services était normal.
+  racks ;
+* Les e-zines et de nombreuses documentations (comme le RFCs) étaient
+  écrits en texte plain et les illustrations étaient en ascii
+  art ^[[@ascii]]. Le nombre de personnes connectées simultanément à
+  un service était configuré en fonction des capacités de la machine
+  qui hébergeait le serveur ou de la bande passante disponible.
+  Avoir des temps d'attente ou un message "Too many users, try later"
+  lors de l'accès à ces services était normal.
 * Comme beaucoup de geeks de ma génération, je me souviens avec émotion de la première
-  demo ^[[@demo]]
-  que j'ai vue ^[[@enigma]]. Nous voulions tous apprendre le C et l'assembleur.
-* au collège, j'avais du mal à croire cet ami qui me soutenait
-  que les ordinateurs seraient bientôt capables d'afficher des films
-  comme sur une télé.
+  demo ^[[@demo]] que j'ai vue ^[[@enigma]].  Nous voulions tous apprendre le C et l'assembleur
+  et nous rendions compte de l'impact de la qualité d'un code sur sa performance.
+* au collège, j'avais du mal à croire qu'on puisse afficher un film sur un ordinateur
+  avec une qualité comparable à celle de la télévision dans un futur prochain.
 * En découvrant linux, nous découvrions la culture unix et les principes
   de conceptions simples ^[[@worse]] ^[[@kiss]].  Faire simple, efficace
   et léger n'était plus seulement une nécessité mais une fierté.
