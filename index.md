@@ -832,7 +832,7 @@ les connaissances suffisantes pour :
 * choisir et paramétrer un client ;
 * identifier les messages d'erreur ;
 
-![3 façons différentes de visualiser le forum fr.sci.physique: slrn, "google groupes" et Thunderbird qui ressemble à s'y méprendre à son ancêtre (Netscape Communicator)](images/3-generations-de-fora.png){height=50%}
+![3 façons différentes de visualiser le forum fr.sci.physique: slrn, "google groupes" et Thunderbird qui ressemble à s'y méprendre à son ancêtre (Netscape Communicator)](original-content/3-generations-de-fora.png){height=50%}
 
 \pagebreak
 
