@@ -1,6 +1,6 @@
 ---
 vim:      et ts=2 sts=2 sw=2
-title:    Les problèmes environementaux de la terre d'innovation
+title:    Les problèmes environnementaux de la terre d'innovation
 keywords: [sobriété numérique, énergie]
 author:   Marc Chantreux <marc.chantreux@renater.fr>
 
@@ -13,6 +13,18 @@ alternative slides: |
         [white,draw,fill=black!50,opacity=.7] at (current page.center)
         {\makecell[l]{\Large Bienvenue dans\\\Huge L'ANTHROPOCÈNE}};
   }
+
+  \img{images/disaster.jpg}
+  \tpic{
+      \node [white,fill=black!50,opacity=.7] at ($(current page.east)-(3,-2.5)$)
+        { \makecell[r]{ \\
+        \LARGE «Notre maison \textbf{\Huge brûle}\\
+        et nous regardons ailleurs»\\--- J. Chirac
+        \\ \\ }
+        \makecell[r]{           \\ }
+        };
+  }
+  #
 
 removed: |
   \usebackgroundtemplate{
@@ -108,34 +120,27 @@ deleted slides: |
 
 \takahashi{
 \textbf{\Huge 15minutes}\\
-\\
-\\
-\\
-\\
-}
-
-
-#
-
-\takahashi{
-\textbf{\Huge 15minutes}\\
 2 crises planétaires \\
-1 extrinction de masse \\
 culture numérique \\
 sobriété \\
 cliffhanger
 }
-
 #
 
-\takahashi{je fais cours …}
+\takahashi{
+\textbf{\Huge 15minutes}\\
+je fais cours …\\
+\\
+\\
+\\
+}
 
 ::: notes
 
-je résume et ignore volontairement certains problèmes.
+* désolé si je n'aborde pas votre une partie du problème auquel vous êtes
+  sensibles
 
 :::
-
 
 #
 
@@ -149,71 +154,54 @@ je résume et ignore volontairement certains problèmes.
   \Tiny GIEC
 }
 
-::: notes
-
-tout le monde entendu parler du rapport du GIEC?
-
-:::
-
 #
-
 \img{images/maunaloa.jpg}
 
 #
 
-\img{images/maunaloa.jpg}
+\img{images/drunk.jpg}
 \tpic{
-    \node
-      [white,fill=red] at (current page.center)
-      {\makecell[l]{\Huge \textbf{415 ppm}}};
+    \node [white,fill=black!50,opacity=.7] at ($(current page.east)-(3,-2.5)$)
+      { \makecell[r]{
+        \Huge \textbf{2g/l}\\
+        \Huge \textbf{«seulement»}
+        }
+      \makecell[r]{           \\ }
+      };
 }
+#
 
-::: notes
-
-* 410 2 ans plus tôt
-* 450: seuil des rétroactions positives
-* 415 pour la première fois depuis 3 millions d'années
-
-415ppm a fait le buzz parceque c'était le record mondial
-depuis l'histoire de l'humanité
-
-:::
-
+\takahashi{
+  taux de croissance\\
+  ordres de grandeurs\\
+  tendances\\
+  seuils\\
+  prédictions correctes\\
+}
 #
 
 \img{images/maunaloa.jpg}
 \tpic{
     \node [] at (current page.center)
       {\makecell[l]{
-        2000 $\implies \approx$ 380 \\
-        22 mai 2019 $\implies$ 415 \\
+        2000 (Kyoto) $\implies \approx$ 380 ppm \\
+        22 mai 2019  $\implies$ 415 ppm ($\approx 9.2\%$) \\
+        450 ppm      $\implies$ gros ennuis \\
+        450 - 415 = 415 - 380 = 35\\
       }};
 }
+#
 
-::: notes
-
-mais surtout: en regardant les mesures
-
-:::
-
-
+\img{images/ge.png}
 #
 
 \img{images/exxon-1982/graph-ici.png}
-
-::: notes
-
-:::
-
 #
 
 \img{images/exxon-1982/title-ici.png}
-
-
 #
 
 \img{images/biodiversite.jpg}
-
 #
 
 \img{images/biodiversite.jpg}
@@ -222,28 +210,15 @@ mais surtout: en regardant les mesures
       [white,fill=red] at (current page.center)
       {\makecell[l]{\Huge \textbf{6ème extinction de masse}}};
 }
-
 #
 
-\takahashi{
-  \LARGE 5 millions d'années
-}
-
+\takahashi{\LARGE 5 millions d'années}
 #
 
-
-\takahashi{
-  nous détruisons \\
-  \LARGE les conditions du vivant
-}
-
+\takahashi{nous détruisons \\ \LARGE les conditions du vivant}
 #
 
-\takahashi{
-  nous détruisons \\
-  \LARGE le vivant
-}
-
+\takahashi{nous détruisons \\ \LARGE le vivant}
 #
 
 \img{images/welcome-to-anthropocene.jpg}
@@ -252,7 +227,6 @@ mais surtout: en regardant les mesures
       [white,fill=black!50,opacity=.7] at (current page.center)
       {\makecell[l]{\Large Bienvenue dans\\\Huge L'ANTHROPOCÈNE}};
 }
-
 #
 
 \takahashi{
@@ -260,55 +234,15 @@ mais surtout: en regardant les mesures
   \LARGE of the effects of climate change \\
   \LARGE on selected causes of death \\
   \Large 2030s and 2050s \\ \\
-\\
-\\
-\\
-\\
-\\
-\\
-          \includegraphics[keepaspectratio,width=0.3\paperwidth]{images/oms.pdf}
-}
-#
-
-\takahashi{
-  \LARGE Quantitative risk assessment \\
-  \LARGE of the effects of climate change \\
-  \LARGE on selected causes of death \\
-  \Large 2030s and 2050s \\ \\
+$\approx$ 250 000 décès supplémentaires par an\\ \\
   Heat-related mortality \\
   Coastal flood mortality \\
   Diarrhoeal disease \\
   Malaria \\
   Dengue \\
   Undernutrition \\ \\
-          \includegraphics[keepaspectratio,width=0.3\paperwidth]{images/oms.pdf}
+  \includegraphics[keepaspectratio,width=0.3\paperwidth]{images/oms.pdf}
 }
-#
-
-\takahashi{
-Entre 2030 et 2050,\\
-$\approx$ 250 000 décès supplémentaires par an\\ \\
-          \includegraphics[keepaspectratio,width=0.3\paperwidth]{images/oms.pdf}
-}
-#
-
-\img{images/ge.png}
-#
-
-::: notes
-
-plutot virer tous les autres
-
-:::
-
-\tpic{
-  \fsimg{images/ge.png}
-  \draw [ red, very thick, radius=2.5, ] (current page.south) circle;
-  \draw [ red, very thick, radius=3, ] (current page.south) circle;
-  \draw [ red, very thick, radius=3.5, ] (current page.south) circle;
-  \draw [ red, very thick, radius=4, ] (current page.south) circle;
-}
-
 #
 
 \img{leanit/i-208.png}
@@ -319,25 +253,6 @@ plutot virer tous les autres
 #
 
 \img{leanit/i-170.png}
-#
-
-::: notes
-
-on devrait s'intéresser aux vrais problèmes et commencer à envisager des solutions
-
-:::
-
-\img{images/disaster.jpg}
-\tpic{
-    \node [white,fill=black!50,opacity=.7] at ($(current page.east)-(3,-2.5)$)
-      { \makecell[r]{ \\
-      \LARGE «Notre maison \textbf{\Huge brûle}\\
-      et nous regardons ailleurs»\\--- J. Chirac
-      \\ \\ }
-      \makecell[r]{           \\ }
-      };
-}
-
 #
 
 \img{images/world3.jpg}
@@ -352,44 +267,22 @@ on devrait s'intéresser aux vrais problèmes et commencer à envisager des solu
 \img{images/energy_sources.jpg}
 #
 
-\takahashi{\LARGE Remplacer}
-#
-
-\takahashi{\LARGE Cumuler}
+\takahashi{Accompagner la sobriété numérique\\
+Préparer la résilience numérique \\
+Assurer l'équité numérique\\
+Questionner la pérénité numérique\\
+}
 #
 
 \img{images/repartition.jpg}
 #
 
-\takahashi{
-  Énergie verte? \\
-  Matériel moins énergivore?
+\takahashi{réduire la\\
+\Huge consommation active\\
+des équiments\\ \\
+améliorer la longévité\\
+réduire la nocivité
 }
-#
-
-
-::: notes
-
-pour notre communauté, quid des données de recherche?
-
-:::
-
-\takahashi{Accompagner la sobriété numérique\\
-Préparer la résilience numérique \\
-Assurer l'équité numérique\\
-}
-#
-
-\takahashi{Back to the future}
-#
-
-\takahashi{attitude individuelle}
-#
-
-\takahashi{compromis, résignation}
-#
-
-\takahashi{alternatives}
 #
 
 \takahashi{
@@ -399,78 +292,29 @@ Le modèle actuel répond à \\
 }
 #
 
-[#]: pas de réponse collective
-
-\takahashi{\LARGE marchés segmentés}
-#
-
-[#]: pas de coopération
-
-\takahashi{\LARGE compétition et propriétés intellectuelles}
-#
-
-[#]: factures énergégiques déportées, formation
-
-\takahashi{ \LARGE coûts réduits}
-
-#
-
-[#]: déporter la facture et faire payer le transit
-
-\takahashi{ \LARGE délocalisation }
-#
-
 \takahashi{
 \LARGE les solutions techniques \\
-maintenues par des technophiles \\
-maintenues pour des technophiles \\
-$\implies$ exclusif (par manque de moyens) \\
-}
-#
-
-\takahashi{
-\LARGE les solutions techniques \\
-décentralisé\\
-relocalisé\\
-transactions sans mise en forme\\
-protocoles applicatifs minimalistes\\
-...\\
-bonnes pratiques (pédagogie, discipline)\\
-}
-#
-
-\takahashi{
-\LARGE les solutions techniques \\
-pas rentables    \\
-pas manageable   \\
-pas budgetisable \\
-pas exploitables commercialement \\
-}
-#
-
-\takahashi{\Huge L'innovation\\
-dictée par \LARGE l'économie
-}
-#
-
-\takahashi{\Huge L'innovation\\
-dictée par \LARGE l'écologie
+par et pour des technophiles \\
+$\implies$ exclusif? \\
 }
 #
 
 \img{../original-content/3-generations-de-fora.png}
 #
 
-\takahashi{utilisateurs: adoption}
+\takahashi{\Huge sobriété / inclusion}
 #
 
-\takahashi{décideurs: régulation}
+\takahashi{\Huge urgence\\produire et adopter des alternatives}
 #
 
-\takahashi{techniciens: inclusion numérique}
+\takahashi{\Huge coût\\produire et adopter des alternatives}
 #
 
-\takahashi{techniciens: inclusion numérique}
+\takahashi{\Huge pédagogie}
+#
+
+\img{together.pdf}
 #
 
 >  «The coalition emerges out of your recognition that it’s fucked up for you, in
@@ -478,16 +322,6 @@ dictée par \LARGE l'écologie
 >  need your help. I just need you to recognize that this shit is killing you …»
 >  --  Fred Moten
 
-#
-
-\takahashi{
-\LARGE Nous avons \\
-\\
-\\
-\\
-\\
-\\
-}
 #
 
 \takahashi{
@@ -500,53 +334,11 @@ accés aux nouvelles générations \\
 }
 #
 
-\takahashi{
-\LARGE Nous avons \\
-un devoir
-}
+\takahashi{\Huge \emph{chaque octet compte}}
 #
 
-\takahashi{
-\Huge \emph{chaque octet compte}\\
-}
+\takahashi{\Huge merci}
 #
 
-\takahashi{
-\Huge merci\\
-}
-#
-
-::: notes
-
-    * nécessite des ingénieurs experimentés (2 ans d'école ne suffisent pas...)
-      rééllement intéressés par des problèmes informatiques purs
-      (peu présents sur le marché)
-      => pas rentable
-    * nécessite plus de temps (maturation, experimentation)
-    * se construit sur ce qui fonctionne, pas sur ce qui est décidé
-      => pas manageable
-      => pas budgetisable
-* nous avons donc
-  * deux ecosystemes logiciels avec quelques points de recoupement
-  * 2 cultures fondés sur des cultures radicalement différentes
-* je crois que vu le temps qui nous est imparti et les buts que je fixe
-  dans l'article, l'idée est de:
-  * refonder l'acces au numérique (moins de materiel a la maison ...
-    voir des clubs informatiques comme c'était le cas
-    jusque dans les années 90... cybercafés, ...) et sa conception
-    en repartant des experiences des
-    (cf. article)
-  * en extraire la culture audiovisuelle et repenser
-    les mediathèques, cinéma, dérégulation de la duplication et de
-    la distribution de copies privées.
-  * repartir de la logitèque sobre (certains diront élitiste)
-    pour tenter de la rendre inclusive
-  * mettre enfin les moyens dans la formation et le support de qualité
-    (formation ca veut aussi dire permettre aux agents d'avoir du temps)
-
-
-:::
-
-#
-
+[les sources](https://github.com/eiro/article-jres2019/)
 
