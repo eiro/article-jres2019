@@ -49,6 +49,8 @@ header-includes: |
 
   \newcommand\tpic[1]{\begin{tikzpicture}[remember picture,overlay,ampersand replacement=\&]#1\end{tikzpicture}}
 
+  \newcommand\up[1]{\LARGE\textbf{#1}}
+
   \newcommand\takahashi[1]{
     \begin{tikzpicture}[remember picture,overlay]
       \node[at=(current page.center)] {\makecell[c]{#1}};
@@ -118,23 +120,6 @@ deleted slides: |
 
 #
 
-\takahashi{
-\textbf{\Huge 15minutes}\\
-2 crises planétaires \\
-culture numérique \\
-sobriété \\
-cliffhanger
-}
-#
-
-\takahashi{
-\textbf{\Huge 15minutes}\\
-je fais cours …\\
-\\
-\\
-\\
-}
-
 ::: notes
 
 * désolé si je n'aborde pas votre une partie du problème auquel vous êtes
@@ -142,7 +127,12 @@ je fais cours …\\
 
 :::
 
+\takahashi{
+\textbf{\Huge 15minutes}\\
+je fais court …\\
+}
 #
+
 
 \takahashi{
   \tiny On estime que les \\
@@ -212,13 +202,10 @@ je fais cours …\\
 }
 #
 
-\takahashi{\LARGE 5 millions d'années}
+\takahashi{\textbf{\LARGE 5 millions d'années}}
 #
 
-\takahashi{nous détruisons \\ \LARGE les conditions du vivant}
-#
-
-\takahashi{nous détruisons \\ \LARGE le vivant}
+\takahashi{nous \textbf{détruisons} \\ \Huge le \textbf{vivant} }
 #
 
 \img{images/welcome-to-anthropocene.jpg}
@@ -248,12 +235,15 @@ $\approx$ 250 000 décès supplémentaires par an\\ \\
 \img{leanit/i-208.png}
 #
 
+\img{images/repartition.jpg}
+#
 
 \img{leanit/i-163.png}
 #
 
 \img{leanit/i-170.png}
 #
+
 
 \img{images/world3.jpg}
 #
@@ -274,9 +264,6 @@ Questionner la pérénité numérique\\
 }
 #
 
-\img{images/repartition.jpg}
-#
-
 \takahashi{réduire la\\
 \Huge consommation active\\
 des équiments\\ \\
@@ -285,11 +272,8 @@ réduire la nocivité
 }
 #
 
-\takahashi{
-Le modèle actuel répond à \\
-\LARGE des modèles commerciaux \\
-\LARGE des contraintes économiques \\
-}
+\img{images/jobs.jpg}
+[#]: impératifs commerciaux et économiques
 #
 
 \takahashi{
@@ -305,13 +289,14 @@ $\implies$ exclusif? \\
 \takahashi{\Huge sobriété / inclusion}
 #
 
-\takahashi{\Huge urgence\\produire et adopter des alternatives}
+\takahashi{produire et adopter des alternatives\\\Huge urgence}
 #
 
-\takahashi{\Huge coût\\produire et adopter des alternatives}
+\takahashi{produire et adopter des alternatives\\\Huge coût}
 #
 
-\takahashi{\Huge pédagogie}
+\img{images/jobs.jpg}
+[#]: \takahashi{\Huge pédagogie}
 #
 
 \img{together.pdf}
