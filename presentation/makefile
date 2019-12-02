@@ -80,6 +80,11 @@ images/logo.pdf: ../rc/Logo-JRES2019/Logo-Couleur/Logo-JRES2019-Couleur.ai
 	gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=$@ $<
 
 IMAGES +=\
+images/jobs.jpg
+images/jobs.jpg:
+	$(FROMWEB) http://jovanabanovic.com/wp-content/uploads/2017/12/Steve-Jobs.jpg
+
+IMAGES +=\
 together.pdf
 together.pdf: together.latex
 	pdflatex $<
