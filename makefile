@@ -1,14 +1,18 @@
 # vim: nowrap
-	# pandoc jres-2017.md --filter pandoc-citeproc --template template.tex -o $@
+# pandoc jres-2017.md --filter pandoc-citeproc --template template.tex -o $@
 	#pandoc jres-2017.md --bibliography=article.bib --template template.tex -o $@
+
 JRESDOC = pandoc --reference-doc=rc/modele-jres2019-libreoffice.ott
 WEB = curl -sLko $@
 all: index.odt index.latex index.pdf
-%.odt  : %.md ; $(JRESDOC) -o $@ $<
 %.pdf  : %.md ; pandoc -V geometry:margin=1in --filter pandoc-citeproc --template template.tex -o $@ $<
 %.latex: %.md ; pandoc -V geometry:margin=1in --filter pandoc-citeproc --template template.tex -o $@ $<
-# %.pdf  : %.md ; pandoc -V geometry:margin=1in --bibliography=article.bib --filter pandoc-citeproc --template template.tex -o $@ $<
-# %.latex: %.md ; pandoc -V geometry:margin=1in --bibliography=article.bib --filter pandoc-citeproc --template template.tex -o $@ $<
+
+# [WARNING] Could not fetch resource 'images/digital-energy-consumption.png': replacing image with description
+# [WARNING] Could not fetch resource 'images/world3.jpg': replacing image with description
+# [WARNING] Could not fetch resource 'images/oil.png': replacing image with description
+# [WARNING] Could not fetch resource 'images/electricite.png': replacing image with description
+# [WARNING] Could not fetch resource 'images/consumption-distribution.png': replacing image with description
 
 IMAGES = \
 	images/Annual-World-Population-since-10-thousand-BCE-for-OWID.png \
@@ -21,7 +25,7 @@ images/Annual-World-Population-since-10-thousand-BCE-for-OWID.png:
 
 # index.md: $(IMAGES)
 
-deploy: index.odt index.md
+deploy: index.odt index.pdf
 	scp index.odt aude:www/pub/jres.odt
 	scp index.pdf aude:www/pub/jres.pdf
 
