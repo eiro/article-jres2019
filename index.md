@@ -1431,4 +1431,13 @@ l'internet post-commercial.
 
 Au travail.
 
+# Autres liens intéressants
+
+* Electricity map [https://www.electricitymap.org/](https://www.electricitymap.org/)
+* Estimation of global final stage energy-return-on-investment for fossil fuels with
+  comparison to renewable energy sources.
+  [https://www.nature.com/articles/s41560-019-0425-z](https://www.nature.com/articles/s41560-019-0425-z)
+* Milton R. Beychok (2005). "Air Dispersion Modeling Conversions and Formulas". Fundamentals of Stack Gas Dispersion (4th ed.). Milton R. Beychok. ISBN 0964458802.
+* chwartz and Warneck (1995). "Units for use in atmospheric chemistry" (PDF). Pure Appl. Chem. 67: 1377–1406. [doi:10.1351/pac199567081377](https://www.degruyter.com/view/j/pac.1995.67.issue-8-9/pac199567081377/pac199567081377.xml)
+
 # Bibliographie
